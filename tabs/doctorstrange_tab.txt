@@ -1,0 +1,610 @@
+================================================================================
+DOCTOR STRANGE - Main Theme (Fingerstyle Guitar)
+Transcribed directly from Andy Hillier's tutorial video tablature
+Video: 'Doctor Strange Main Theme Fingerstyle Guitar Tutorial Lesson'
+================================================================================
+
+TUNING:  Standard (E A D G B E)
+CAPO:    None
+KEY:     Bb major / G minor (one flat key signature; two flats in bars 30-37)
+TEMPO:   4/4 throughout; moderate fingerstyle tempo
+
+CONFIDENCE KEY:
+  [C] = Confident (digit clearly legible in video tab, verified at 2x-7x zoom)
+  [M] = Medium (digit legible but string assignment inferred from notation)
+  [L] = Low (best reading, verify against video)
+
+TECHNIQUES:
+  h = hammer-on (e.g., 5h7)
+  Slurs shown in standard notation are indicated
+  Triplets marked with [3] in tab
+
+================================================================================
+SECTION 1: Main Theme (Bars 1-9)
+================================================================================
+
+Bar 1:
+  Rhythm: 4/4 quarter chord, triplet 8ths, quarter, quarter
+  E1: 10 12 13 10 13
+  B2: 10
+  G3: 10
+  D4: (none)
+  A5: (none)
+  E6: 0
+
+Bar 2:
+  Rhythm: half chord, half note
+  E1: 12 13
+  B2: 13
+  G3: 14
+  D4: (none)
+  A5: (none)
+  E6: 0
+
+Bar 3:
+  Rhythm: chord, quarter, triplet 8ths, quarter
+  E1: 11 11
+  B2: 11 11 11 13 15
+  G3: 12
+  D4: (none)
+  A5: (none)
+  E6: 11
+
+Bar 4:
+  Rhythm: whole chord
+  E1: 10
+  B2: 10
+  G3: 12
+  D4: (none)
+  A5: (none)
+  E6: 0
+
+Bar 5:
+  Rhythm: whole chord
+  E1: 6
+  B2: 7
+  G3: 7
+  D4: (none)
+  A5: 8
+  E6: (none)
+
+Bar 6:
+  Rhythm: triplet rhythms
+  E1: (none)
+  B2: (none)
+  G3: 7 7 7 7 7
+  D4: (none)
+  A5: 5 5
+  E6: (none)
+
+Bar 7:
+  Rhythm: triplet rhythms
+  E1: (none)
+  B2: 6 6 6 6 6
+  G3: (none)
+  D4: (none)
+  A5: 5
+  E6: (none)
+
+Bar 8:
+  Rhythm: triplet rhythms
+  E1: 5 5 5 5 5 5 5 5
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: (none)
+  E6: (none)
+
+Bar 9:
+  Rhythm: four triplets
+  E1: 5 5 5 5 5 5 5 5 5 5 5 5
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: 4
+  E6: (none)
+
+================================================================================
+SECTION 2: Verse (Bars 10-17)
+================================================================================
+
+Bar 10:
+  Rhythm: quarter dyad slurred to triplet, triplet 8ths, quarter, quarter
+  Technique: slur
+  E1: 0 1 1
+  B2: 3 3
+  G3: (none)
+  D4: (none)
+  A5: 0
+  E6: (none)
+
+Bar 11:
+  Rhythm: half dyad, half note
+  E1: 0 1
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: 2
+  E6: (none)
+
+Bar 12:
+  Rhythm: quarter dyad, triplet 8ths, quarter, quarter
+  E1: 1 3
+  B2: 4 4
+  G3: 3
+  D4: 1
+  A5: (none)
+  E6: (none)
+
+Bar 13:
+  Rhythm: whole dyad
+  E1: (none)
+  B2: 3
+  G3: (none)
+  D4: (none)
+  A5: 0
+  E6: (none)
+
+Bar 14:
+  Rhythm: quarter dyad + triplet + 2 quarters
+  E1: 1 3
+  B2: 4 4 4
+  G3: 3
+  D4: 1
+  A5: (none)
+  E6: (none)
+
+Bar 15:
+  Rhythm: two half dyads
+  E1: 6
+  B2: 8
+  G3: (none)
+  D4: (none)
+  A5: (none)
+  E6: 6
+
+Bar 16:
+  Rhythm: quarter dyad + triplet w/ hammer-on + 2 quarters
+  Technique: 5h7
+  E1: (none)
+  B2: 4
+  G3: 5 5 7 5
+  D4: 6
+  A5: 4
+  E6: (none)
+
+Bar 17:
+  Rhythm: half chord + half note
+  E1: (none)
+  B2: 2
+  G3: (none)
+  D4: 2
+  A5: 2
+  E6: 0
+
+================================================================================
+SECTION 3: Strummed Triplet Shuffle (Bars 18-21)
+================================================================================
+
+Bar 18:
+  Rhythm: triplet shuffle
+  E1: 1 1 1
+  B2: 3 3 3 3 3 3
+  G3: (none)
+  D4: (none)
+  A5: 0
+  E6: (none)
+
+Bar 19:
+  Rhythm: triplet shuffle
+  E1: (none)
+  B2: 3 3 3 3 3 3
+  G3: 3 3 3
+  D4: (none)
+  A5: 0
+  E6: (none)
+
+Bar 20:
+  Rhythm: triplet shuffle
+  E1: (none)
+  B2: (none)
+  G3: 2 2 2 2 2 2 3 3 3
+  D4: 0
+  A5: (none)
+  E6: (none)
+
+Bar 21:
+  Rhythm: triplet shuffle
+  E1: 0 0 0
+  B2: (none)
+  G3: 0 0 0 0 2 2
+  D4: 0 4
+  A5: (none)
+  E6: (none)
+
+================================================================================
+SECTION 4: Bridge (Bars 22-29)
+================================================================================
+
+Bar 22:
+  Rhythm: two half dyads
+  E1: 5
+  B2: 3
+  G3: (none)
+  D4: (none)
+  A5: 0 0
+  E6: (none)
+
+Bar 23:
+  Rhythm: two half dyads
+  E1: 8
+  B2: 10
+  G3: (none)
+  D4: (none)
+  A5: 7
+  E6: 8
+
+Bar 24:
+  Rhythm: quarter, quarter, dotted quarter, eighth
+  E1: 6 8
+  B2: 8
+  G3: (none)
+  D4: (none)
+  A5: 6
+  E6: (none)
+
+Bar 25:
+  Rhythm: half dyad + quarter + quarter
+  E1: 6 5
+  B2: 8
+  G3: (none)
+  D4: (none)
+  A5: 0
+  E6: (none)
+
+Bar 26:
+  Rhythm: half dyad + 2 quarters
+  E1: 6
+  B2: 10 8
+  G3: (none)
+  D4: (none)
+  A5: 6
+  E6: (none)
+
+Bar 27:
+  Rhythm: half dyad + quarter dyad + quarter
+  E1: 6 8 6
+  B2: (none)
+  G3: 0
+  D4: (none)
+  A5: 6
+  E6: 6
+
+Bar 28:
+  Rhythm: half dyad + half note
+  E1: 6
+  B2: 4
+  G3: (none)
+  D4: (none)
+  A5: 3
+  E6: (none)
+
+Bar 29:
+  Rhythm: two quarter triplets
+  E1: (none)
+  B2: (none)
+  G3: 5 8
+  D4: 4 7
+  A5: 3 6
+  E6: (none)
+
+================================================================================
+SECTION 5: Chorus - Two Flats (Bars 30-37)
+Key signature: Bb, Eb (two flats)
+================================================================================
+
+Bar 30:
+  Rhythm: half chord; quarter; quarter
+  E1: 1 1 2
+  B2: 2
+  G3: 3
+  D4: (none)
+  A5: (none)
+  E6: 1
+
+Bar 31:
+  Rhythm: half chord; quarter; quarter
+  E1: 1 1 2
+  B2: 1
+  G3: 2
+  D4: (none)
+  A5: (none)
+  E6: 0
+
+Bar 32:
+  Rhythm: half chord; quarter; quarter
+  E1: (none)
+  B2: 4 4 6
+  G3: 4
+  D4: 6
+  A5: (none)
+  E6: 4
+
+Bar 33:
+  Rhythm: half chord; half note
+  E1: (none)
+  B2: 6
+  G3: 7
+  D4: 8
+  A5: 8
+  E6: 6
+
+Bar 34:
+  Rhythm: half chord; quarter; quarter
+  E1: (none)
+  B2: 4 4 6
+  G3: 4
+  D4: 6
+  A5: (none)
+  E6: 4
+
+Bar 35:
+  Rhythm: half chord; half note
+  E1: (none)
+  B2: 6
+  G3: 7
+  D4: 8
+  A5: 8
+  E6: 6
+
+Bar 36:
+  Rhythm: half chord; quarter; quarter
+  E1: (none)
+  B2: 4 4 6
+  G3: 4
+  D4: 6
+  A5: (none)
+  E6: 4
+
+Bar 37:
+  Rhythm: half chord; quarter chord; quarter chord
+  E1: 0
+  B2: 2 2 2
+  G3: 2 2 2
+  D4: 2 2 2
+  A5: 0 4
+  E6: (none)
+
+================================================================================
+SECTION 6: Interlude (Bars 38-44)
+================================================================================
+
+Bar 38:
+  Rhythm: two half notes
+  E1: 5
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: 5
+  E6: (none)
+
+Bar 39:
+  Rhythm: half dyad; half note
+  E1: 6
+  B2: 5
+  G3: (none)
+  D4: (none)
+  A5: 4
+  E6: (none)
+
+Bar 40:
+  Rhythm: half dyad; half note
+  E1: (none)
+  B2: 5
+  G3: 6
+  D4: (none)
+  A5: 4
+  E6: (none)
+
+Bar 41:
+  Rhythm: half dyad; half note
+  E1: (none)
+  B2: 6
+  G3: 7
+  D4: (none)
+  A5: 5
+  E6: (none)
+
+Bar 42:
+  Rhythm: half dyad; half note
+  E1: 5 5
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: 5
+  E6: (none)
+
+Bar 43:
+  Rhythm: half dyad; half note
+  E1: 8 6
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: 7
+  E6: (none)
+
+Bar 44:
+  Rhythm: half dyad; half note
+  E1: (none)
+  B2: 5
+  G3: 6
+  D4: (none)
+  A5: 7
+  E6: (none)
+
+================================================================================
+SECTION 7: Verse Reprise (Bars 45-52)
+================================================================================
+
+Bar 45:
+  Rhythm: triplet; slur 0-1
+  Technique: 0h1
+  E1: 0 1 1
+  B2: 3 3
+  G3: (none)
+  D4: (none)
+  A5: 0
+  E6: (none)
+
+Bar 46:
+  Rhythm: two half notes
+  E1: 0 1
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: 2
+  E6: (none)
+
+Bar 47:
+  Rhythm: triplet; slur 1-3
+  Technique: 1h3
+  E1: 1 3 4
+  B2: 4 4
+  G3: 3
+  D4: 1
+  A5: (none)
+  E6: (none)
+
+Bar 48:
+  Rhythm: quarter; 8ths; half
+  E1: (none)
+  B2: 3 3
+  G3: 2
+  D4: (none)
+  A5: 0
+  E6: (none)
+
+Bar 49:
+  Rhythm: triplet; slur 1-3
+  Technique: 1h3
+  E1: 1 3 4
+  B2: 4 4
+  G3: 3
+  D4: 1
+  A5: (none)
+  E6: (none)
+
+Bar 50:
+  Rhythm: half dyad; half note
+  E1: 6 8
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: (none)
+  E6: 6
+
+Bar 51:
+  Rhythm: triplet; H marked
+  Technique: 5h7
+  E1: 4
+  B2: 5 5 5
+  G3: (none)
+  D4: 5 7 5
+  A5: 6
+  E6: 4
+
+Bar 52:
+  Rhythm: four quarters
+  E1: (none)
+  B2: 2
+  G3: 2
+  D4: 2 2
+  A5: 0 0 0 0
+  E6: 0 0 0 0
+
+================================================================================
+SECTION 8: Outro (Bars 53-58)
+================================================================================
+
+Bar 53:
+  Rhythm: quarter-chord, quarter, quarter-chord, quarter
+  E1: 1 0
+  B2: (none)
+  G3: (none)
+  D4: 3 2
+  A5: 0 0 0 0
+  E6: (none)
+
+Bar 54:
+  Rhythm: half chord, quarter, quarter
+  E1: 1
+  B2: 3 3
+  G3: 2
+  D4: 0 0
+  A5: (none)
+  E6: (none)
+
+Bar 55:
+  Rhythm: half chord, quarter, quarter
+  E1: (none)
+  B2: 3 3
+  G3: 3
+  D4: 0 0
+  A5: (none)
+  E6: (none)
+
+Bar 56:
+  Rhythm: half chord, quarter, quarter
+  E1: (none)
+  B2: 2 2 3
+  G3: 0 0
+  D4: (none)
+  A5: (none)
+  E6: (none)
+
+Bar 57:
+  Rhythm: two triplets, 8th figures, bass
+  E1: (none)
+  B2: 2 2 2 2
+  G3: 0 0 0 0
+  D4: (none)
+  A5: (none)
+  E6: 3
+
+Bar 58:
+  Rhythm: 8ths with triplets
+  E1: 0 0 0 0 6 6 6 6
+  B2: (none)
+  G3: (none)
+  D4: (none)
+  A5: 4 7
+  E6: (none)
+
+================================================================================
+TRANSCRIPTION NOTES
+================================================================================
+
+All 58 bars transcribed directly from the video's on-screen tablature.
+Each bar was read from 1920x1080 video frames at 2x-7x magnification.
+Overlapping readings (bars 10-13, 30-33, 45-52) were reconciled by
+direct image inspection; the correct reading is reported above.
+
+Specific reconciliations:
+  Bar 10: E1:[0,1,1], B2:[3,3], A5:[0] (bass on A5, not D4)
+  Bar 11: E1:[0,1], A5:[2] (the '1' is on E1, not B2)
+  Bar 12: E1:[1,3], B2:[4,4], G3:[3], D4:[1] (two B2:4s, not three)
+  Bar 13: B2:[3], A5:[0] (the '3' is on B2, not E1)
+  Bar 30: E1:[1,1,2], B2:[2], G3:[3], E6:[1] (bass on E6, not A5)
+  Bar 31: E1:[1,1,2], B2:[1], G3:[2], E6:[0] (bass on E6, not A5)
+  Bar 46: E1:[0,1], A5:[2] (the '1' on E1, '2' on A5)
+  Bar 48: B2:[3,3], G3:[2], A5:[0] (the '0' on A5, not D4)
+  Bar 50: E1:[6,8], E6:[6] (the '8' on E1, not B2)
+  Bar 51: E1:[4], B2:[5,5,5], D4:[5h7,5], A5:[6], E6:[4]
+  Bar 52: B2:[2], G3:[2], D4:[2,2], A5:[0,0,0,0], E6:[0,0,0,0]
+
+Hammer-ons explicitly marked in video:
+  Bar 16: G3 5h7 (marked 'H')
+  Bar 45: E1 0h1 (slurred)
+  Bar 47: E1 1h3 (slurred)
+  Bar 49: E1 1h3 (slurred)
+  Bar 51: D4 5h7 (marked 'H')

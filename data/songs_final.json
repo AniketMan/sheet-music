@@ -1,0 +1,7597 @@
+{
+ "daredevil": {
+  "slug": "daredevil",
+  "title": "Daredevil Main Title",
+  "tuning": "Standard (E A D G B E)",
+  "capo": "None",
+  "key": "E minor",
+  "notes": [
+   {
+    "t": 0.19,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 0.571,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 0.952,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 1.333,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 1.714,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 2.095,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 2.476,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 2.857,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 3.238,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 3.619,
+    "string": 0,
+    "fret": 2,
+    "pitch": 66,
+    "chord": "Em",
+    "event_time": 0.0
+   },
+   {
+    "t": 4.19,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 4.571,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 4.952,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 5.333,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 5.714,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 6.095,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 6.476,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 6.857,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 7.238,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 7.619,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 4.0
+   },
+   {
+    "t": 8.238,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 8.238,
+    "string": 0,
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 9.19,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 9.19,
+    "string": 0,
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 10.143,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 10.143,
+    "string": 0,
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 11.095,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 11.095,
+    "string": 0,
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 12.048,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 12.048,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Am",
+    "event_time": 8.0
+   },
+   {
+    "t": 13.19,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 13.19,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 13.952,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 13.952,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 14.714,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 14.714,
+    "string": 0,
+    "fret": 7,
+    "pitch": 71,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 15.476,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 15.476,
+    "string": 0,
+    "fret": 7,
+    "pitch": 71,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 16.238,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 16.238,
+    "string": 0,
+    "fret": 7,
+    "pitch": 71,
+    "chord": "Em",
+    "event_time": 13.0
+   },
+   {
+    "t": 17.238,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 17.714,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 18.19,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 18.19,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 18.667,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 19.143,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 19.143,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 19.619,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 20.095,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 20.095,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 20.571,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 21.048,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 21.048,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 21.524,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em",
+    "event_time": 17.0
+   },
+   {
+    "t": 22.529,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "C",
+    "event_time": 22.0
+   },
+   {
+    "t": 23.588,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 22.0
+   },
+   {
+    "t": 24.647,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "C",
+    "event_time": 22.0
+   },
+   {
+    "t": 25.706,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 22.0
+   },
+   {
+    "t": 26.765,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "C",
+    "event_time": 22.0
+   },
+   {
+    "t": 27.824,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 22.0
+   },
+   {
+    "t": 28.882,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "C",
+    "event_time": 22.0
+   },
+   {
+    "t": 29.941,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 22.0
+   },
+   {
+    "t": 31.765,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em/B",
+    "event_time": 31.0
+   },
+   {
+    "t": 33.294,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em/B",
+    "event_time": 31.0
+   },
+   {
+    "t": 34.824,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em/B",
+    "event_time": 31.0
+   },
+   {
+    "t": 34.824,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em/B",
+    "event_time": 31.0
+   },
+   {
+    "t": 36.353,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em/B",
+    "event_time": 31.0
+   },
+   {
+    "t": 37.882,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Em/B",
+    "event_time": 31.0
+   },
+   {
+    "t": 37.882,
+    "string": 3,
+    "fret": 4,
+    "pitch": 54,
+    "chord": "Em/B",
+    "event_time": 31.0
+   },
+   {
+    "t": 44.235,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 44.235,
+    "string": 0,
+    "fret": 12,
+    "pitch": 76,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 45.176,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 45.176,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 45.176,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 46.118,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 46.118,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 46.118,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 47.059,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 47.059,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 47.059,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Am",
+    "event_time": 44.0
+   },
+   {
+    "t": 48.381,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 49.143,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 49.905,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 49.905,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 50.667,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 51.429,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 52.19,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 52.952,
+    "string": 3,
+    "fret": 0,
+    "pitch": 50,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 54.476,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 54.476,
+    "string": 3,
+    "fret": 0,
+    "pitch": 50,
+    "chord": "Em",
+    "event_time": 48.0
+   },
+   {
+    "t": 56.294,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 56.294,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 56.882,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 57.471,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 57.471,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 58.059,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 58.647,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 58.647,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 59.235,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 59.824,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 59.824,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 60.412,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "C",
+    "event_time": 56.0
+   },
+   {
+    "t": 61.286,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 61.857,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 62.429,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 62.429,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 63.0,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 63.571,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 63.571,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 64.714,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 65.857,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Am",
+    "event_time": 61.0
+   },
+   {
+    "t": 67.429,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 68.286,
+    "string": 3,
+    "fret": 4,
+    "pitch": 54,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 69.143,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 70.0,
+    "string": 3,
+    "fret": 4,
+    "pitch": 54,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 70.857,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 70.857,
+    "string": 0,
+    "fret": 10,
+    "pitch": 74,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 72.571,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 72.571,
+    "string": 0,
+    "fret": 10,
+    "pitch": 74,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 74.286,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 74.286,
+    "string": 0,
+    "fret": 2,
+    "pitch": 66,
+    "chord": "Bm/E",
+    "event_time": 67.0
+   },
+   {
+    "t": 76.286,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 77.429,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 77.429,
+    "string": 0,
+    "fret": 12,
+    "pitch": 76,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 78.571,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 78.571,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 78.571,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 79.714,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 79.714,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 79.714,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 80.857,
+    "string": 4,
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 80.857,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 80.857,
+    "string": 0,
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Em",
+    "event_time": 76.0
+   },
+   {
+    "t": 82.238,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 82.714,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 83.19,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 83.19,
+    "string": 3,
+    "fret": 4,
+    "pitch": 54,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 83.667,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 84.143,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 84.143,
+    "string": 3,
+    "fret": 4,
+    "pitch": 54,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 84.619,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 85.095,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 85.095,
+    "string": 3,
+    "fret": 4,
+    "pitch": 54,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 85.571,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 86.048,
+    "string": 4,
+    "fret": 2,
+    "pitch": 47,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 86.048,
+    "string": 3,
+    "fret": 4,
+    "pitch": 54,
+    "chord": "B",
+    "event_time": 82.0
+   },
+   {
+    "t": 87.238,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 87.714,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 88.19,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 88.19,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 88.667,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 89.143,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 89.143,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 89.619,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 90.095,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 90.095,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 90.571,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 91.048,
+    "string": 1,
+    "fret": 0,
+    "pitch": 59,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 91.048,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 91.524,
+    "string": 2,
+    "fret": 0,
+    "pitch": 55,
+    "chord": null,
+    "event_time": 87.0
+   },
+   {
+    "t": 92.19,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "F",
+    "event_time": 92.0
+   },
+   {
+    "t": 92.571,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "F",
+    "event_time": 92.0
+   },
+   {
+    "t": 92.952,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "F",
+    "event_time": 92.0
+   },
+   {
+    "t": 93.333,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "F",
+    "event_time": 92.0
+   },
+   {
+    "t": 93.714,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "F",
+    "event_time": 92.0
+   },
+   {
+    "t": 94.095,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "F",
+    "event_time": 92.0
+   },
+   {
+    "t": 94.476,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "F",
+    "event_time": 92.0
+   },
+   {
+    "t": 94.857,
+    "string": 3,
+    "fret": 2,
+    "pitch": 52,
+    "chord": "F",
+    "event_time": 92.0
+   },
+   {
+    "t": 95.238,
+    "string": 5,
+    "fret": 0,
+    "pitch": 40,
+    "chord": "F",
+    "event_time": 92.0
+   }
+  ],
+  "chords": [
+   {
+    "time": 0.0,
+    "chord": "Em",
+    "shape": [
+     "3",
+     "x",
+     "x",
+     "x",
+     "x",
+     "0"
+    ],
+    "desc": "[Intro 0:00] Em - low pulsing E, melody rises G -> E -> F#",
+    "tab": [
+     "  e |------3-------3-------0-------0-------2---|",
+     "  B |------------------------------------------|",
+     "  G |------------------------------------------|",
+     "  D |------------------------------------------|",
+     "  A |------------------------------------------|",
+     "  E |--0-------0-------0-------0-------0-------|"
+    ]
+   },
+   {
+    "time": 4.0,
+    "chord": "C",
+    "shape": [
+     "0",
+     "x",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "[0:04] C - bass drops to C, open high E rings",
+    "tab": [
+     "  e |------0-------0-------0-------0-------0---|",
+     "  B |------------------------------------------|",
+     "  G |------------------------------------------|",
+     "  D |------------------------------------------|",
+     "  A |--3-------3-------3-------3-------3-------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 8.0,
+    "chord": "Am",
+    "shape": [
+     "8",
+     "x",
+     "x",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "[0:08] Am - high C5 melody over A bass [? inner voice G-F#]",
+    "tab": [
+     "  e |--8-------8-------8-------8-------0-------|",
+     "  B |------------------------------------------|",
+     "  G |------------------------------------------|",
+     "  D |------------------------------------------|",
+     "  A |--0-------0-------0-------0-------0-------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 13.0,
+    "chord": "Em",
+    "shape": [
+     "0",
+     "x",
+     "x",
+     "x",
+     "x",
+     "0"
+    ],
+    "desc": "[0:13] Em - back to E, B4 melody",
+    "tab": [
+     "  e |--0-------0-------7-------7-------7-------|",
+     "  B |------------------------------------------|",
+     "  G |------------------------------------------|",
+     "  D |------------------------------------------|",
+     "  A |------------------------------------------|",
+     "  E |--0-------0-------0-------0-------0-------|"
+    ]
+   },
+   {
+    "time": 17.0,
+    "chord": "Em",
+    "shape": [
+     "x",
+     "0",
+     "0",
+     "2",
+     "x",
+     "x"
+    ],
+    "desc": "[0:17] Em arpeggios - rolling B-E-G pattern",
+    "tab": [
+     "  e |------------------------------------------|",
+     "  B |--0-------0-------0-------0-------0-------|",
+     "  G |------0-------0-------0-------0-------0---|",
+     "  D |----------2-------2-------2-------2-------|",
+     "  A |------------------------------------------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 22.0,
+    "chord": "C",
+    "shape": [
+     "0",
+     "x",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "[0:22] C -> Am",
+    "tab": [
+     "  e |------0-------0-------0-------0---|",
+     "  B |----------------------------------|",
+     "  G |----------------------------------|",
+     "  D |----------------------------------|",
+     "  A |--3-------3-------2-------2-------|",
+     "  E |----------------------------------|"
+    ]
+   },
+   {
+    "time": 31.0,
+    "chord": "Em/B",
+    "shape": [
+     "x",
+     "0",
+     "0",
+     "2",
+     "2",
+     "x"
+    ],
+    "desc": "Em/B (0:31)",
+    "tab": [
+     "  e |----------------------------------|",
+     "  B |--0-------0-----------------------|",
+     "  G |------0-------0-------------------|",
+     "  D |----------2-------4---------------|",
+     "  A |------------------2---------------|",
+     "  E |----------------------------------|"
+    ]
+   },
+   {
+    "time": 44.0,
+    "chord": "Am",
+    "shape": [
+     "12",
+     "x",
+     "x",
+     "2",
+     "0",
+     "x"
+    ],
+    "desc": "[0:44] Am CLIMAX - full chord, high E",
+    "tab": [
+     "  e |--12------0-------0-------0-------|",
+     "  B |----------------------------------|",
+     "  G |----------------------------------|",
+     "  D |----------2-------2-------2-------|",
+     "  A |--0-------0-------0-------0-------|",
+     "  E |----------------------------------|"
+    ]
+   },
+   {
+    "time": 48.0,
+    "chord": "Em",
+    "shape": [
+     "x",
+     "0",
+     "0",
+     "2",
+     "x",
+     "x"
+    ],
+    "desc": "Em (0:48)",
+    "tab": [
+     "  e |------------------------------------------|",
+     "  B |--0-------0-----------------------3-------|",
+     "  G |------0-------0-------0-------------------|",
+     "  D |----------2-------2-------0-------0-------|",
+     "  A |------------------------------------------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 56.0,
+    "chord": "C",
+    "shape": [
+     "0",
+     "1",
+     "0",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "[0:56] C",
+    "tab": [
+     "  e |------0-------0-------0-------0---|",
+     "  B |--1-------1-------1-------1-------|",
+     "  G |--0-------0-------0-------0-------|",
+     "  D |----------------------------------|",
+     "  A |----------------------------------|",
+     "  E |----------------------------------|"
+    ]
+   },
+   {
+    "time": 61.0,
+    "chord": "Am",
+    "shape": [
+     "0",
+     "x",
+     "x",
+     "2",
+     "0",
+     "x"
+    ],
+    "desc": "Am (1:01)",
+    "tab": [
+     "  e |------0-------0---------------------------|",
+     "  B |------------------------------------------|",
+     "  G |------------------------------------------|",
+     "  D |----------2-------2-----------------------|",
+     "  A |--0-------0-------2-------2-------2-------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 67.0,
+    "chord": "Bm/E",
+    "shape": [
+     "10",
+     "x",
+     "x",
+     "4",
+     "2",
+     "x"
+    ],
+    "desc": "[1:07] Bm/Em - driving B pedal, D5 + F#4 melody",
+    "tab": [
+     "  e |------------------10------10------2-------|",
+     "  B |------------------------------------------|",
+     "  G |------------------------------------------|",
+     "  D |------4-------4---------------------------|",
+     "  A |--2-------2-------2-------2-------2-------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 76.0,
+    "chord": "Em",
+    "shape": [
+     "0",
+     "x",
+     "x",
+     "2",
+     "0",
+     "x"
+    ],
+    "desc": "Em (1:16)",
+    "tab": [
+     "  e |--0-------12------0-------0-------0-------|",
+     "  B |------------------------------------------|",
+     "  G |------------------------------------------|",
+     "  D |----------2-------2-------2-------2-------|",
+     "  A |------------------0-------0-------0-------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 82.0,
+    "chord": "B",
+    "shape": [
+     "x",
+     "4",
+     "x",
+     "4",
+     "2",
+     "x"
+    ],
+    "desc": "[1:22] B MAJOR bridge - D# (major 3rd), the dramatic turn",
+    "tab": [
+     "  e |------------------------------------------|",
+     "  B |------4-------4-------4-------4-----------|",
+     "  G |------------------------------------------|",
+     "  D |----------4-------4-------4-------4-------|",
+     "  A |--2-------2-------2-------2-------2-------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 87.0,
+    "chord": null,
+    "shape": [
+     "x",
+     "0",
+     "0",
+     "2",
+     "x",
+     "x"
+    ],
+    "desc": "[1:27] Outro - Em, winding down",
+    "tab": [
+     "  e |------------------------------------------|",
+     "  B |--0-------0-------0-------0-------0-------|",
+     "  G |------0-------0-------0-------0-------0---|",
+     "  D |----------2-------2-------2-------2-------|",
+     "  A |------------------------------------------|",
+     "  E |------------------------------------------|"
+    ]
+   },
+   {
+    "time": 92.0,
+    "chord": "F",
+    "shape": [
+     "x",
+     "x",
+     "x",
+     "2",
+     "x",
+     "0"
+    ],
+    "desc": "F (1:32)",
+    "tab": [
+     "  e |------------------------------------------|",
+     "  B |------------------------------------------|",
+     "  G |------------------------------------------|",
+     "  D |------2-------2-------2-------2-----------|",
+     "  A |------------------------------------------|",
+     "  E |--0-------0-------0-------0-------0-------|"
+    ]
+   }
+  ],
+  "duration": 95.238
+ },
+ "odyssey": {
+  "slug": "odyssey",
+  "title": "The Odyssey Main Theme",
+  "tuning": "Standard (E A D G B E)",
+  "capo": "None",
+  "key": "C minor",
+  "notes": [
+   {
+    "t": 0.0,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Ab/C",
+    "event_time": 0.0
+   },
+   {
+    "t": 0.188,
+    "string": 3,
+    "fret": 1,
+    "pitch": 51,
+    "chord": "Ab/C",
+    "event_time": 0.0
+   },
+   {
+    "t": 0.375,
+    "string": 2,
+    "fret": 1,
+    "pitch": 56,
+    "chord": "Ab/C",
+    "event_time": 0.0
+   },
+   {
+    "t": 0.562,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Ab/C",
+    "event_time": 0.0
+   },
+   {
+    "t": 0.75,
+    "string": 0,
+    "fret": 4,
+    "pitch": 68,
+    "chord": "Ab/C",
+    "event_time": 0.0
+   },
+   {
+    "t": 3.625,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Dm",
+    "event_time": 3.0
+   },
+   {
+    "t": 5.0,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm",
+    "event_time": 5.0
+   },
+   {
+    "t": 5.121,
+    "string": 3,
+    "fret": 5,
+    "pitch": 55,
+    "chord": "Cm",
+    "event_time": 5.0
+   },
+   {
+    "t": 5.242,
+    "string": 2,
+    "fret": 5,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 5.0
+   },
+   {
+    "t": 5.364,
+    "string": 1,
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Cm",
+    "event_time": 5.0
+   },
+   {
+    "t": 5.485,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm",
+    "event_time": 5.0
+   },
+   {
+    "t": 7.0,
+    "string": 3,
+    "fret": 3,
+    "pitch": 53,
+    "chord": "F",
+    "event_time": 7.0
+   },
+   {
+    "t": 7.375,
+    "string": 2,
+    "fret": 2,
+    "pitch": 57,
+    "chord": "F",
+    "event_time": 7.0
+   },
+   {
+    "t": 7.562,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "F",
+    "event_time": 7.0
+   },
+   {
+    "t": 7.75,
+    "string": 0,
+    "fret": 1,
+    "pitch": 65,
+    "chord": "F",
+    "event_time": 7.0
+   },
+   {
+    "t": 10.0,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Ab/C",
+    "event_time": 10.0
+   },
+   {
+    "t": 10.188,
+    "string": 3,
+    "fret": 1,
+    "pitch": 51,
+    "chord": "Ab/C",
+    "event_time": 10.0
+   },
+   {
+    "t": 10.375,
+    "string": 2,
+    "fret": 1,
+    "pitch": 56,
+    "chord": "Ab/C",
+    "event_time": 10.0
+   },
+   {
+    "t": 10.562,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Ab/C",
+    "event_time": 10.0
+   },
+   {
+    "t": 10.75,
+    "string": 0,
+    "fret": 4,
+    "pitch": 68,
+    "chord": "Ab/C",
+    "event_time": 10.0
+   },
+   {
+    "t": 13.625,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Dm",
+    "event_time": 13.0
+   },
+   {
+    "t": 14.0,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Dm",
+    "event_time": 13.0
+   },
+   {
+    "t": 14.375,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Dm",
+    "event_time": 13.0
+   },
+   {
+    "t": 15.0,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm",
+    "event_time": 15.0
+   },
+   {
+    "t": 15.182,
+    "string": 3,
+    "fret": 5,
+    "pitch": 55,
+    "chord": "Cm",
+    "event_time": 15.0
+   },
+   {
+    "t": 15.364,
+    "string": 2,
+    "fret": 5,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 15.0
+   },
+   {
+    "t": 15.545,
+    "string": 1,
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Cm",
+    "event_time": 15.0
+   },
+   {
+    "t": 15.727,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm",
+    "event_time": 15.0
+   },
+   {
+    "t": 18.312,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm*",
+    "event_time": 18.0
+   },
+   {
+    "t": 18.938,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Cm*",
+    "event_time": 18.0
+   },
+   {
+    "t": 19.25,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm*",
+    "event_time": 18.0
+   },
+   {
+    "t": 23.215,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm",
+    "event_time": 23.0
+   },
+   {
+    "t": 23.215,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm",
+    "event_time": 23.0
+   },
+   {
+    "t": 23.646,
+    "string": 0,
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Cm",
+    "event_time": 23.0
+   },
+   {
+    "t": 24.077,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 23.0
+   },
+   {
+    "t": 24.508,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 23.0
+   },
+   {
+    "t": 24.938,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 23.0
+   },
+   {
+    "t": 30.125,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Ab/C",
+    "event_time": 30.0
+   },
+   {
+    "t": 30.125,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Ab/C",
+    "event_time": 30.0
+   },
+   {
+    "t": 30.375,
+    "string": 0,
+    "fret": 4,
+    "pitch": 68,
+    "chord": "Ab/C",
+    "event_time": 30.0
+   },
+   {
+    "t": 32.188,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm",
+    "event_time": 32.0
+   },
+   {
+    "t": 32.562,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm",
+    "event_time": 32.0
+   },
+   {
+    "t": 33.125,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm",
+    "event_time": 32.0
+   },
+   {
+    "t": 33.688,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm",
+    "event_time": 32.0
+   },
+   {
+    "t": 35.062,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 35.0
+   },
+   {
+    "t": 35.062,
+    "string": 5,
+    "fret": 3,
+    "pitch": 43,
+    "chord": "Cm",
+    "event_time": 35.0
+   },
+   {
+    "t": 35.185,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 35.0
+   },
+   {
+    "t": 35.185,
+    "string": 2,
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Cm",
+    "event_time": 35.0
+   },
+   {
+    "t": 35.308,
+    "string": 2,
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Cm",
+    "event_time": 35.0
+   },
+   {
+    "t": 37.188,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 37.0
+   },
+   {
+    "t": 37.562,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 37.0
+   },
+   {
+    "t": 37.938,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 37.0
+   },
+   {
+    "t": 38.312,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 37.0
+   },
+   {
+    "t": 38.688,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 37.0
+   },
+   {
+    "t": 40.312,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Ab",
+    "event_time": 40.0
+   },
+   {
+    "t": 40.312,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Ab",
+    "event_time": 40.0
+   },
+   {
+    "t": 40.938,
+    "string": 0,
+    "fret": 4,
+    "pitch": 68,
+    "chord": "Ab",
+    "event_time": 40.0
+   },
+   {
+    "t": 45.123,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bb",
+    "event_time": 45.0
+   },
+   {
+    "t": 45.123,
+    "string": 3,
+    "fret": 5,
+    "pitch": 55,
+    "chord": "Bb",
+    "event_time": 45.0
+   },
+   {
+    "t": 45.369,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bb",
+    "event_time": 45.0
+   },
+   {
+    "t": 45.369,
+    "string": 3,
+    "fret": 5,
+    "pitch": 55,
+    "chord": "Bb",
+    "event_time": 45.0
+   },
+   {
+    "t": 45.862,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bb",
+    "event_time": 45.0
+   },
+   {
+    "t": 47.154,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bb",
+    "event_time": 45.0
+   },
+   {
+    "t": 47.4,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bb",
+    "event_time": 45.0
+   },
+   {
+    "t": 49.125,
+    "string": 0,
+    "fret": 1,
+    "pitch": 65,
+    "chord": "F",
+    "event_time": 49.0
+   },
+   {
+    "t": 49.375,
+    "string": 0,
+    "fret": 1,
+    "pitch": 65,
+    "chord": "F",
+    "event_time": 49.0
+   },
+   {
+    "t": 49.625,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "F",
+    "event_time": 49.0
+   },
+   {
+    "t": 51.188,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm",
+    "event_time": 51.0
+   },
+   {
+    "t": 51.562,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Cm",
+    "event_time": 51.0
+   },
+   {
+    "t": 55.908,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 54.0
+   },
+   {
+    "t": 59.723,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 54.0
+   },
+   {
+    "t": 63.538,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 54.0
+   },
+   {
+    "t": 87.385,
+    "string": 0,
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Cm",
+    "event_time": 54.0
+   },
+   {
+    "t": 91.2,
+    "string": 1,
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Cm",
+    "event_time": 54.0
+   },
+   {
+    "t": 116.0,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": null,
+    "event_time": 116.0
+   },
+   {
+    "t": 116.431,
+    "string": 3,
+    "fret": 1,
+    "pitch": 51,
+    "chord": null,
+    "event_time": 116.0
+   },
+   {
+    "t": 116.862,
+    "string": 2,
+    "fret": 1,
+    "pitch": 56,
+    "chord": null,
+    "event_time": 116.0
+   },
+   {
+    "t": 117.292,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": null,
+    "event_time": 116.0
+   },
+   {
+    "t": 117.723,
+    "string": 0,
+    "fret": 4,
+    "pitch": 68,
+    "chord": null,
+    "event_time": 116.0
+   },
+   {
+    "t": 125.262,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": null,
+    "event_time": 116.0
+   },
+   {
+    "t": 130.0,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm",
+    "event_time": 130.0
+   },
+   {
+    "t": 130.152,
+    "string": 3,
+    "fret": 5,
+    "pitch": 55,
+    "chord": "Cm",
+    "event_time": 130.0
+   },
+   {
+    "t": 130.303,
+    "string": 2,
+    "fret": 5,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 130.0
+   },
+   {
+    "t": 130.455,
+    "string": 1,
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Cm",
+    "event_time": 130.0
+   },
+   {
+    "t": 130.606,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm",
+    "event_time": 130.0
+   },
+   {
+    "t": 132.727,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm",
+    "event_time": 130.0
+   },
+   {
+    "t": 133.258,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 130.0
+   },
+   {
+    "t": 135.0,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Ab/C",
+    "event_time": 135.0
+   },
+   {
+    "t": 135.188,
+    "string": 3,
+    "fret": 1,
+    "pitch": 51,
+    "chord": "Ab/C",
+    "event_time": 135.0
+   },
+   {
+    "t": 135.375,
+    "string": 2,
+    "fret": 1,
+    "pitch": 56,
+    "chord": "Ab/C",
+    "event_time": 135.0
+   },
+   {
+    "t": 135.562,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Ab/C",
+    "event_time": 135.0
+   },
+   {
+    "t": 135.75,
+    "string": 0,
+    "fret": 4,
+    "pitch": 68,
+    "chord": "Ab/C",
+    "event_time": 135.0
+   },
+   {
+    "t": 138.938,
+    "string": 1,
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Dm",
+    "event_time": 138.0
+   },
+   {
+    "t": 141.0,
+    "string": 4,
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Cm",
+    "event_time": 141.0
+   },
+   {
+    "t": 141.061,
+    "string": 3,
+    "fret": 5,
+    "pitch": 55,
+    "chord": "Cm",
+    "event_time": 141.0
+   },
+   {
+    "t": 141.121,
+    "string": 2,
+    "fret": 5,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 141.0
+   },
+   {
+    "t": 141.182,
+    "string": 1,
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Cm",
+    "event_time": 141.0
+   },
+   {
+    "t": 141.242,
+    "string": 0,
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Cm",
+    "event_time": 141.0
+   },
+   {
+    "t": 147.0,
+    "string": 1,
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Cm",
+    "event_time": 142.0
+   },
+   {
+    "t": 158.123,
+    "string": 2,
+    "fret": 5,
+    "pitch": 60,
+    "chord": "G3",
+    "event_time": 158.0
+   },
+   {
+    "t": 158.369,
+    "string": 2,
+    "fret": 5,
+    "pitch": 60,
+    "chord": "G3",
+    "event_time": 158.0
+   },
+   {
+    "t": 158.615,
+    "string": 2,
+    "fret": 5,
+    "pitch": 60,
+    "chord": "G3",
+    "event_time": 158.0
+   }
+  ],
+  "chords": [
+   {
+    "time": 0.0,
+    "chord": "Ab/C",
+    "shape": [
+     "4",
+     "1",
+     "1",
+     "1",
+     "3",
+     "x"
+    ],
+    "desc": "Ab/C (0:00)",
+    "tab": [
+     "e |--------4-----------------------|",
+     "B |------1-------------------------|",
+     "G |----1---------------------------|",
+     "D |--1-----------------------------|",
+     "A |3-------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 3.0,
+    "chord": "Dm",
+    "shape": [
+     "x",
+     "3",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "Dm (0:03)",
+    "tab": [
+     "e |--------------------------------|",
+     "B |----------3---------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 5.0,
+    "chord": "Cm",
+    "shape": [
+     "3",
+     "5",
+     "5",
+     "5",
+     "3",
+     "x"
+    ],
+    "desc": "Cm (0:05)",
+    "tab": [
+     "e |--------3-----------------------|",
+     "B |------5-------------------------|",
+     "G |----5---------------------------|",
+     "D |--5-----------------------------|",
+     "A |3--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 7.0,
+    "chord": "F",
+    "shape": [
+     "1",
+     "1",
+     "2",
+     "3",
+     "x",
+     "x"
+    ],
+    "desc": "F (0:07)",
+    "tab": [
+     "e |--------1-----------------------|",
+     "B |------1-------------------------|",
+     "G |----2---------------------------|",
+     "D |3-------------------------------|",
+     "A |--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 10.0,
+    "chord": "Ab/C",
+    "shape": [
+     "4",
+     "1",
+     "1",
+     "1",
+     "3",
+     "x"
+    ],
+    "desc": "Ab/C (0:10)",
+    "tab": [
+     "e |--------4-----------------------|",
+     "B |------1-------------------------|",
+     "G |----1---------------------------|",
+     "D |--1-----------------------------|",
+     "A |3-------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 13.0,
+    "chord": "Dm",
+    "shape": [
+     "x",
+     "3",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "Dm (0:13)",
+    "tab": [
+     "e |--------------------------------|",
+     "B |----------3-----3-----3---------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 15.0,
+    "chord": "Cm",
+    "shape": [
+     "3",
+     "5",
+     "5",
+     "5",
+     "3",
+     "x"
+    ],
+    "desc": "Cm (0:15)",
+    "tab": [
+     "e |--------3-----------------------|",
+     "B |------5-------------------------|",
+     "G |----5---------------------------|",
+     "D |--5-----------------------------|",
+     "A |3--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 18.0,
+    "chord": "Cm*",
+    "shape": [
+     "3",
+     "1",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "Cm* (0:18)",
+    "tab": [
+     "e |--------3-----------------------|",
+     "B |------1-------------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--3-----------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 23.0,
+    "chord": "Cm",
+    "shape": [
+     "3",
+     "4",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "Cm (0:23) [M]",
+    "tab": [
+     "e |--3---1-------------------------|--------------------------------|",
+     "B |----------4---1---1-------------|--------------------------------|",
+     "G |--------------------------------|--------------------------------|",
+     "D |--------------------------------|--------------------------------|",
+     "A |--3-----------------------------|--------------------------------|",
+     "E |--------------------------------|--------------------------------|"
+    ]
+   },
+   {
+    "time": 30.0,
+    "chord": "Ab/C",
+    "shape": [
+     "4",
+     "1",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "Ab/C (0:30)",
+    "tab": [
+     "e |------4-------------------------|",
+     "B |--1-----------------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--3-----------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 32.0,
+    "chord": "Cm",
+    "shape": [
+     "3",
+     "x",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "Cm (0:32)",
+    "tab": [
+     "e |------3-----3-----3-------------|",
+     "B |--------------------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--3-----------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 35.0,
+    "chord": "Cm",
+    "shape": [
+     "x",
+     "4",
+     "3",
+     "x",
+     "x",
+     "3"
+    ],
+    "desc": "Cm (0:35) [M]",
+    "tab": [
+     "e |--------------------------------|--------------------------------|",
+     "B |--4---4-------------------------|--------------------------------|",
+     "G |------3---3---------------------|--------------------------------|",
+     "D |--------------------------------|--------------------------------|",
+     "A |--------------------------------|--------------------------------|",
+     "E |--3-----------------------------|--------------------------------|"
+    ]
+   },
+   {
+    "time": 37.0,
+    "chord": "Cm",
+    "shape": [
+     "x",
+     "1",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "Cm (0:37)",
+    "tab": [
+     "e |--------------------------------|",
+     "B |--1---1---4---4---4-------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 40.0,
+    "chord": "Ab",
+    "shape": [
+     "4",
+     "1",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "Ab (0:40)",
+    "tab": [
+     "e |------4-------------------------|",
+     "B |--1-----------------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--3-----------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 45.0,
+    "chord": "Bb",
+    "shape": [
+     "x",
+     "4",
+     "x",
+     "5",
+     "x",
+     "x"
+    ],
+    "desc": "Bb (0:45) [M]",
+    "tab": [
+     "e |--------------------------------|--------------------------------|",
+     "B |--4---4-------4-----------------|--3---3-------------------------|",
+     "G |--------------------------------|--------------------------------|",
+     "D |--5---5-------------------------|--------------------------------|",
+     "A |--------------------------------|--------------------------------|",
+     "E |--------------------------------|--------------------------------|"
+    ]
+   },
+   {
+    "time": 49.0,
+    "chord": "F",
+    "shape": [
+     "1",
+     "1",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "F (0:49)",
+    "tab": [
+     "e |--1---1-------------------------|",
+     "B |----------1---------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 51.0,
+    "chord": "Cm",
+    "shape": [
+     "x",
+     "3",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "Cm (0:51)",
+    "tab": [
+     "e |--------------------------------|",
+     "B |------3-------------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--3-----------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 54.0,
+    "chord": "Cm",
+    "shape": [
+     "1",
+     "4",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "Cm (0:54) [M]",
+    "tab": [
+     "e |--------------------------------|--1-----------------------------|",
+     "B |--4---4---4---------------------|------4-------------------------|",
+     "G |--------------------------------|--------------------------------|",
+     "D |--------------------------------|--------------------------------|",
+     "A |--------------------------------|--------------------------------|",
+     "E |--------------------------------|--------------------------------|"
+    ]
+   },
+   {
+    "time": 116.0,
+    "chord": null,
+    "shape": [
+     "4",
+     "1",
+     "1",
+     "1",
+     "3",
+     "x"
+    ],
+    "desc": "[1:56-2:05]",
+    "tab": [
+     "e |--------4-----------------------|--------------------------------|",
+     "B |------1-------------------------|----------3---------------------|",
+     "G |----1---------------------------|--------------------------------|",
+     "D |--1-----------------------------|--------------------------------|",
+     "A |3-------------------------------|--------------------------------|",
+     "E |--------------------------------|--------------------------------|"
+    ]
+   },
+   {
+    "time": 130.0,
+    "chord": "Cm",
+    "shape": [
+     "3",
+     "5",
+     "5",
+     "5",
+     "3",
+     "x"
+    ],
+    "desc": "Cm, barre (2:10)                   F/C (?) (2:12) [M]",
+    "tab": [
+     "e |--------3-----------------------|--------------------------------|",
+     "B |------5-------------------------|----------1---------------------|",
+     "G |----5---------------------------|--------------------------------|",
+     "D |--5-----------------------------|--------------------------------|",
+     "A |3--------------------------------|--3-----------------------------|",
+     "E |--------------------------------|--------------------------------|"
+    ]
+   },
+   {
+    "time": 135.0,
+    "chord": "Ab/C",
+    "shape": [
+     "4",
+     "1",
+     "1",
+     "1",
+     "3",
+     "x"
+    ],
+    "desc": "Ab/C (2:15)",
+    "tab": [
+     "e |--------4-----------------------|",
+     "B |------1-------------------------|",
+     "G |----1---------------------------|",
+     "D |--1-----------------------------|",
+     "A |3-------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 138.0,
+    "chord": "Dm",
+    "shape": [
+     "x",
+     "3",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "Dm (2:18)",
+    "tab": [
+     "e |--------------------------------|",
+     "B |----------3---------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 141.0,
+    "chord": "Cm",
+    "shape": [
+     "3",
+     "5",
+     "5",
+     "5",
+     "3",
+     "x"
+    ],
+    "desc": "Cm (2:21)",
+    "tab": [
+     "e |--------3-----------------------|",
+     "B |------5-------------------------|",
+     "G |----5---------------------------|",
+     "D |--5-----------------------------|",
+     "A |3--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 142.0,
+    "chord": "Cm",
+    "shape": [
+     "x",
+     "1",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "Cm (2:22)",
+    "tab": [
+     "e |--------------------------------|",
+     "B |----------1---------------------|",
+     "G |--------------------------------|",
+     "D |--------------------------------|",
+     "A |--------------------------------|",
+     "E |--------------------------------|"
+    ]
+   },
+   {
+    "time": 158.0,
+    "chord": "G3",
+    "shape": [
+     "x",
+     "x",
+     "5",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "G3 (2:38.0)",
+    "tab": [
+     "e |--------------------------------|--------------------------------|",
+     "B |--------------------------------|--------------------------------|",
+     "G |--5---5---5---------------------|--------------------------------|",
+     "D |--------------------------------|--------------------------------|",
+     "A |--------------------------------|--------------------------------|",
+     "E |--------------------------------|--------------------------------|"
+    ]
+   }
+  ],
+  "duration": 158.615
+ },
+ "doctorstrange": {
+  "slug": "doctorstrange",
+  "title": "Doctor Strange Main Theme",
+  "tuning": "Standard (E A D G B E)",
+  "capo": "None",
+  "key": "Bb major / G minor",
+  "notes": [
+   {
+    "t": 0.325,
+    "string": "e",
+    "fret": 10,
+    "pitch": 74,
+    "chord": "Bar 1",
+    "event_time": 0.325,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 0.325,
+    "string": "B",
+    "fret": 10,
+    "pitch": 69,
+    "chord": "Bar 1",
+    "event_time": 0.325,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 0.84,
+    "string": "G",
+    "fret": 10,
+    "pitch": 65,
+    "chord": "Bar 1",
+    "event_time": 0.84,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 0.84,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 1",
+    "event_time": 0.84,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 1.01,
+    "string": "e",
+    "fret": 12,
+    "pitch": 76,
+    "chord": "Bar 1",
+    "event_time": 1.01,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 1.01,
+    "string": "e",
+    "fret": 13,
+    "pitch": 77,
+    "chord": "Bar 1",
+    "event_time": 1.01,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 1.18,
+    "string": "e",
+    "fret": 10,
+    "pitch": 74,
+    "chord": "Bar 1",
+    "event_time": 1.18,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 1.18,
+    "string": "e",
+    "fret": 13,
+    "pitch": 77,
+    "chord": "Bar 1",
+    "event_time": 1.18,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 1.35,
+    "string": "e",
+    "fret": 12,
+    "pitch": 76,
+    "chord": "Bar 2",
+    "event_time": 1.35,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 1.35,
+    "string": "B",
+    "fret": 13,
+    "pitch": 72,
+    "chord": "Bar 2",
+    "event_time": 1.35,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 1.765,
+    "string": "G",
+    "fret": 14,
+    "pitch": 69,
+    "chord": "Bar 2",
+    "event_time": 1.765,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 1.765,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 2",
+    "event_time": 1.765,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 3.413,
+    "string": "e",
+    "fret": 13,
+    "pitch": 77,
+    "chord": "Bar 2",
+    "event_time": 3.413,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 4.412,
+    "string": "e",
+    "fret": 11,
+    "pitch": 75,
+    "chord": "Bar 3",
+    "event_time": 4.412,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 4.412,
+    "string": "B",
+    "fret": 11,
+    "pitch": 70,
+    "chord": "Bar 3",
+    "event_time": 4.412,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 4.92,
+    "string": "G",
+    "fret": 12,
+    "pitch": 67,
+    "chord": "Bar 3",
+    "event_time": 4.92,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 4.92,
+    "string": "E",
+    "fret": 11,
+    "pitch": 51,
+    "chord": "Bar 3",
+    "event_time": 4.92,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 5.43,
+    "string": "B",
+    "fret": 11,
+    "pitch": 70,
+    "chord": "Bar 3",
+    "event_time": 5.43,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 5.43,
+    "string": "B",
+    "fret": 11,
+    "pitch": 70,
+    "chord": "Bar 3",
+    "event_time": 5.43,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 5.6,
+    "string": "e",
+    "fret": 11,
+    "pitch": 75,
+    "chord": "Bar 3",
+    "event_time": 5.6,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 5.77,
+    "string": "B",
+    "fret": 13,
+    "pitch": 72,
+    "chord": "Bar 3",
+    "event_time": 5.77,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 5.94,
+    "string": "B",
+    "fret": 15,
+    "pitch": 74,
+    "chord": "Bar 3",
+    "event_time": 5.94,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 6.45,
+    "string": "e",
+    "fret": 10,
+    "pitch": 74,
+    "chord": "Bar 4",
+    "event_time": 6.45,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 6.45,
+    "string": "B",
+    "fret": 10,
+    "pitch": 69,
+    "chord": "Bar 4",
+    "event_time": 6.45,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 6.45,
+    "string": "G",
+    "fret": 12,
+    "pitch": 67,
+    "chord": "Bar 4",
+    "event_time": 6.45,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 6.45,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 4",
+    "event_time": 6.45,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 6.45,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 5",
+    "event_time": 6.45,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 6.45,
+    "string": "B",
+    "fret": 7,
+    "pitch": 66,
+    "chord": "Bar 5",
+    "event_time": 6.45,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 6.45,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 5",
+    "event_time": 6.45,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 6.45,
+    "string": "A",
+    "fret": 8,
+    "pitch": 53,
+    "chord": "Bar 5",
+    "event_time": 6.45,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 10.53,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 6",
+    "event_time": 10.53,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 10.774,
+    "string": "A",
+    "fret": 5,
+    "pitch": 50,
+    "chord": "Bar 6",
+    "event_time": 10.774,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 10.774,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 6",
+    "event_time": 10.774,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 11.04,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 6",
+    "event_time": 11.04,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 11.21,
+    "string": "A",
+    "fret": 5,
+    "pitch": 50,
+    "chord": "Bar 6",
+    "event_time": 11.21,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 11.38,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 6",
+    "event_time": 11.38,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 11.54,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 6",
+    "event_time": 11.54,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 12.57,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 7",
+    "event_time": 12.57,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 12.74,
+    "string": "A",
+    "fret": 5,
+    "pitch": 50,
+    "chord": "Bar 7",
+    "event_time": 12.74,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 12.91,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 7",
+    "event_time": 12.91,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 13.08,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 7",
+    "event_time": 13.08,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 13.25,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 7",
+    "event_time": 13.25,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 13.42,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 7",
+    "event_time": 13.42,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 13.59,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 8",
+    "event_time": 13.59,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 14.61,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 8",
+    "event_time": 14.61,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 14.779,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 8",
+    "event_time": 14.779,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 15.047,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 8",
+    "event_time": 15.047,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 15.163,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 8",
+    "event_time": 15.163,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 15.279,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 8",
+    "event_time": 15.279,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 15.46,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 8",
+    "event_time": 15.46,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 15.63,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 8",
+    "event_time": 15.63,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 16.65,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 16.65,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 16.65,
+    "string": "A",
+    "fret": 4,
+    "pitch": 49,
+    "chord": "Bar 9",
+    "event_time": 16.65,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 16.82,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 16.82,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 16.99,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 16.99,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 17.16,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 17.16,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 17.33,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 17.33,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 17.5,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 17.5,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 17.67,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 17.67,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 17.84,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 17.84,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 18.01,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 18.01,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 18.18,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 18.18,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 18.35,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 18.35,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 18.52,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 9",
+    "event_time": 18.52,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 18.808,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 10",
+    "event_time": 18.808,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 18.808,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 10",
+    "event_time": 18.808,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 19.03,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 10",
+    "event_time": 19.03,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 19.156,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 10",
+    "event_time": 19.156,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 19.482,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 10",
+    "event_time": 19.482,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 19.482,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 10",
+    "event_time": 19.482,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 19.667,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 11",
+    "event_time": 19.667,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 20.22,
+    "string": "A",
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Bar 11",
+    "event_time": 20.22,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 21.827,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 11",
+    "event_time": 21.827,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 22.825,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 12",
+    "event_time": 22.825,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 23.279,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 12",
+    "event_time": 23.279,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 23.449,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 12",
+    "event_time": 23.449,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 23.62,
+    "string": "D",
+    "fret": 1,
+    "pitch": 51,
+    "chord": "Bar 12",
+    "event_time": 23.62,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 23.754,
+    "string": "e",
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Bar 12",
+    "event_time": 23.754,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 24.265,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 12",
+    "event_time": 24.265,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 24.776,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 13",
+    "event_time": 24.776,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 24.776,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 13",
+    "event_time": 24.776,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 24.776,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 14",
+    "event_time": 24.776,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 24.776,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 14",
+    "event_time": 24.776,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 24.776,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 14",
+    "event_time": 24.776,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 24.776,
+    "string": "D",
+    "fret": 1,
+    "pitch": 51,
+    "chord": "Bar 14",
+    "event_time": 24.776,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 26.819,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 14",
+    "event_time": 26.819,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 27.359,
+    "string": "e",
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Bar 14",
+    "event_time": 27.359,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 27.562,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 14",
+    "event_time": 27.562,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 28.955,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 15",
+    "event_time": 28.955,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 29.909,
+    "string": "B",
+    "fret": 8,
+    "pitch": 67,
+    "chord": "Bar 15",
+    "event_time": 29.909,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 29.909,
+    "string": "E",
+    "fret": 6,
+    "pitch": 46,
+    "chord": "Bar 15",
+    "event_time": 29.909,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 31.022,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 16",
+    "event_time": 31.022,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.022,
+    "string": "G",
+    "fret": 5,
+    "pitch": 60,
+    "chord": "Bar 16",
+    "event_time": 31.022,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.556,
+    "string": "D",
+    "fret": 6,
+    "pitch": 56,
+    "chord": "Bar 16",
+    "event_time": 31.556,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.556,
+    "string": "A",
+    "fret": 4,
+    "pitch": 49,
+    "chord": "Bar 16",
+    "event_time": 31.556,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.556,
+    "string": "G",
+    "fret": 5,
+    "pitch": 60,
+    "chord": "Bar 16",
+    "event_time": 31.556,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.556,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 16",
+    "event_time": 31.556,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.858,
+    "string": "G",
+    "fret": 5,
+    "pitch": 60,
+    "chord": "Bar 16",
+    "event_time": 31.858,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.858,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 17",
+    "event_time": 31.858,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.858,
+    "string": "D",
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Bar 17",
+    "event_time": 31.858,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 31.858,
+    "string": "A",
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Bar 17",
+    "event_time": 31.858,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 32.508,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 17",
+    "event_time": 32.508,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 35.009,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 18",
+    "event_time": 35.009,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 35.009,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 18",
+    "event_time": 35.009,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 35.349,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 18",
+    "event_time": 35.349,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 35.349,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 18",
+    "event_time": 35.349,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 35.519,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 18",
+    "event_time": 35.519,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 35.852,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 18",
+    "event_time": 35.852,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 35.991,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 18",
+    "event_time": 35.991,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 36.369,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 18",
+    "event_time": 36.369,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 36.641,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 18",
+    "event_time": 36.641,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 36.879,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 18",
+    "event_time": 36.879,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 37.049,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 19",
+    "event_time": 37.049,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 37.049,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 19",
+    "event_time": 37.049,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 37.389,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 19",
+    "event_time": 37.389,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 37.389,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 19",
+    "event_time": 37.389,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 37.559,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 19",
+    "event_time": 37.559,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 37.559,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 19",
+    "event_time": 37.559,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 37.899,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 19",
+    "event_time": 37.899,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 37.899,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 19",
+    "event_time": 37.899,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 38.174,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 19",
+    "event_time": 38.174,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 38.409,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 19",
+    "event_time": 38.409,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 38.579,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 20",
+    "event_time": 38.579,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 38.919,
+    "string": "D",
+    "fret": 0,
+    "pitch": 50,
+    "chord": "Bar 20",
+    "event_time": 38.919,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 39.126,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 20",
+    "event_time": 39.126,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 39.429,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 20",
+    "event_time": 39.429,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 39.636,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 20",
+    "event_time": 39.636,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 39.938,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 20",
+    "event_time": 39.938,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 40.147,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 20",
+    "event_time": 40.147,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 40.449,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 20",
+    "event_time": 40.449,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 40.612,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 20",
+    "event_time": 40.612,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 41.053,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 20",
+    "event_time": 41.053,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 41.146,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 21",
+    "event_time": 41.146,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 41.146,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 21",
+    "event_time": 41.146,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 41.469,
+    "string": "D",
+    "fret": 0,
+    "pitch": 50,
+    "chord": "Bar 21",
+    "event_time": 41.469,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 41.469,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 21",
+    "event_time": 41.469,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 41.639,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 21",
+    "event_time": 41.639,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 41.639,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 21",
+    "event_time": 41.639,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 41.979,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 21",
+    "event_time": 41.979,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 42.144,
+    "string": "D",
+    "fret": 4,
+    "pitch": 54,
+    "chord": "Bar 21",
+    "event_time": 42.144,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 42.489,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 21",
+    "event_time": 42.489,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 42.659,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 21",
+    "event_time": 42.659,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 42.999,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 21",
+    "event_time": 42.999,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 43.143,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 22",
+    "event_time": 43.143,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 43.143,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 22",
+    "event_time": 43.143,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 43.143,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 22",
+    "event_time": 43.143,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 43.143,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 22",
+    "event_time": 43.143,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 44.095,
+    "string": "e",
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Bar 23",
+    "event_time": 44.095,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 44.095,
+    "string": "B",
+    "fret": 10,
+    "pitch": 69,
+    "chord": "Bar 23",
+    "event_time": 44.095,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 44.095,
+    "string": "A",
+    "fret": 7,
+    "pitch": 52,
+    "chord": "Bar 23",
+    "event_time": 44.095,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 44.095,
+    "string": "E",
+    "fret": 8,
+    "pitch": 48,
+    "chord": "Bar 23",
+    "event_time": 44.095,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 47.299,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 24",
+    "event_time": 47.299,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 47.759,
+    "string": "B",
+    "fret": 8,
+    "pitch": 67,
+    "chord": "Bar 24",
+    "event_time": 47.759,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 48.205,
+    "string": "A",
+    "fret": 6,
+    "pitch": 51,
+    "chord": "Bar 24",
+    "event_time": 48.205,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 49.034,
+    "string": "e",
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Bar 24",
+    "event_time": 49.034,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 49.18,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 25",
+    "event_time": 49.18,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 49.18,
+    "string": "B",
+    "fret": 8,
+    "pitch": 67,
+    "chord": "Bar 25",
+    "event_time": 49.18,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 49.18,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 25",
+    "event_time": 49.18,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 50.294,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 25",
+    "event_time": 50.294,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 50.294,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 26",
+    "event_time": 50.294,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 50.828,
+    "string": "B",
+    "fret": 10,
+    "pitch": 69,
+    "chord": "Bar 26",
+    "event_time": 50.828,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 50.828,
+    "string": "A",
+    "fret": 6,
+    "pitch": 51,
+    "chord": "Bar 26",
+    "event_time": 50.828,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 51.329,
+    "string": "B",
+    "fret": 8,
+    "pitch": 67,
+    "chord": "Bar 26",
+    "event_time": 51.329,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 53.369,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 27",
+    "event_time": 53.369,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 53.369,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 27",
+    "event_time": 53.369,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 54.389,
+    "string": "A",
+    "fret": 6,
+    "pitch": 51,
+    "chord": "Bar 27",
+    "event_time": 54.389,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 54.389,
+    "string": "E",
+    "fret": 6,
+    "pitch": 46,
+    "chord": "Bar 27",
+    "event_time": 54.389,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 54.962,
+    "string": "e",
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Bar 27",
+    "event_time": 54.962,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 54.962,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 27",
+    "event_time": 54.962,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 55.472,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 28",
+    "event_time": 55.472,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 55.472,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 28",
+    "event_time": 55.472,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 55.472,
+    "string": "A",
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Bar 28",
+    "event_time": 55.472,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 56.429,
+    "string": "G",
+    "fret": 5,
+    "pitch": 60,
+    "chord": "Bar 29",
+    "event_time": 56.429,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 56.429,
+    "string": "D",
+    "fret": 4,
+    "pitch": 54,
+    "chord": "Bar 29",
+    "event_time": 56.429,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 56.429,
+    "string": "A",
+    "fret": 3,
+    "pitch": 48,
+    "chord": "Bar 29",
+    "event_time": 56.429,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 57.449,
+    "string": "G",
+    "fret": 8,
+    "pitch": 63,
+    "chord": "Bar 29",
+    "event_time": 57.449,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 57.618,
+    "string": "D",
+    "fret": 7,
+    "pitch": 57,
+    "chord": "Bar 29",
+    "event_time": 57.618,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 57.789,
+    "string": "A",
+    "fret": 6,
+    "pitch": 51,
+    "chord": "Bar 29",
+    "event_time": 57.789,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 59.489,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 30",
+    "event_time": 59.489,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 59.489,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 30",
+    "event_time": 59.489,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 59.489,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 30",
+    "event_time": 59.489,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 59.489,
+    "string": "E",
+    "fret": 1,
+    "pitch": 41,
+    "chord": "Bar 30",
+    "event_time": 59.489,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 60.465,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 30",
+    "event_time": 60.465,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 60.952,
+    "string": "e",
+    "fret": 2,
+    "pitch": 66,
+    "chord": "Bar 30",
+    "event_time": 60.952,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 61.528,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 31",
+    "event_time": 61.528,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 61.528,
+    "string": "B",
+    "fret": 1,
+    "pitch": 60,
+    "chord": "Bar 31",
+    "event_time": 61.528,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 61.528,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 31",
+    "event_time": 61.528,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 61.528,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 31",
+    "event_time": 61.528,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 61.528,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 31",
+    "event_time": 61.528,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 61.528,
+    "string": "e",
+    "fret": 2,
+    "pitch": 66,
+    "chord": "Bar 31",
+    "event_time": 61.528,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 61.528,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 32",
+    "event_time": 61.528,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 61.528,
+    "string": "G",
+    "fret": 4,
+    "pitch": 59,
+    "chord": "Bar 32",
+    "event_time": 61.528,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 62.485,
+    "string": "D",
+    "fret": 6,
+    "pitch": 56,
+    "chord": "Bar 32",
+    "event_time": 62.485,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 62.996,
+    "string": "E",
+    "fret": 4,
+    "pitch": 44,
+    "chord": "Bar 32",
+    "event_time": 62.996,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 63.568,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 32",
+    "event_time": 63.568,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 64.588,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 32",
+    "event_time": 64.588,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 65.608,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 33",
+    "event_time": 65.608,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 65.608,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 33",
+    "event_time": 65.608,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 66.618,
+    "string": "D",
+    "fret": 8,
+    "pitch": 58,
+    "chord": "Bar 33",
+    "event_time": 66.618,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 66.618,
+    "string": "A",
+    "fret": 8,
+    "pitch": 53,
+    "chord": "Bar 33",
+    "event_time": 66.618,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 66.618,
+    "string": "E",
+    "fret": 6,
+    "pitch": 46,
+    "chord": "Bar 33",
+    "event_time": 66.618,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 34",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "G",
+    "fret": 4,
+    "pitch": 59,
+    "chord": "Bar 34",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "D",
+    "fret": 6,
+    "pitch": 56,
+    "chord": "Bar 34",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "E",
+    "fret": 4,
+    "pitch": 44,
+    "chord": "Bar 34",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 34",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 34",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 35",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 35",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 67.733,
+    "string": "D",
+    "fret": 8,
+    "pitch": 58,
+    "chord": "Bar 35",
+    "event_time": 67.733,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 68.638,
+    "string": "A",
+    "fret": 8,
+    "pitch": 53,
+    "chord": "Bar 35",
+    "event_time": 68.638,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 69.178,
+    "string": "E",
+    "fret": 6,
+    "pitch": 46,
+    "chord": "Bar 35",
+    "event_time": 69.178,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 71.728,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 36",
+    "event_time": 71.728,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 71.728,
+    "string": "G",
+    "fret": 4,
+    "pitch": 59,
+    "chord": "Bar 36",
+    "event_time": 71.728,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 71.728,
+    "string": "D",
+    "fret": 6,
+    "pitch": 56,
+    "chord": "Bar 36",
+    "event_time": 71.728,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 71.728,
+    "string": "E",
+    "fret": 4,
+    "pitch": 44,
+    "chord": "Bar 36",
+    "event_time": 71.728,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 72.748,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 36",
+    "event_time": 72.748,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 73.258,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 36",
+    "event_time": 73.258,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 73.768,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 37",
+    "event_time": 73.768,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 73.768,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 37",
+    "event_time": 73.768,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 73.768,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 37",
+    "event_time": 73.768,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 73.768,
+    "string": "D",
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Bar 37",
+    "event_time": 73.768,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 73.768,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 37",
+    "event_time": 73.768,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 74.788,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 37",
+    "event_time": 74.788,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 74.788,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 37",
+    "event_time": 74.788,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 74.788,
+    "string": "D",
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Bar 37",
+    "event_time": 74.788,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 74.788,
+    "string": "A",
+    "fret": 4,
+    "pitch": 49,
+    "chord": "Bar 37",
+    "event_time": 74.788,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 74.788,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 37",
+    "event_time": 74.788,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 75.298,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 37",
+    "event_time": 75.298,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 75.298,
+    "string": "D",
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Bar 37",
+    "event_time": 75.298,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 75.298,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 38",
+    "event_time": 75.298,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 75.298,
+    "string": "A",
+    "fret": 5,
+    "pitch": 50,
+    "chord": "Bar 38",
+    "event_time": 75.298,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 77.848,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 39",
+    "event_time": 77.848,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 78.925,
+    "string": "B",
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Bar 39",
+    "event_time": 78.925,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 78.925,
+    "string": "A",
+    "fret": 4,
+    "pitch": 49,
+    "chord": "Bar 39",
+    "event_time": 78.925,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 79.946,
+    "string": "B",
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Bar 40",
+    "event_time": 79.946,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 79.946,
+    "string": "G",
+    "fret": 6,
+    "pitch": 61,
+    "chord": "Bar 40",
+    "event_time": 79.946,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 79.946,
+    "string": "A",
+    "fret": 4,
+    "pitch": 49,
+    "chord": "Bar 40",
+    "event_time": 79.946,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 80.898,
+    "string": "B",
+    "fret": 6,
+    "pitch": 65,
+    "chord": "Bar 41",
+    "event_time": 80.898,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 80.898,
+    "string": "G",
+    "fret": 7,
+    "pitch": 62,
+    "chord": "Bar 41",
+    "event_time": 80.898,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 80.898,
+    "string": "A",
+    "fret": 5,
+    "pitch": 50,
+    "chord": "Bar 41",
+    "event_time": 80.898,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 84.056,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 42",
+    "event_time": 84.056,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 85.031,
+    "string": "A",
+    "fret": 5,
+    "pitch": 50,
+    "chord": "Bar 42",
+    "event_time": 85.031,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 85.031,
+    "string": "e",
+    "fret": 5,
+    "pitch": 69,
+    "chord": "Bar 42",
+    "event_time": 85.031,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 86.053,
+    "string": "e",
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Bar 43",
+    "event_time": 86.053,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 86.053,
+    "string": "A",
+    "fret": 7,
+    "pitch": 52,
+    "chord": "Bar 43",
+    "event_time": 86.053,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 86.053,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 43",
+    "event_time": 86.053,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 87.098,
+    "string": "B",
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Bar 44",
+    "event_time": 87.098,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 87.098,
+    "string": "G",
+    "fret": 6,
+    "pitch": 61,
+    "chord": "Bar 44",
+    "event_time": 87.098,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 87.098,
+    "string": "A",
+    "fret": 7,
+    "pitch": 52,
+    "chord": "Bar 44",
+    "event_time": 87.098,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 90.024,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 45",
+    "event_time": 90.024,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 90.024,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 45",
+    "event_time": 90.024,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 90.258,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 45",
+    "event_time": 90.258,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 90.258,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 45",
+    "event_time": 90.258,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 90.428,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 45",
+    "event_time": 90.428,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 90.428,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 45",
+    "event_time": 90.428,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 92.128,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 46",
+    "event_time": 92.128,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 92.128,
+    "string": "A",
+    "fret": 2,
+    "pitch": 47,
+    "chord": "Bar 46",
+    "event_time": 92.128,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 92.128,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 46",
+    "event_time": 92.128,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 93.148,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 47",
+    "event_time": 93.148,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 93.148,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 47",
+    "event_time": 93.148,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 93.148,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 47",
+    "event_time": 93.148,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 93.148,
+    "string": "D",
+    "fret": 1,
+    "pitch": 51,
+    "chord": "Bar 47",
+    "event_time": 93.148,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 94.168,
+    "string": "e",
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Bar 47",
+    "event_time": 94.168,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 94.337,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 47",
+    "event_time": 94.337,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 94.508,
+    "string": "e",
+    "fret": 4,
+    "pitch": 68,
+    "chord": "Bar 47",
+    "event_time": 94.508,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 96.208,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 48",
+    "event_time": 96.208,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 96.827,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 48",
+    "event_time": 96.827,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 96.973,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 48",
+    "event_time": 96.973,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 97.228,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 48",
+    "event_time": 97.228,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 98.248,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 49",
+    "event_time": 98.248,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 98.248,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 49",
+    "event_time": 98.248,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 98.248,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 49",
+    "event_time": 98.248,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 98.429,
+    "string": "D",
+    "fret": 1,
+    "pitch": 51,
+    "chord": "Bar 49",
+    "event_time": 98.429,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 98.429,
+    "string": "e",
+    "fret": 3,
+    "pitch": 67,
+    "chord": "Bar 49",
+    "event_time": 98.429,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 98.429,
+    "string": "B",
+    "fret": 4,
+    "pitch": 63,
+    "chord": "Bar 49",
+    "event_time": 98.429,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 98.588,
+    "string": "e",
+    "fret": 4,
+    "pitch": 68,
+    "chord": "Bar 49",
+    "event_time": 98.588,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 98.588,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 50",
+    "event_time": 98.588,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 98.588,
+    "string": "E",
+    "fret": 6,
+    "pitch": 46,
+    "chord": "Bar 50",
+    "event_time": 98.588,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 101.307,
+    "string": "e",
+    "fret": 8,
+    "pitch": 72,
+    "chord": "Bar 50",
+    "event_time": 101.307,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 102.446,
+    "string": "e",
+    "fret": 4,
+    "pitch": 68,
+    "chord": "Bar 51",
+    "event_time": 102.446,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 102.446,
+    "string": "B",
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Bar 51",
+    "event_time": 102.446,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 102.446,
+    "string": "D",
+    "fret": 5,
+    "pitch": 55,
+    "chord": "Bar 51",
+    "event_time": 102.446,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 102.446,
+    "string": "A",
+    "fret": 6,
+    "pitch": 51,
+    "chord": "Bar 51",
+    "event_time": 102.446,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 102.446,
+    "string": "E",
+    "fret": 4,
+    "pitch": 44,
+    "chord": "Bar 51",
+    "event_time": 102.446,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 102.446,
+    "string": "B",
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Bar 51",
+    "event_time": 102.446,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 102.668,
+    "string": "D",
+    "fret": 7,
+    "pitch": 57,
+    "chord": "Bar 51",
+    "event_time": 102.668,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 102.668,
+    "string": "B",
+    "fret": 5,
+    "pitch": 64,
+    "chord": "Bar 51",
+    "event_time": 102.668,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 102.668,
+    "string": "D",
+    "fret": 5,
+    "pitch": 55,
+    "chord": "Bar 51",
+    "event_time": 102.668,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 104.367,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 52",
+    "event_time": 104.367,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 104.367,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 52",
+    "event_time": 104.367,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 104.367,
+    "string": "D",
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Bar 52",
+    "event_time": 104.367,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 104.367,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 52",
+    "event_time": 104.367,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 104.877,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 52",
+    "event_time": 104.877,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 104.877,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 52",
+    "event_time": 104.877,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 104.877,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 52",
+    "event_time": 104.877,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 104.877,
+    "string": "D",
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Bar 52",
+    "event_time": 104.877,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 105.488,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 52",
+    "event_time": 105.488,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 105.488,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 52",
+    "event_time": 105.488,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 105.488,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 52",
+    "event_time": 105.488,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 105.488,
+    "string": "E",
+    "fret": 0,
+    "pitch": 40,
+    "chord": "Bar 52",
+    "event_time": 105.488,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 105.813,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 53",
+    "event_time": 105.813,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 105.813,
+    "string": "D",
+    "fret": 3,
+    "pitch": 53,
+    "chord": "Bar 53",
+    "event_time": 105.813,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 105.813,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 53",
+    "event_time": 105.813,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 106.44,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 53",
+    "event_time": 106.44,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 106.44,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 53",
+    "event_time": 106.44,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 106.974,
+    "string": "D",
+    "fret": 2,
+    "pitch": 52,
+    "chord": "Bar 53",
+    "event_time": 106.974,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 107.427,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 53",
+    "event_time": 107.427,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 108.447,
+    "string": "A",
+    "fret": 0,
+    "pitch": 45,
+    "chord": "Bar 53",
+    "event_time": 108.447,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 108.447,
+    "string": "e",
+    "fret": 1,
+    "pitch": 65,
+    "chord": "Bar 54",
+    "event_time": 108.447,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 108.447,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 54",
+    "event_time": 108.447,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 109.389,
+    "string": "G",
+    "fret": 2,
+    "pitch": 57,
+    "chord": "Bar 54",
+    "event_time": 109.389,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 109.877,
+    "string": "D",
+    "fret": 0,
+    "pitch": 50,
+    "chord": "Bar 54",
+    "event_time": 109.877,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 110.388,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 54",
+    "event_time": 110.388,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 110.388,
+    "string": "D",
+    "fret": 0,
+    "pitch": 50,
+    "chord": "Bar 54",
+    "event_time": 110.388,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 110.388,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 55",
+    "event_time": 110.388,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 110.388,
+    "string": "G",
+    "fret": 3,
+    "pitch": 58,
+    "chord": "Bar 55",
+    "event_time": 110.388,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 111.433,
+    "string": "D",
+    "fret": 0,
+    "pitch": 50,
+    "chord": "Bar 55",
+    "event_time": 111.433,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 112.017,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 55",
+    "event_time": 112.017,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 112.527,
+    "string": "D",
+    "fret": 0,
+    "pitch": 50,
+    "chord": "Bar 55",
+    "event_time": 112.527,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 112.527,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 56",
+    "event_time": 112.527,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 112.527,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 56",
+    "event_time": 112.527,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 113.547,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 56",
+    "event_time": 113.547,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 114.057,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 56",
+    "event_time": 114.057,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 113.801,
+    "string": "B",
+    "fret": 3,
+    "pitch": 62,
+    "chord": "Bar 56",
+    "event_time": 113.801,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 114.567,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 57",
+    "event_time": 114.567,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 114.73,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 57",
+    "event_time": 114.73,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 114.907,
+    "string": "E",
+    "fret": 3,
+    "pitch": 43,
+    "chord": "Bar 57",
+    "event_time": 114.907,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 115.077,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 57",
+    "event_time": 115.077,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 115.247,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 57",
+    "event_time": 115.247,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 115.417,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 57",
+    "event_time": 115.417,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 115.587,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 57",
+    "event_time": 115.587,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 115.728,
+    "string": "B",
+    "fret": 2,
+    "pitch": 61,
+    "chord": "Bar 57",
+    "event_time": 115.728,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 116.193,
+    "string": "G",
+    "fret": 0,
+    "pitch": 55,
+    "chord": "Bar 57",
+    "event_time": 116.193,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 116.68,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 58",
+    "event_time": 116.68,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 116.862,
+    "string": "A",
+    "fret": 4,
+    "pitch": 49,
+    "chord": "Bar 58",
+    "event_time": 116.862,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 117.117,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 58",
+    "event_time": 117.117,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 117.287,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 58",
+    "event_time": 117.287,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 117.457,
+    "string": "e",
+    "fret": 0,
+    "pitch": 64,
+    "chord": "Bar 58",
+    "event_time": 117.457,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 117.632,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 58",
+    "event_time": 117.632,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 117.882,
+    "string": "A",
+    "fret": 7,
+    "pitch": 52,
+    "chord": "Bar 58",
+    "event_time": 117.882,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 118.097,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 58",
+    "event_time": 118.097,
+    "timing_source": "audio_117bpm",
+    "snapped_to_onset": true
+   },
+   {
+    "t": 118.307,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 58",
+    "event_time": 118.307,
+    "timing_source": "audio_117bpm"
+   },
+   {
+    "t": 118.477,
+    "string": "e",
+    "fret": 6,
+    "pitch": 70,
+    "chord": "Bar 58",
+    "event_time": 118.477,
+    "timing_source": "audio_117bpm"
+   }
+  ],
+  "chords": [
+   {
+    "time": 0.33,
+    "chord": "Bar 1",
+    "shape": [
+     "10",
+     "10",
+     "10",
+     "x",
+     "x",
+     "0"
+    ],
+    "desc": "Main Theme - 4/4 quarter chord, triplet 8ths, quarter, quarter",
+    "tab": [
+     "  e | 10 12 13 10 13",
+     "  B | 10",
+     "  G | 10",
+     "  D |",
+     "  A |",
+     "  E | 0"
+    ],
+    "orig_time": 0.0
+   },
+   {
+    "time": 2.37,
+    "chord": "Bar 2",
+    "shape": [
+     "12",
+     "13",
+     "14",
+     "x",
+     "x",
+     "0"
+    ],
+    "desc": "Main Theme - half chord, half note",
+    "tab": [
+     "  e | 12 13",
+     "  B | 13",
+     "  G | 14",
+     "  D |",
+     "  A |",
+     "  E | 0"
+    ],
+    "orig_time": 3.3333333333333335
+   },
+   {
+    "time": 4.41,
+    "chord": "Bar 3",
+    "shape": [
+     "11",
+     "11",
+     "12",
+     "x",
+     "x",
+     "11"
+    ],
+    "desc": "Main Theme - chord, quarter, triplet 8ths, quarter",
+    "tab": [
+     "  e | 11 11",
+     "  B | 11 11 11 13 15",
+     "  G | 12",
+     "  D |",
+     "  A |",
+     "  E | 11"
+    ],
+    "orig_time": 6.666666666666667
+   },
+   {
+    "time": 6.45,
+    "chord": "Bar 4",
+    "shape": [
+     "10",
+     "10",
+     "12",
+     "x",
+     "x",
+     "0"
+    ],
+    "desc": "Main Theme - whole chord",
+    "tab": [
+     "  e | 10",
+     "  B | 10",
+     "  G | 12",
+     "  D |",
+     "  A |",
+     "  E | 0"
+    ],
+    "orig_time": 10.0
+   },
+   {
+    "time": 8.49,
+    "chord": "Bar 5",
+    "shape": [
+     "6",
+     "7",
+     "7",
+     "x",
+     "8",
+     "x"
+    ],
+    "desc": "Main Theme - whole chord",
+    "tab": [
+     "  e | 6",
+     "  B | 7",
+     "  G | 7",
+     "  D |",
+     "  A | 8",
+     "  E |"
+    ],
+    "orig_time": 13.333333333333334
+   },
+   {
+    "time": 10.53,
+    "chord": "Bar 6",
+    "shape": [
+     "x",
+     "x",
+     "7",
+     "x",
+     "5",
+     "x"
+    ],
+    "desc": "Main Theme - triplet rhythms",
+    "tab": [
+     "  e |",
+     "  B |",
+     "  G | 7 7 7 7 7",
+     "  D |",
+     "  A | 5 5",
+     "  E |"
+    ],
+    "orig_time": 16.666666666666668
+   },
+   {
+    "time": 12.57,
+    "chord": "Bar 7",
+    "shape": [
+     "x",
+     "6",
+     "x",
+     "x",
+     "5",
+     "x"
+    ],
+    "desc": "Main Theme - triplet rhythms",
+    "tab": [
+     "  e |",
+     "  B | 6 6 6 6 6",
+     "  G |",
+     "  D |",
+     "  A | 5",
+     "  E |"
+    ],
+    "orig_time": 20.0
+   },
+   {
+    "time": 14.61,
+    "chord": "Bar 8",
+    "shape": [
+     "5",
+     "x",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "Main Theme - triplet rhythms",
+    "tab": [
+     "  e | 5 5 5 5 5 5 5 5",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 23.333333333333336
+   },
+   {
+    "time": 16.65,
+    "chord": "Bar 9",
+    "shape": [
+     "5",
+     "x",
+     "x",
+     "x",
+     "4",
+     "x"
+    ],
+    "desc": "Main Theme - four triplets",
+    "tab": [
+     "  e | 5 5 5 5 5 5 5 5 5 5 5 5",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A | 4",
+     "  E |"
+    ],
+    "orig_time": 26.666666666666668
+   },
+   {
+    "time": 18.69,
+    "chord": "Bar 10",
+    "shape": [
+     "0",
+     "3",
+     "x",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "Verse - quarter dyad slurred to triplet, triplet 8ths, quarter, quarter",
+    "tab": [
+     "  e | 0 1 1",
+     "  B | 3 3",
+     "  G |",
+     "  D |",
+     "  A | 0",
+     "  E |"
+    ],
+    "orig_time": 30.0
+   },
+   {
+    "time": 20.729,
+    "chord": "Bar 11",
+    "shape": [
+     "0",
+     "x",
+     "x",
+     "x",
+     "2",
+     "x"
+    ],
+    "desc": "Verse - half dyad, half note",
+    "tab": [
+     "  e | 0 1",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A | 2",
+     "  E |"
+    ],
+    "orig_time": 33.333333333333336
+   },
+   {
+    "time": 22.769,
+    "chord": "Bar 12",
+    "shape": [
+     "1",
+     "4",
+     "3",
+     "1",
+     "x",
+     "x"
+    ],
+    "desc": "Verse - quarter dyad, triplet 8ths, quarter, quarter",
+    "tab": [
+     "  e | 1 3",
+     "  B | 4 4",
+     "  G | 3",
+     "  D | 1",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 36.66666666666667
+   },
+   {
+    "time": 24.809,
+    "chord": "Bar 13",
+    "shape": [
+     "x",
+     "3",
+     "x",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "Verse - whole dyad",
+    "tab": [
+     "  e |",
+     "  B | 3",
+     "  G |",
+     "  D |",
+     "  A | 0",
+     "  E |"
+    ],
+    "orig_time": 40.0
+   },
+   {
+    "time": 26.849,
+    "chord": "Bar 14",
+    "shape": [
+     "1",
+     "4",
+     "3",
+     "1",
+     "x",
+     "x"
+    ],
+    "desc": "Verse - quarter dyad + triplet + 2 quarters",
+    "tab": [
+     "  e | 1 3",
+     "  B | 4 4 4",
+     "  G | 3",
+     "  D | 1",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 43.333333333333336
+   },
+   {
+    "time": 28.889,
+    "chord": "Bar 15",
+    "shape": [
+     "6",
+     "8",
+     "x",
+     "x",
+     "x",
+     "6"
+    ],
+    "desc": "Verse - two half dyads",
+    "tab": [
+     "  e | 6",
+     "  B | 8",
+     "  G |",
+     "  D |",
+     "  A |",
+     "  E | 6"
+    ],
+    "orig_time": 46.66666666666667
+   },
+   {
+    "time": 30.929,
+    "chord": "Bar 16",
+    "shape": [
+     "x",
+     "4",
+     "5",
+     "6",
+     "4",
+     "x"
+    ],
+    "desc": "Verse - quarter dyad + triplet w/ hammer-on + 2 quarters",
+    "tab": [
+     "  e |",
+     "  B | 4",
+     "  G | 5 5 7 5",
+     "  D | 6",
+     "  A | 4",
+     "  E |"
+    ],
+    "orig_time": 50.0
+   },
+   {
+    "time": 32.969,
+    "chord": "Bar 17",
+    "shape": [
+     "x",
+     "2",
+     "x",
+     "2",
+     "2",
+     "0"
+    ],
+    "desc": "Verse - half chord + half note",
+    "tab": [
+     "  e |",
+     "  B | 2",
+     "  G |",
+     "  D | 2",
+     "  A | 2",
+     "  E | 0"
+    ],
+    "orig_time": 53.333333333333336
+   },
+   {
+    "time": 35.009,
+    "chord": "Bar 18",
+    "shape": [
+     "1",
+     "3",
+     "x",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "Strummed Triplet Shuffle - triplet shuffle",
+    "tab": [
+     "  e | 1 1 1",
+     "  B | 3 3 3 3 3 3",
+     "  G |",
+     "  D |",
+     "  A | 0",
+     "  E |"
+    ],
+    "orig_time": 56.66666666666667
+   },
+   {
+    "time": 37.049,
+    "chord": "Bar 19",
+    "shape": [
+     "x",
+     "3",
+     "3",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "Strummed Triplet Shuffle - triplet shuffle",
+    "tab": [
+     "  e |",
+     "  B | 3 3 3 3 3 3",
+     "  G | 3 3 3",
+     "  D |",
+     "  A | 0",
+     "  E |"
+    ],
+    "orig_time": 60.0
+   },
+   {
+    "time": 39.089,
+    "chord": "Bar 20",
+    "shape": [
+     "x",
+     "x",
+     "2",
+     "0",
+     "x",
+     "x"
+    ],
+    "desc": "Strummed Triplet Shuffle - triplet shuffle",
+    "tab": [
+     "  e |",
+     "  B |",
+     "  G | 2 2 2 2 2 2 3 3 3",
+     "  D | 0",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 63.333333333333336
+   },
+   {
+    "time": 41.129,
+    "chord": "Bar 21",
+    "shape": [
+     "0",
+     "x",
+     "0",
+     "0",
+     "x",
+     "x"
+    ],
+    "desc": "Strummed Triplet Shuffle - triplet shuffle",
+    "tab": [
+     "  e | 0 0 0",
+     "  B |",
+     "  G | 0 0 0 0 2 2",
+     "  D | 0 4",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 66.66666666666667
+   },
+   {
+    "time": 43.169,
+    "chord": "Bar 22",
+    "shape": [
+     "5",
+     "3",
+     "x",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "Bridge - two half dyads",
+    "tab": [
+     "  e | 5",
+     "  B | 3",
+     "  G |",
+     "  D |",
+     "  A | 0 0",
+     "  E |"
+    ],
+    "orig_time": 70.0
+   },
+   {
+    "time": 45.209,
+    "chord": "Bar 23",
+    "shape": [
+     "8",
+     "10",
+     "x",
+     "x",
+     "7",
+     "8"
+    ],
+    "desc": "Bridge - two half dyads",
+    "tab": [
+     "  e | 8",
+     "  B | 10",
+     "  G |",
+     "  D |",
+     "  A | 7",
+     "  E | 8"
+    ],
+    "orig_time": 73.33333333333334
+   },
+   {
+    "time": 47.249,
+    "chord": "Bar 24",
+    "shape": [
+     "6",
+     "8",
+     "x",
+     "x",
+     "6",
+     "x"
+    ],
+    "desc": "Bridge - quarter, quarter, dotted quarter, eighth",
+    "tab": [
+     "  e | 6 8",
+     "  B | 8",
+     "  G |",
+     "  D |",
+     "  A | 6",
+     "  E |"
+    ],
+    "orig_time": 76.66666666666667
+   },
+   {
+    "time": 49.289,
+    "chord": "Bar 25",
+    "shape": [
+     "6",
+     "8",
+     "x",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "Bridge - half dyad + quarter + quarter",
+    "tab": [
+     "  e | 6 5",
+     "  B | 8",
+     "  G |",
+     "  D |",
+     "  A | 0",
+     "  E |"
+    ],
+    "orig_time": 80.0
+   },
+   {
+    "time": 51.329,
+    "chord": "Bar 26",
+    "shape": [
+     "6",
+     "10",
+     "x",
+     "x",
+     "6",
+     "x"
+    ],
+    "desc": "Bridge - half dyad + 2 quarters",
+    "tab": [
+     "  e | 6",
+     "  B | 10 8",
+     "  G |",
+     "  D |",
+     "  A | 6",
+     "  E |"
+    ],
+    "orig_time": 83.33333333333334
+   },
+   {
+    "time": 53.369,
+    "chord": "Bar 27",
+    "shape": [
+     "6",
+     "x",
+     "0",
+     "x",
+     "6",
+     "6"
+    ],
+    "desc": "Bridge - half dyad + quarter dyad + quarter",
+    "tab": [
+     "  e | 6 8 6",
+     "  B |",
+     "  G | 0",
+     "  D |",
+     "  A | 6",
+     "  E | 6"
+    ],
+    "orig_time": 86.66666666666667
+   },
+   {
+    "time": 55.409,
+    "chord": "Bar 28",
+    "shape": [
+     "6",
+     "4",
+     "x",
+     "x",
+     "3",
+     "x"
+    ],
+    "desc": "Bridge - half dyad + half note",
+    "tab": [
+     "  e | 6",
+     "  B | 4",
+     "  G |",
+     "  D |",
+     "  A | 3",
+     "  E |"
+    ],
+    "orig_time": 90.0
+   },
+   {
+    "time": 57.449,
+    "chord": "Bar 29",
+    "shape": [
+     "x",
+     "x",
+     "5",
+     "4",
+     "3",
+     "x"
+    ],
+    "desc": "Bridge - two quarter triplets",
+    "tab": [
+     "  e |",
+     "  B |",
+     "  G | 5 8",
+     "  D | 4 7",
+     "  A | 3 6",
+     "  E |"
+    ],
+    "orig_time": 93.33333333333334
+   },
+   {
+    "time": 59.489,
+    "chord": "Bar 30",
+    "shape": [
+     "1",
+     "2",
+     "3",
+     "x",
+     "x",
+     "1"
+    ],
+    "desc": "Chorus - Two Flats - half chord; quarter; quarter",
+    "tab": [
+     "  e | 1 1 2",
+     "  B | 2",
+     "  G | 3",
+     "  D |",
+     "  A |",
+     "  E | 1"
+    ],
+    "orig_time": 96.66666666666667
+   },
+   {
+    "time": 61.528,
+    "chord": "Bar 31",
+    "shape": [
+     "1",
+     "1",
+     "2",
+     "x",
+     "x",
+     "0"
+    ],
+    "desc": "Chorus - Two Flats - half chord; quarter; quarter",
+    "tab": [
+     "  e | 1 1 2",
+     "  B | 1",
+     "  G | 2",
+     "  D |",
+     "  A |",
+     "  E | 0"
+    ],
+    "orig_time": 100.0
+   },
+   {
+    "time": 63.568,
+    "chord": "Bar 32",
+    "shape": [
+     "x",
+     "4",
+     "4",
+     "6",
+     "x",
+     "4"
+    ],
+    "desc": "Chorus - Two Flats - half chord; quarter; quarter",
+    "tab": [
+     "  e |",
+     "  B | 4 4 6",
+     "  G | 4",
+     "  D | 6",
+     "  A |",
+     "  E | 4"
+    ],
+    "orig_time": 103.33333333333334
+   },
+   {
+    "time": 65.608,
+    "chord": "Bar 33",
+    "shape": [
+     "x",
+     "6",
+     "7",
+     "8",
+     "8",
+     "6"
+    ],
+    "desc": "Chorus - Two Flats - half chord; half note",
+    "tab": [
+     "  e |",
+     "  B | 6",
+     "  G | 7",
+     "  D | 8",
+     "  A | 8",
+     "  E | 6"
+    ],
+    "orig_time": 106.66666666666667
+   },
+   {
+    "time": 67.648,
+    "chord": "Bar 34",
+    "shape": [
+     "x",
+     "4",
+     "4",
+     "6",
+     "x",
+     "4"
+    ],
+    "desc": "Chorus - Two Flats - half chord; quarter; quarter",
+    "tab": [
+     "  e |",
+     "  B | 4 4 6",
+     "  G | 4",
+     "  D | 6",
+     "  A |",
+     "  E | 4"
+    ],
+    "orig_time": 110.0
+   },
+   {
+    "time": 69.688,
+    "chord": "Bar 35",
+    "shape": [
+     "x",
+     "6",
+     "7",
+     "8",
+     "8",
+     "6"
+    ],
+    "desc": "Chorus - Two Flats - half chord; half note",
+    "tab": [
+     "  e |",
+     "  B | 6",
+     "  G | 7",
+     "  D | 8",
+     "  A | 8",
+     "  E | 6"
+    ],
+    "orig_time": 113.33333333333334
+   },
+   {
+    "time": 71.728,
+    "chord": "Bar 36",
+    "shape": [
+     "x",
+     "4",
+     "4",
+     "6",
+     "x",
+     "4"
+    ],
+    "desc": "Chorus - Two Flats - half chord; quarter; quarter",
+    "tab": [
+     "  e |",
+     "  B | 4 4 6",
+     "  G | 4",
+     "  D | 6",
+     "  A |",
+     "  E | 4"
+    ],
+    "orig_time": 116.66666666666667
+   },
+   {
+    "time": 73.768,
+    "chord": "Bar 37",
+    "shape": [
+     "0",
+     "2",
+     "2",
+     "2",
+     "0",
+     "x"
+    ],
+    "desc": "Chorus - Two Flats - half chord; quarter chord; quarter chord",
+    "tab": [
+     "  e | 0",
+     "  B | 2 2 2",
+     "  G | 2 2 2",
+     "  D | 2 2 2",
+     "  A | 0 4",
+     "  E |"
+    ],
+    "orig_time": 120.0
+   },
+   {
+    "time": 75.808,
+    "chord": "Bar 38",
+    "shape": [
+     "5",
+     "x",
+     "x",
+     "x",
+     "5",
+     "x"
+    ],
+    "desc": "Interlude - two half notes",
+    "tab": [
+     "  e | 5",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A | 5",
+     "  E |"
+    ],
+    "orig_time": 123.33333333333334
+   },
+   {
+    "time": 77.848,
+    "chord": "Bar 39",
+    "shape": [
+     "6",
+     "5",
+     "x",
+     "x",
+     "4",
+     "x"
+    ],
+    "desc": "Interlude - half dyad; half note",
+    "tab": [
+     "  e | 6",
+     "  B | 5",
+     "  G |",
+     "  D |",
+     "  A | 4",
+     "  E |"
+    ],
+    "orig_time": 126.66666666666667
+   },
+   {
+    "time": 79.888,
+    "chord": "Bar 40",
+    "shape": [
+     "x",
+     "5",
+     "6",
+     "x",
+     "4",
+     "x"
+    ],
+    "desc": "Interlude - half dyad; half note",
+    "tab": [
+     "  e |",
+     "  B | 5",
+     "  G | 6",
+     "  D |",
+     "  A | 4",
+     "  E |"
+    ],
+    "orig_time": 130.0
+   },
+   {
+    "time": 81.928,
+    "chord": "Bar 41",
+    "shape": [
+     "x",
+     "6",
+     "7",
+     "x",
+     "5",
+     "x"
+    ],
+    "desc": "Interlude - half dyad; half note",
+    "tab": [
+     "  e |",
+     "  B | 6",
+     "  G | 7",
+     "  D |",
+     "  A | 5",
+     "  E |"
+    ],
+    "orig_time": 133.33333333333334
+   },
+   {
+    "time": 83.968,
+    "chord": "Bar 42",
+    "shape": [
+     "5",
+     "x",
+     "x",
+     "x",
+     "5",
+     "x"
+    ],
+    "desc": "Interlude - half dyad; half note",
+    "tab": [
+     "  e | 5 5",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A | 5",
+     "  E |"
+    ],
+    "orig_time": 136.66666666666669
+   },
+   {
+    "time": 86.008,
+    "chord": "Bar 43",
+    "shape": [
+     "8",
+     "x",
+     "x",
+     "x",
+     "7",
+     "x"
+    ],
+    "desc": "Interlude - half dyad; half note",
+    "tab": [
+     "  e | 8 6",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A | 7",
+     "  E |"
+    ],
+    "orig_time": 140.0
+   },
+   {
+    "time": 88.048,
+    "chord": "Bar 44",
+    "shape": [
+     "x",
+     "5",
+     "6",
+     "x",
+     "7",
+     "x"
+    ],
+    "desc": "Interlude - half dyad; half note",
+    "tab": [
+     "  e |",
+     "  B | 5",
+     "  G | 6",
+     "  D |",
+     "  A | 7",
+     "  E |"
+    ],
+    "orig_time": 143.33333333333334
+   },
+   {
+    "time": 90.088,
+    "chord": "Bar 45",
+    "shape": [
+     "0",
+     "3",
+     "x",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "Verse Reprise - triplet; slur 0-1",
+    "tab": [
+     "  e | 0 1 1",
+     "  B | 3 3",
+     "  G |",
+     "  D |",
+     "  A | 0",
+     "  E |"
+    ],
+    "orig_time": 146.66666666666669
+   },
+   {
+    "time": 92.128,
+    "chord": "Bar 46",
+    "shape": [
+     "0",
+     "x",
+     "x",
+     "x",
+     "2",
+     "x"
+    ],
+    "desc": "Verse Reprise - two half notes",
+    "tab": [
+     "  e | 0 1",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A | 2",
+     "  E |"
+    ],
+    "orig_time": 150.0
+   },
+   {
+    "time": 94.168,
+    "chord": "Bar 47",
+    "shape": [
+     "1",
+     "4",
+     "3",
+     "1",
+     "x",
+     "x"
+    ],
+    "desc": "Verse Reprise - triplet; slur 1-3",
+    "tab": [
+     "  e | 1 3 4",
+     "  B | 4 4",
+     "  G | 3",
+     "  D | 1",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 153.33333333333334
+   },
+   {
+    "time": 96.208,
+    "chord": "Bar 48",
+    "shape": [
+     "x",
+     "3",
+     "2",
+     "x",
+     "0",
+     "x"
+    ],
+    "desc": "Verse Reprise - quarter; 8ths; half",
+    "tab": [
+     "  e |",
+     "  B | 3 3",
+     "  G | 2",
+     "  D |",
+     "  A | 0",
+     "  E |"
+    ],
+    "orig_time": 156.66666666666669
+   },
+   {
+    "time": 98.248,
+    "chord": "Bar 49",
+    "shape": [
+     "1",
+     "4",
+     "3",
+     "1",
+     "x",
+     "x"
+    ],
+    "desc": "Verse Reprise - triplet; slur 1-3",
+    "tab": [
+     "  e | 1 3 4",
+     "  B | 4 4",
+     "  G | 3",
+     "  D | 1",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 160.0
+   },
+   {
+    "time": 100.288,
+    "chord": "Bar 50",
+    "shape": [
+     "6",
+     "x",
+     "x",
+     "x",
+     "x",
+     "6"
+    ],
+    "desc": "Verse Reprise - half dyad; half note",
+    "tab": [
+     "  e | 6 8",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A |",
+     "  E | 6"
+    ],
+    "orig_time": 163.33333333333334
+   },
+   {
+    "time": 102.327,
+    "chord": "Bar 51",
+    "shape": [
+     "4",
+     "5",
+     "x",
+     "5",
+     "6",
+     "4"
+    ],
+    "desc": "Verse Reprise - triplet; H marked",
+    "tab": [
+     "  e | 4",
+     "  B | 5 5 5",
+     "  G |",
+     "  D | 5 7 5",
+     "  A | 6",
+     "  E | 4"
+    ],
+    "orig_time": 166.66666666666669
+   },
+   {
+    "time": 104.367,
+    "chord": "Bar 52",
+    "shape": [
+     "x",
+     "2",
+     "2",
+     "2",
+     "0",
+     "0"
+    ],
+    "desc": "Verse Reprise - four quarters",
+    "tab": [
+     "  e |",
+     "  B | 2",
+     "  G | 2",
+     "  D | 2 2",
+     "  A | 0 0 0 0",
+     "  E | 0 0 0 0"
+    ],
+    "orig_time": 170.0
+   },
+   {
+    "time": 106.407,
+    "chord": "Bar 53",
+    "shape": [
+     "1",
+     "x",
+     "x",
+     "3",
+     "0",
+     "x"
+    ],
+    "desc": "Outro - quarter-chord, quarter, quarter-chord, quarter",
+    "tab": [
+     "  e | 1 0",
+     "  B |",
+     "  G |",
+     "  D | 3 2",
+     "  A | 0 0 0 0",
+     "  E |"
+    ],
+    "orig_time": 173.33333333333334
+   },
+   {
+    "time": 108.447,
+    "chord": "Bar 54",
+    "shape": [
+     "1",
+     "3",
+     "2",
+     "0",
+     "x",
+     "x"
+    ],
+    "desc": "Outro - half chord, quarter, quarter",
+    "tab": [
+     "  e | 1",
+     "  B | 3 3",
+     "  G | 2",
+     "  D | 0 0",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 176.66666666666669
+   },
+   {
+    "time": 110.487,
+    "chord": "Bar 55",
+    "shape": [
+     "x",
+     "3",
+     "3",
+     "0",
+     "x",
+     "x"
+    ],
+    "desc": "Outro - half chord, quarter, quarter",
+    "tab": [
+     "  e |",
+     "  B | 3 3",
+     "  G | 3",
+     "  D | 0 0",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 180.0
+   },
+   {
+    "time": 112.527,
+    "chord": "Bar 56",
+    "shape": [
+     "x",
+     "2",
+     "0",
+     "x",
+     "x",
+     "x"
+    ],
+    "desc": "Outro - half chord, quarter, quarter",
+    "tab": [
+     "  e |",
+     "  B | 2 2 3",
+     "  G | 0 0",
+     "  D |",
+     "  A |",
+     "  E |"
+    ],
+    "orig_time": 183.33333333333334
+   },
+   {
+    "time": 114.567,
+    "chord": "Bar 57",
+    "shape": [
+     "x",
+     "2",
+     "0",
+     "x",
+     "x",
+     "3"
+    ],
+    "desc": "Outro - two triplets, 8th figures, bass",
+    "tab": [
+     "  e |",
+     "  B | 2 2 2 2",
+     "  G | 0 0 0 0",
+     "  D |",
+     "  A |",
+     "  E | 3"
+    ],
+    "orig_time": 186.66666666666669
+   },
+   {
+    "time": 116.607,
+    "chord": "Bar 58",
+    "shape": [
+     "0",
+     "x",
+     "x",
+     "x",
+     "4",
+     "x"
+    ],
+    "desc": "Outro - 8ths with triplets",
+    "tab": [
+     "  e | 0 0 0 0 6 6 6 6",
+     "  B |",
+     "  G |",
+     "  D |",
+     "  A | 4 7",
+     "  E |"
+    ],
+    "orig_time": 190.0
+   }
+  ],
+  "duration": 118.65,
+  "timing_info": {
+   "bpm": 117.65,
+   "beat_sec": 0.51,
+   "bar_sec": 2.0399,
+   "bar_start": 0.33,
+   "source": "Andy Hillier cover audio (user-provided)",
+   "source_file": "Doctor_Strange_Main_Theme_Guitar_Cover_by_Andy_Hillier__nBTm8xYnPnQ.mp3",
+   "note": "Tempo and bar positions from audio onset analysis. Within-bar rhythms from tab desc patterns."
+  },
+  "bpm": 117.65
+ }
+}

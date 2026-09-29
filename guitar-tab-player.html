@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<meta content="#09090e" name="theme-color"/>
+<meta content="dark" name="color-scheme"/>
+<title>Guitar Tab Player - Pro Practice Tool</title>
+<style data-purpose="compiled-tailwind">
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.\!container{width:100%!important}.container{width:100%}@media (min-width:640px){.\!container{max-width:640px!important}.container{max-width:640px}}@media (min-width:768px){.\!container{max-width:768px!important}.container{max-width:768px}}@media (min-width:1024px){.\!container{max-width:1024px!important}.container{max-width:1024px}}@media (min-width:1280px){.\!container{max-width:1280px!important}.container{max-width:1280px}}@media (min-width:1536px){.\!container{max-width:1536px!important}.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.visible{visibility:visible}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0}.bottom-0{bottom:0}.left-0{left:0}.top-0{top:0}.top-2{top:.5rem}.z-20{z-index:20}.z-30{z-index:30}.col-span-12{grid-column:span 12/span 12}.my-1{margin-top:.25rem;margin-bottom:.25rem}.my-2{margin-top:.5rem;margin-bottom:.5rem}.-ml-\[4\.5px\]{margin-left:-4.5px}.-mt-0\.5{margin-top:-.125rem}.mb-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-4{margin-bottom:1rem}.ml-0\.5{margin-left:.125rem}.mr-1{margin-right:.25rem}.mt-1{margin-top:.25rem}.mt-3{margin-top:.75rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1\.5{height:.375rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-2{height:.5rem}.h-2\.5{height:.625rem}.h-3{height:.75rem}.h-3\.5{height:.875rem}.h-4{height:1rem}.h-44{height:11rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-\[224px\]{height:224px}.min-h-\[190px\]{min-height:190px}.min-h-screen{min-height:100vh}.w-1\.5{width:.375rem}.w-12{width:3rem}.w-2{width:.5rem}.w-2\.5{width:.625rem}.w-3{width:.75rem}.w-3\.5{width:.875rem}.w-4{width:1rem}.w-40{width:10rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-\[3px\]{width:3px}.w-full{width:100%}.min-w-0{min-width:0}.max-w-\[34ch\]{max-width:34ch}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes ping{75%,to{transform:scale(2);opacity:0}}.animate-ping{animation:ping 1s cubic-bezier(0,0,.2,1) infinite}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;-moz-user-select:none;user-select:none}.select-text{-webkit-user-select:text;-moz-user-select:text;user-select:text}.grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.25rem*var(--tw-space-x-reverse));margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)))}.space-x-1\.5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.375rem*var(--tw-space-x-reverse));margin-left:calc(.375rem*(1 - var(--tw-space-x-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem*var(--tw-space-x-reverse));margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.truncate{overflow:hidden;text-overflow:ellipsis}.truncate,.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:.25rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-\[\#161725\]{--tw-border-opacity:1;border-color:rgb(22 23 37/var(--tw-border-opacity,1))}.border-\[\#1a1b28\]{--tw-border-opacity:1;border-color:rgb(26 27 40/var(--tw-border-opacity,1))}.border-\[\#1a1c2b\]{--tw-border-opacity:1;border-color:rgb(26 28 43/var(--tw-border-opacity,1))}.border-\[\#1b1d2c\]{--tw-border-opacity:1;border-color:rgb(27 29 44/var(--tw-border-opacity,1))}.border-\[\#1c1d29\]{--tw-border-opacity:1;border-color:rgb(28 29 41/var(--tw-border-opacity,1))}.border-\[\#1c1d2b\]{--tw-border-opacity:1;border-color:rgb(28 29 43/var(--tw-border-opacity,1))}.border-\[\#1d1f2e\]{--tw-border-opacity:1;border-color:rgb(29 31 46/var(--tw-border-opacity,1))}.border-\[\#1d1f2f\]{--tw-border-opacity:1;border-color:rgb(29 31 47/var(--tw-border-opacity,1))}.border-\[\#1f2133\]{--tw-border-opacity:1;border-color:rgb(31 33 51/var(--tw-border-opacity,1))}.border-\[\#1f2134\]{--tw-border-opacity:1;border-color:rgb(31 33 52/var(--tw-border-opacity,1))}.border-\[\#202234\]{--tw-border-opacity:1;border-color:rgb(32 34 52/var(--tw-border-opacity,1))}.border-\[\#222436\]{--tw-border-opacity:1;border-color:rgb(34 36 54/var(--tw-border-opacity,1))}.border-\[\#222538\]{--tw-border-opacity:1;border-color:rgb(34 37 56/var(--tw-border-opacity,1))}.border-\[\#272a3f\]{--tw-border-opacity:1;border-color:rgb(39 42 63/var(--tw-border-opacity,1))}.border-amber-700\/50{border-color:rgba(180,83,9,.5)}.border-cyan-400{--tw-border-opacity:1;border-color:rgb(34 211 238/var(--tw-border-opacity,1))}.border-cyan-500\/30{border-color:rgba(6,182,212,.3)}.border-cyan-500\/40{border-color:rgba(6,182,212,.4)}.border-emerald-800\/40{border-color:rgba(6,95,70,.4)}.border-purple-500\/40{border-color:rgba(168,85,247,.4)}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85/var(--tw-border-opacity,1))}.border-transparent{border-color:transparent}.bg-\[\#0a0a0f\]{--tw-bg-opacity:1;background-color:rgb(10 10 15/var(--tw-bg-opacity,1))}.bg-\[\#0a0a10\]{--tw-bg-opacity:1;background-color:rgb(10 10 16/var(--tw-bg-opacity,1))}.bg-\[\#0b0c13\]{--tw-bg-opacity:1;background-color:rgb(11 12 19/var(--tw-bg-opacity,1))}.bg-\[\#0d0e15\]{--tw-bg-opacity:1;background-color:rgb(13 14 21/var(--tw-bg-opacity,1))}.bg-\[\#0d0e16\]{--tw-bg-opacity:1;background-color:rgb(13 14 22/var(--tw-bg-opacity,1))}.bg-\[\#0e0f17\]{--tw-bg-opacity:1;background-color:rgb(14 15 23/var(--tw-bg-opacity,1))}.bg-\[\#0f1019\]{--tw-bg-opacity:1;background-color:rgb(15 16 25/var(--tw-bg-opacity,1))}.bg-\[\#12131d\]{--tw-bg-opacity:1;background-color:rgb(18 19 29/var(--tw-bg-opacity,1))}.bg-\[\#12131f\]{--tw-bg-opacity:1;background-color:rgb(18 19 31/var(--tw-bg-opacity,1))}.bg-\[\#131420\]{--tw-bg-opacity:1;background-color:rgb(19 20 32/var(--tw-bg-opacity,1))}.bg-\[\#141521\]{--tw-bg-opacity:1;background-color:rgb(20 21 33/var(--tw-bg-opacity,1))}.bg-\[\#151724\]{--tw-bg-opacity:1;background-color:rgb(21 23 36/var(--tw-bg-opacity,1))}.bg-\[\#161724\]{--tw-bg-opacity:1;background-color:rgb(22 23 36/var(--tw-bg-opacity,1))}.bg-\[\#161827\]{--tw-bg-opacity:1;background-color:rgb(22 24 39/var(--tw-bg-opacity,1))}.bg-\[\#181926\]{--tw-bg-opacity:1;background-color:rgb(24 25 38/var(--tw-bg-opacity,1))}.bg-\[\#1b1d2c\]{--tw-bg-opacity:1;background-color:rgb(27 29 44/var(--tw-bg-opacity,1))}.bg-amber-950\/40{background-color:rgba(69,26,3,.4)}.bg-current{background-color:currentColor}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity,1))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity,1))}.bg-cyan-950\/60{background-color:rgba(8,51,68,.6)}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity,1))}.bg-emerald-950\/40{background-color:rgba(2,44,34,.4)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85/var(--tw-bg-opacity,1))}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.pb-2{padding-bottom:.5rem}.pb-3{padding-bottom:.75rem}.pt-1{padding-top:.25rem}.pt-2{padding-top:.5rem}.pt-2\.5{padding-top:.625rem}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.font-sans{font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-widest{letter-spacing:.1em}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77/var(--tw-text-opacity,1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36/var(--tw-text-opacity,1))}.text-cyan-300{--tw-text-opacity:1;color:rgb(103 232 249/var(--tw-text-opacity,1))}.text-cyan-400{--tw-text-opacity:1;color:rgb(34 211 238/var(--tw-text-opacity,1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153/var(--tw-text-opacity,1))}.text-purple-300{--tw-text-opacity:1;color:rgb(216 180 254/var(--tw-text-opacity,1))}.text-slate-100{--tw-text-opacity:1;color:rgb(241 245 249/var(--tw-text-opacity,1))}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240/var(--tw-text-opacity,1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225/var(--tw-text-opacity,1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity,1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity,1))}.text-slate-950{--tw-text-opacity:1;color:rgb(2 6 23/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:.2}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgba(0,0,0,.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color)}.shadow-2xl,.shadow-\[0_0_12px_\#d49a4a\]{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-\[0_0_12px_\#d49a4a\]{--tw-shadow:0 0 12px #d49a4a;--tw-shadow-colored:0 0 12px var(--tw-shadow-color)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-lg,.shadow-md{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.shadow-sm,.shadow-xl{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color)}.outline{outline-style:solid}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.selection\:bg-cyan-500\/20 ::-moz-selection{background-color:rgba(6,182,212,.2)}.selection\:bg-cyan-500\/20 ::selection{background-color:rgba(6,182,212,.2)}.selection\:text-cyan-300 ::-moz-selection{--tw-text-opacity:1;color:rgb(103 232 249/var(--tw-text-opacity,1))}.selection\:text-cyan-300 ::selection{--tw-text-opacity:1;color:rgb(103 232 249/var(--tw-text-opacity,1))}.selection\:bg-cyan-500\/20::-moz-selection{background-color:rgba(6,182,212,.2)}.selection\:bg-cyan-500\/20::selection{background-color:rgba(6,182,212,.2)}.selection\:text-cyan-300::-moz-selection{--tw-text-opacity:1;color:rgb(103 232 249/var(--tw-text-opacity,1))}.selection\:text-cyan-300::selection{--tw-text-opacity:1;color:rgb(103 232 249/var(--tw-text-opacity,1))}.hover\:-translate-y-0\.5:hover{--tw-translate-y:-0.125rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-\[\#141522\]:hover{--tw-bg-opacity:1;background-color:rgb(20 21 34/var(--tw-bg-opacity,1))}.hover\:bg-\[\#181a29\]:hover{--tw-bg-opacity:1;background-color:rgb(24 26 41/var(--tw-bg-opacity,1))}.hover\:bg-cyan-300:hover{--tw-bg-opacity:1;background-color:rgb(103 232 249/var(--tw-bg-opacity,1))}.hover\:text-red-400:hover{--tw-text-opacity:1;color:rgb(248 113 113/var(--tw-text-opacity,1))}.hover\:text-slate-100:hover{--tw-text-opacity:1;color:rgb(241 245 249/var(--tw-text-opacity,1))}.hover\:text-slate-200:hover{--tw-text-opacity:1;color:rgb(226 232 240/var(--tw-text-opacity,1))}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@media (min-width:1024px){.lg\:col-span-4{grid-column:span 4/span 4}.lg\:col-span-8{grid-column:span 8/span 8}}
+</style>
+<!-- Global Custom Styles -->
+<style data-purpose="custom-styling">
+    /* Subtle custom scrollbar */
+    ::-webkit-scrollbar {
+      height: 6px;
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #09090e;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1f2233;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #2d324d;
+    }
+    
+    /* Neon Halo Glows */
+    .glow-cyan {
+      box-shadow: 0 0 16px -2px rgba(212, 154, 74, 0.32);
+    }
+    .glow-emerald {
+      box-shadow: 0 0 16px -2px rgba(184, 107, 63, 0.3);
+    }
+    .glow-purple {
+      box-shadow: 0 0 16px -2px rgba(232, 187, 114, 0.3);
+    }
+    .glow-amber {
+      box-shadow: 0 0 12px -2px rgba(245, 158, 11, 0.35);
+    }
+    .tab-cursor-glow {
+      box-shadow: 0 0 20px rgba(212, 154, 74, 0.22), inset 0 0 12px rgba(212, 154, 74, 0.16);
+    }
+
+    html { color-scheme: dark; background: #09090e; }
+    body { min-width: 0; overflow-x: hidden; }
+    button:focus-visible { outline: 2px solid #d49a4a; outline-offset: 2px; }
+    [data-purpose="guitar-neck"] svg text { font-family: "JetBrains Mono", ui-monospace, monospace; }
+    .tab-content { max-height: none; overflow: visible; }
+    .tab-section { border-left: 3px solid transparent; transition: background .2s ease, border-color .2s ease; }
+    .view-toolbar { background: #1b120e; border-bottom: 1px solid #493224; }
+    .view-toggle { min-height: 34px; color: var(--muted-warm); border: 1px solid #5b402c; background: #251913; transition: color .2s ease, background .2s ease, border-color .2s ease; }
+    .view-toggle[aria-pressed="true"] { color: var(--cream); background: #49301f; border-color: #a8773e; box-shadow: inset 0 1px rgba(255,239,208,.08); }
+    .view-toggle-mark { width: 7px; height: 7px; border-radius: 50%; background: #6f5137; }
+    .view-toggle[aria-pressed="true"] .view-toggle-mark { background: var(--brass); }
+    [data-panel][hidden] { display: none !important; }
+    [data-purpose="workspace"] { grid-template-columns: repeat(12, minmax(0, 1fr)); align-items: stretch; }
+    @media (min-width: 1024px) {
+      [data-purpose="fretboard-column"] { grid-column: span 7 / span 7; }
+      [data-purpose="chord-diagram-column"] { grid-column: span 5 / span 5; }
+    }
+    .chord-panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .chord-card { min-width: 0; }
+    .chord-card svg { width: min(100%, 160px); }
+    .chord-library-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+    .library-chord { background: #ead8b4; border: 1px solid #bd9865; color: var(--ink); }
+    .library-chord svg { width: 120px; height: 150px; margin-inline: auto; }
+    [data-purpose="tablature-reader"]:fullscreen,
+    [data-purpose="tablature-reader"].is-fullscreen-fallback { background: var(--studio-black); padding: 12px; height: 100vh; width: 100vw; overflow: hidden; z-index: 1000; }
+    [data-purpose="tablature-reader"].is-fullscreen-fallback { position: fixed; inset: 0; }
+    [data-purpose="tablature-reader"]:fullscreen > div,
+    [data-purpose="tablature-reader"].is-fullscreen-fallback > div { height: 100%; }
+    [data-purpose="tablature-reader"]:fullscreen .tab-content,
+    [data-purpose="tablature-reader"].is-fullscreen-fallback .tab-content { flex: 1; min-height: 0; max-height: none; overflow-y: auto; }
+    body.tab-fullscreen-fallback { overflow: hidden; }
+    [data-chord-markers] > div { transform: translateX(-50%); }
+    @media (max-width: 900px) {
+      header[data-purpose="app-header"] { flex-wrap: wrap; align-items: stretch; }
+      header [data-purpose="song-selector"] { order: 1; justify-content: flex-start; width: 100%; flex-wrap: wrap; overflow: visible; }
+      .header-shortcuts { display: none; }
+      [data-purpose="workspace"] { overflow: visible; }
+      [data-purpose="daw-transport-bar"] > div { flex-wrap: wrap; gap: 10px; justify-content: center; }
+      [data-purpose="daw-transport-bar"] > div > div:first-child { order: 2; width: 100%; justify-content: center; }
+      .transport-hint { display: none; }
+    }
+    @media (max-width: 640px) {
+      header[data-purpose="app-header"] { padding: 8px; }
+      .song-choice { flex: 1 1 46%; min-width: 0; min-height: 44px; justify-content: center; }
+      [data-purpose="workspace"] { padding: 8px; gap: 8px; }
+      [data-purpose="fretboard-column"] { padding: 10px; }
+      [data-purpose="fretboard-column"] > div:first-child { align-items: flex-start; gap: 8px; }
+      [data-purpose="fretboard-column"] > div:first-child > div:first-child { flex-wrap: wrap; }
+      [data-sounding-pitches] { max-width: 42%; }
+      [data-purpose="guitar-neck"] { min-height: 190px !important; }
+      [data-fretboard] { height: 180px; }
+      .fret-legend { align-items: flex-start; flex-direction: column; }
+      [data-purpose="timeline-scrubber"] { padding-inline: 8px; }
+      [data-purpose="timeline-scrubber"] > div > div:first-child { align-items: flex-start; gap: 6px; }
+      [data-purpose="daw-transport-bar"] { padding-inline: 8px; }
+      [data-purpose="daw-transport-bar"] > div { padding: 10px; }
+      [data-purpose="daw-transport-bar"] > div > div:first-child { overflow-x: auto; justify-content: flex-start; }
+      [data-purpose="tablature-reader"] { padding: 4px 8px 12px; }
+      [data-purpose="tablature-reader"] > div > div:first-child { flex-direction: column; align-items: flex-start; gap: 8px; }
+      [data-purpose="tablature-reader"] > div > div:first-child > div:last-child { display: none; }
+      .tab-content { max-height: none; overflow: visible; }
+      .tab-content pre { font-size: 10px; white-space: pre; overflow-x: auto; }
+      .view-toolbar { padding-inline: 8px; }
+      .view-toolbar > div { align-items: flex-start; }
+      .view-toolbar .view-controls { width: 100%; }
+      .chord-panels { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .chord-card { padding: 10px !important; }
+      .chord-card [data-chord-time] { font-size: 9px; padding-inline: 4px; }
+      .chord-library-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      [data-purpose="tablature-reader"]:fullscreen,
+      [data-purpose="tablature-reader"].is-fullscreen-fallback { padding: 6px; }
+      [data-purpose="tablature-reader"]:fullscreen > div > div:first-child,
+      [data-purpose="tablature-reader"].is-fullscreen-fallback > div > div:first-child { display: flex; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+
+    /* Warm acoustic studio theme */
+    :root {
+      --studio-black: #17110d;
+      --studio-deep: #211712;
+      --studio-panel: #2b1e17;
+      --studio-raised: #34251c;
+      --walnut: #513421;
+      --walnut-light: #745033;
+      --brass: #d49a4a;
+      --copper: #b86b3f;
+      --honey: #e8bb72;
+      --paper: #f0dfbd;
+      --paper-deep: #dcc394;
+      --ink: #342318;
+      --cream: #f6e8cc;
+      --muted-warm: #bda98f;
+      --line-warm: #6e5945;
+    }
+    html, body { background: var(--studio-black) !important; color: var(--cream) !important; }
+    body {
+      font-family: "Avenir Next", "Segoe UI", sans-serif !important;
+      background-image: radial-gradient(circle at 48% -20%, rgba(151,91,39,.18), transparent 42%) !important;
+    }
+    h1, h2, [data-chord-name], .song-choice { font-family: Georgia, "Times New Roman", serif !important; }
+    header[data-purpose="app-header"] { background: #1b120e !important; border-color: #493224 !important; }
+    .song-choice { color: var(--muted-warm) !important; background: transparent !important; border-color: transparent !important; }
+    .song-choice[aria-current="true"] { color: var(--cream) !important; background: #38261b !important; border-color: #9b6a37 !important; box-shadow: inset 0 1px rgba(255,239,208,.08), 0 4px 14px rgba(0,0,0,.22) !important; }
+    .song-dot { background: #72553a !important; }
+    .song-choice[aria-current="true"] .song-dot { background: var(--brass) !important; }
+    [data-purpose="workspace"] > section,
+    [data-purpose="timeline-scrubber"] > div,
+    [data-purpose="daw-transport-bar"] > div,
+    [data-purpose="tablature-reader"] > div,
+    [data-purpose="chord-diagram-column"] > div {
+      background: linear-gradient(145deg, #2c1f18, #211713) !important;
+      border-color: #513a2a !important;
+      box-shadow: 0 14px 34px rgba(0,0,0,.24) !important;
+    }
+    [data-purpose="guitar-neck"] {
+      background:
+        repeating-linear-gradient(4deg, rgba(255,221,165,.025) 0 1px, transparent 1px 7px),
+        linear-gradient(90deg, #3b2417, #67462d 48%, #3d281c) !important;
+      border-color: #765436 !important;
+      box-shadow: inset 0 8px 18px rgba(0,0,0,.38), inset 0 -3px rgba(226,177,103,.08) !important;
+    }
+    [data-purpose="chord-diagram-column"] [class*="bg-[#131420]"] { background: var(--paper) !important; border-color: #b6905b !important; color: var(--ink) !important; }
+    [data-purpose="up-next-preview"], [data-purpose="fretboard-column"] { color: var(--cream) !important; }
+    [data-purpose="timeline-scrubber"] [data-scrubber], .timeline-track {
+      height: 80px !important;
+      min-height: 80px !important;
+      background: linear-gradient(180deg, #39261b, #21150f) !important;
+      border-color: #715036 !important;
+      box-shadow: inset 0 5px 18px rgba(0,0,0,.4) !important;
+    }
+    [data-chord-markers] button span { background: #4b3425 !important; border-color: #987047 !important; color: var(--cream) !important; box-shadow: 0 2px 5px rgba(0,0,0,.35) !important; }
+    [data-playhead] { background: var(--brass) !important; box-shadow: 0 0 7px rgba(212,154,74,.65) !important; }
+    [data-playhead] > div { background: var(--honey) !important; }
+    [data-play-btn] { background: linear-gradient(#e7bb72, #bd7d37) !important; color: #2d1b0d !important; box-shadow: inset 0 1px #ffe8ba, 0 6px 16px rgba(0,0,0,.32) !important; }
+    .pause-control { background: #49301f !important; border: 1px solid #a8773e !important; color: var(--cream) !important; box-shadow: inset 0 1px rgba(255,239,208,.1), 0 4px 12px rgba(0,0,0,.24) !important; }
+    .pause-control[aria-pressed="true"] { background: #704b2c !important; border-color: var(--honey) !important; }
+    .audio-status { display: inline-flex; align-items: center; gap: 6px; min-height: 28px; padding: 4px 8px; border: 1px solid #513a2a; border-radius: 5px; background: #211712; color: var(--muted-warm); white-space: nowrap; }
+    .audio-status-dot { width: 7px; height: 7px; border-radius: 50%; background: #8a735d; box-shadow: 0 0 0 2px rgba(138,115,93,.14); }
+    .audio-status[data-state="ready"] .audio-status-dot { background: #d49a4a; box-shadow: 0 0 0 2px rgba(212,154,74,.16); }
+    .audio-status[data-state="playing"] { color: var(--cream); border-color: #a8773e; }
+    .audio-status[data-state="playing"] .audio-status-dot { background: #79c88d; box-shadow: 0 0 0 2px rgba(121,200,141,.18); }
+    .audio-status[data-state="blocked"] { color: #ffd0b5; border-color: #a45237; }
+    .audio-status[data-state="blocked"] .audio-status-dot { background: #e17b56; box-shadow: 0 0 0 2px rgba(225,123,86,.18); }
+    [data-speed].bg-cyan-500, [data-speed][aria-pressed="true"] { background: var(--brass) !important; color: #2b190e !important; }
+    [class*="text-cyan"], [class*="text-emerald"], [class*="text-indigo"] { color: var(--honey) !important; }
+    [class*="border-cyan"], [class*="border-emerald"], [class*="border-indigo"] { border-color: #8d643d !important; }
+    [class*="bg-cyan"], [class*="bg-emerald"], [class*="bg-indigo"] { background-color: #6f4b2f !important; }
+    [class*="bg-slate"], [class*="bg-[#0"], [class*="bg-[#1"] { border-color: #513a2a; }
+    .glow-cyan, .glow-emerald, .glow-purple, .glow-amber, .tab-cursor-glow { box-shadow: none !important; }
+    .text-white, .text-slate-100, .text-slate-200, .text-slate-300 { color: var(--cream) !important; }
+    .text-slate-400 { color: var(--muted-warm) !important; }
+    .text-slate-500, .text-slate-600 { color: #967f68 !important; }
+    [data-purpose="tablature-reader"] > div { background: #2a1d16 !important; }
+    .tab-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+      align-items: stretch;
+      max-height: none;
+      overflow: visible;
+      padding: 14px !important;
+      background: #ead8b4 !important;
+      border-color: #bd9865 !important;
+      color: var(--ink) !important;
+      box-shadow: inset 0 0 28px rgba(107,70,35,.14) !important;
+    }
+    .tab-section { position: relative; min-width: 0; margin: 0 !important; padding: 8px 7px 10px !important; border-left: 3px solid transparent; border-right: 1px solid rgba(87,57,31,.18); border-bottom: 1px solid rgba(87,57,31,.18); border-radius: 0; color: var(--ink) !important; }
+    .tab-section.is-current, .tab-section[data-active="true"] { background: rgba(188,126,56,.14) !important; border-left-color: var(--copper) !important; }
+    .tab-section-header { display: flex; align-items: center; gap: 6px; min-height: 29px; padding: 0 2px 5px; }
+    .tab-chord-box { flex: 0 0 auto; padding: 2px 7px; border: 1px solid #a97843; border-radius: 3px; background: #f5e7c9; color: #743d20 !important; font-family: Georgia, serif !important; font-size: 14px !important; line-height: 20px; box-shadow: inset 0 1px rgba(255,255,255,.55); }
+    .tab-section-time { color: #715a43 !important; }
+    .tab-section-desc { height: 18px; padding: 0 2px 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #715a43 !important; }
+    .tab-staff { position: relative; display: grid; grid-template-rows: repeat(6, 25px); padding: 6px 3px; margin-top: 3px; background: rgba(255,247,225,.36); border: 1px solid rgba(100,69,40,.25); overflow: hidden; }
+    .tab-string { position: relative; min-width: 0; }
+    .tab-string-label { position: absolute; left: 0; top: 5px; width: 18px; font: 700 11px ui-monospace, monospace; color: #5a3c27; }
+    .tab-string-track { position: absolute; left: 23px; right: 3px; top: 12px; height: 1px; background: #6a4a34; }
+    .tab-fret { position: absolute; top: 3px; min-width: 13px; padding: 0 2px; transform: translateX(-50%); background: #f0dfbd; color: #3b2617; font: 700 11px/18px ui-monospace, monospace; text-align: center; }
+    .tab-section-playhead { position: absolute; z-index: 3; top: 6px; bottom: 6px; left: 23px; width: 2px; background: #b86b3f; box-shadow: 0 0 0 1px rgba(255,242,211,.45); opacity: 0; pointer-events: none; }
+    .tab-section[data-active="true"] .tab-section-playhead { opacity: 1; }
+    .tab-content pre { display: none !important; }
+    :focus-visible { outline-color: var(--brass) !important; }
+    @media (max-width: 640px) {
+      .tab-content { grid-template-columns: minmax(0, 1fr); padding: 8px !important; }
+      .tab-section { padding-inline: 7px !important; }
+      .tab-staff { padding-inline: 4px; }
+      .tab-fret { font-size: 10px; }
+    }
+  </style>
+</head>
+<body class="bg-[#0a0a0f] text-slate-200 font-sans min-h-screen antialiased flex flex-col selection:bg-cyan-500/20 selection:text-cyan-300">
+<!-- BEGIN: TopHeader -->
+<header class="w-full bg-[#0d0e15] border-b border-[#1c1d29] px-4 py-2 flex items-center justify-between gap-4 select-none shrink-0" data-purpose="app-header">
+<!-- Loaded song and Tab Library picker -->
+<div class="flex flex-1 items-center justify-between gap-4 flex-wrap" data-purpose="song-selector">
+<div class="min-w-0">
+<div class="text-[10px] font-mono tracking-widest uppercase text-slate-500">Now loaded</div>
+<div data-header-song-title class="font-bold text-base text-white truncate">Daredevil Main Title</div>
+</div>
+<label class="flex items-center gap-2 rounded-lg border border-[#5b402c] bg-[#251913] px-3 py-2 text-xs">
+<span class="font-semibold text-amber-300">Tab Library</span>
+<select data-song-library class="bg-transparent text-slate-200 outline-none cursor-pointer" aria-label="Choose a song from the tab library">
+<option value="daredevil">Daredevil Main Title</option>
+<option value="odyssey">The Odyssey Main Theme</option>
+<option value="doctorstrange">Doctor Strange Main Theme</option>
+</select>
+</label>
+</div>
+<div class="header-shortcuts shrink-0 text-[10px] font-mono text-slate-500">SPACE Play/Pause · ALT + ←/→ Chord</div>
+</header>
+<!-- END: TopHeader -->
+<!-- BEGIN: SongInfo -->
+<section class="song-info-bar w-full px-3 py-2" aria-label="Loaded song information">
+<div class="flex items-center gap-2 flex-wrap rounded-xl border border-[#513a2a] bg-[#2b1e17] px-3 py-2 shadow-lg">
+<span data-info-title class="font-bold text-sm text-white mr-2">Daredevil Main Title</span>
+<span class="text-[11px] text-slate-400">Key <strong data-info-key class="text-slate-200"></strong></span>
+<span class="text-[11px] text-slate-400">Tempo <strong data-info-bpm class="text-slate-200"></strong></span>
+<span class="text-[11px] text-slate-400">Tuning <strong data-info-tuning class="text-slate-200"></strong></span>
+<span class="text-[11px] text-slate-400">Capo <strong data-info-capo class="text-slate-200"></strong></span>
+<span class="text-[11px] text-slate-400">Time <strong data-info-meter class="text-slate-200">4/4</strong></span>
+<span class="text-[11px] text-slate-400">Duration <strong data-info-duration class="text-slate-200"></strong></span>
+</div>
+</section>
+<!-- END: SongInfo -->
+<!-- BEGIN: ViewOptions -->
+<section class="view-toolbar w-full px-3 py-2 select-none" aria-label="Panel visibility options">
+<div class="flex items-center gap-3 flex-wrap">
+<span class="text-[10px] font-mono tracking-widest uppercase text-slate-400">Show panels</span>
+<div class="view-controls flex items-center gap-1.5 flex-wrap">
+<button type="button" class="view-toggle flex items-center gap-1.5 rounded px-2.5 py-1 text-[11px]" data-panel-toggle="fretboard" aria-pressed="true"><i class="view-toggle-mark"></i>Fretboard</button>
+<button type="button" class="view-toggle flex items-center gap-1.5 rounded px-2.5 py-1 text-[11px]" data-panel-toggle="current" aria-pressed="true"><i class="view-toggle-mark"></i>Current chord</button>
+<button type="button" class="view-toggle flex items-center gap-1.5 rounded px-2.5 py-1 text-[11px]" data-panel-toggle="upnext" aria-pressed="true"><i class="view-toggle-mark"></i>Up next</button>
+<button type="button" class="view-toggle flex items-center gap-1.5 rounded px-2.5 py-1 text-[11px]" data-panel-toggle="timeline" aria-pressed="true"><i class="view-toggle-mark"></i>Timeline</button>
+<button type="button" class="view-toggle flex items-center gap-1.5 rounded px-2.5 py-1 text-[11px]" data-panel-toggle="library" aria-pressed="true"><i class="view-toggle-mark"></i>Chord library</button>
+<button type="button" class="view-toggle flex items-center gap-1.5 rounded px-2.5 py-1 text-[11px]" data-panel-toggle="tablature" aria-pressed="true"><i class="view-toggle-mark"></i>Tablature</button>
+</div>
+</div>
+</section>
+<!-- END: ViewOptions -->
+<!-- BEGIN: MainPracticeWorkspace -->
+<main class="flex-1 w-full p-3 grid grid-cols-12 gap-3 overflow-hidden" data-purpose="workspace">
+<!-- LEFT COLUMN: Live Fretboard Visualizer (~70% = 8 cols on xl/lg) -->
+<section class="col-span-12 lg:col-span-8 bg-[#0f1019] border border-[#1d1f2f] rounded-xl p-3.5 flex flex-col justify-between shadow-xl relative overflow-hidden" data-purpose="fretboard-column" data-panel="fretboard">
+<!-- Header bar inside fretboard card -->
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center space-x-3">
+<div class="flex items-center space-x-2">
+<svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<rect height="12" rx="2" stroke-width="2" width="20" x="2" y="6"></rect>
+<path d="M6 6v12M10 6v12M14 6v12M18 6v12" stroke-width="2"></path>
+</svg>
+<h2 class="font-semibold text-sm text-slate-100 tracking-wide">Live Fretboard Visualizer</h2>
+<span data-song-title class="text-[11px] text-slate-500 truncate max-w-[34ch]"></span>
+</div>
+<span class="text-[11px] font-mono text-slate-400 bg-[#151724] px-2 py-0.5 rounded border border-[#222538]">16 FRETS</span>
+<div class="flex items-center space-x-1.5 text-[11px] font-mono text-emerald-400 bg-emerald-950/40 border border-emerald-800/40 px-2 py-0.5 rounded">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+<span>PLAYBACK TRACKING</span>
+</div>
+</div>
+<!-- Sounding Pitches Chips -->
+<div data-sounding-pitches class="flex items-center flex-wrap justify-end gap-1 text-[11px] font-mono">
+<span class="text-slate-500 mr-1 text-[10px]">SOUNDING PITCHES:</span>
+<span class="px-1.5 py-0.5 rounded bg-[#181926] border border-cyan-500/30 text-cyan-300 font-bold">E2</span>
+<span class="px-1.5 py-0.5 rounded bg-[#181926] border border-cyan-500/30 text-cyan-300 font-bold">B2</span>
+<span class="px-1.5 py-0.5 rounded bg-[#181926] border border-cyan-500/30 text-cyan-300 font-bold">E3</span>
+<span class="px-1.5 py-0.5 rounded bg-[#181926] border border-cyan-500/30 text-cyan-300 font-bold">G3</span>
+<span class="px-1.5 py-0.5 rounded bg-[#181926] border border-cyan-500/30 text-cyan-300 font-bold">B3</span>
+<span class="px-1.5 py-0.5 rounded bg-[#181926] border border-purple-500/40 text-purple-300 font-bold">F#4</span>
+</div>
+</div>
+<!-- Live fretboard -->
+<div class="relative w-full bg-[#12131d] rounded-lg border border-[#202234] p-2 my-1 select-none overflow-hidden" data-purpose="guitar-neck" style="min-height: 240px;">
+<svg data-fretboard class="block w-full h-[224px]" viewBox="0 0 1060 224" role="img" aria-label="Live six-string guitar fretboard showing notes at their played frets"></svg>
+</div>
+<!-- Fretboard legend -->
+<div class="fret-legend flex items-center justify-between gap-4 pt-2 border-t border-[#1a1c2b] text-[11px] text-slate-400">
+<div class="flex items-center gap-4"><span class="flex items-center gap-1.5"><i class="w-2.5 h-2.5 rounded-full bg-cyan-400"></i>attacking note</span><span class="flex items-center gap-1.5"><i class="w-2.5 h-2.5 rounded-full border border-cyan-400"></i>open string</span></div>
+<span data-tuning class="font-mono">Standard (E A D G B E)</span>
+</div>
+</section>
+<!-- RIGHT COLUMN: Current Chord & Up Next Diagram Cards (~30% = 4 cols) -->
+<section class="col-span-12 lg:col-span-4 chord-panels" data-purpose="chord-diagram-column">
+<!-- Current Chord Card -->
+<div class="chord-card bg-[#0f1019] border border-[#1d1f2f] rounded-xl p-3.5 flex flex-col shadow-xl relative overflow-hidden" data-panel="current">
+<div class="flex items-start justify-between gap-3">
+<div><span class="text-[10px] font-mono tracking-widest text-slate-400 uppercase font-semibold">Current chord</span><h1 data-chord-name class="text-3xl font-extrabold text-white tracking-tight">Em</h1></div>
+<time data-chord-time class="px-2 py-1 rounded bg-[#161724] border border-cyan-500/40 text-cyan-300 font-mono text-xs font-bold">00:00.00</time>
+</div>
+<div class="mt-3 flex-1 bg-[#131420] p-3 rounded-lg border border-[#1f2133] flex flex-col items-center justify-center min-h-[190px]">
+<svg data-chord-svg class="w-40 h-44" viewBox="0 0 120 150" role="img" aria-label="Current chord diagram"></svg>
+<span data-chord-shape class="text-[10px] font-mono text-slate-400 mt-1"></span>
+</div>
+<div class="mt-3 pt-2.5 border-t border-[#1d1f2e] text-xs text-slate-400" data-chord-desc>Chord at the current playback position</div>
+</div>
+<!-- Up Next Preview Card -->
+<div data-next-chord class="chord-card bg-[#0f1019] border border-[#1d1f2f] rounded-xl p-3 shadow-md flex flex-col justify-between gap-3 transition-opacity" data-purpose="up-next-preview" data-panel="upnext">
+<div class="min-w-0"><div class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-cyan-400"></span><span class="text-[10px] font-mono tracking-wider text-slate-400 uppercase">Up next</span><span data-next-in class="text-[10px] font-mono text-cyan-400 bg-cyan-950/60 px-1.5 rounded font-bold">IN 0.0s</span></div><div data-next-name class="text-lg font-bold text-slate-100 truncate">C</div></div>
+<div class="flex-1 bg-[#131420] p-2 rounded-lg border border-[#1f2133] flex items-center justify-center min-h-[190px]"><svg data-next-chord-svg class="w-40 h-44" viewBox="0 0 120 150" role="img" aria-label="Next chord diagram"></svg></div>
+<time data-next-when class="text-[10px] font-mono text-slate-500 shrink-0">Time: 00:00.00</time>
+</div>
+</section>
+</main>
+<!-- END: MainPracticeWorkspace -->
+<!-- BEGIN: ChordLibrary -->
+<section class="w-full px-3 py-1" data-purpose="chord-library" data-panel="library">
+<div class="bg-[#0f1019] border border-[#1d1f2f] rounded-xl p-3 shadow-lg">
+<div class="flex items-center justify-between gap-3 mb-3">
+<div><h2 class="font-semibold text-sm text-slate-100 tracking-wide">Chords in this song</h2><p class="text-[11px] text-slate-400">Static reference shapes for practice</p></div>
+<span data-library-count class="text-[10px] font-mono text-slate-400"></span>
+</div>
+<div data-chord-library class="chord-library-grid"></div>
+</div>
+</section>
+<!-- END: ChordLibrary -->
+<!-- BEGIN: InteractiveTimelineScrubber -->
+<section class="w-full px-3 py-1" data-purpose="timeline-scrubber" data-panel="timeline">
+<div class="bg-[#0f1019] border border-[#1d1f2f] rounded-xl p-3 shadow-lg flex flex-col space-y-2">
+<!-- Time readout and loop stats -->
+<div class="flex items-center justify-between text-xs font-mono">
+<div class="flex items-center space-x-3">
+<div class="flex items-baseline space-x-1.5">
+<span data-time-current class="text-lg font-bold text-white">00:00.00</span>
+<span class="text-slate-500">/ <span data-time-total>00:00.00</span></span>
+</div>
+<span class="px-2 py-0.5 rounded bg-[#161827] border border-[#272a3f] text-cyan-400 font-semibold">CLICK A CHORD MARKER TO JUMP</span>
+</div>
+</div>
+<!-- DAW-style scrubber: waveform texture, clickable chord markers, live playhead -->
+<div data-scrubber class="timeline-track relative w-full bg-[#0b0c13] rounded-lg border border-[#1a1b28] overflow-hidden cursor-pointer" aria-label="Song timeline. Click to seek.">
+<div data-bar-grid class="absolute inset-0 opacity-20 pointer-events-none" aria-hidden="true"></div>
+<div data-chord-markers class="absolute inset-0 z-20"></div>
+<div data-playhead class="absolute left-0 top-0 bottom-0 w-[3px] bg-cyan-400 z-30 shadow-[0_0_12px_#d49a4a] pointer-events-none"><div class="w-3 h-3 bg-cyan-400 rounded-full -ml-[4.5px] -mt-0.5 shadow-md"></div></div>
+</div>
+</div>
+</section>
+<!-- END: InteractiveTimelineScrubber -->
+<!-- BEGIN: DAWTransportBar -->
+<section class="w-full px-3 py-1 select-none" data-purpose="daw-transport-bar">
+<div class="bg-[#0e0f17] border border-[#1b1d2c] rounded-xl px-4 py-2.5 flex items-center justify-between shadow-xl">
+<!-- Left: Speed Multipliers & Loop Toggle -->
+<div class="flex items-center space-x-3">
+<!-- Speed Chips -->
+<div class="flex items-center bg-[#141521] p-1 rounded-lg border border-[#222436] text-xs font-mono">
+<button data-speed="0.5" class="px-2 py-1 rounded text-slate-400 hover:text-slate-200 transition-colors">0.5x</button>
+<button data-speed="0.75" class="px-2 py-1 rounded text-slate-400 hover:text-slate-200 transition-colors">0.75x</button>
+<button data-speed="1.0" class="px-2 py-1 rounded bg-cyan-500 text-slate-950 font-bold shadow-sm">1.0x Active</button>
+<button data-speed="1.25" class="px-2 py-1 rounded text-slate-400 hover:text-slate-200 transition-colors">1.25x</button>
+<button data-speed="1.5" class="px-2 py-1 rounded text-slate-400 hover:text-slate-200 transition-colors">1.5x</button>
+</div>
+
+</div>
+<!-- Center: Transport Buttons -->
+<div class="transport-center flex items-center justify-center flex-wrap gap-2">
+<!-- Prev Chord -->
+<button type="button" data-prev-btn class="p-2 rounded-lg text-slate-400 hover:text-slate-100 hover:bg-[#181a29] transition-colors" title="Previous chord (Alt + Left)" aria-label="Previous chord">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M11 19l-7-7 7-7m8 14l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<!-- Rewind 5s -->
+<button type="button" data-rewind-btn class="p-2 rounded-lg text-slate-400 hover:text-slate-100 hover:bg-[#181a29] transition-colors" title="Rewind 5 seconds" aria-label="Rewind 5 seconds">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<!-- Main Glowing Play / Pause Circular Button -->
+<button type="button" data-play-btn class="w-12 h-12 rounded-full bg-cyan-400 hover:bg-cyan-300 text-slate-950 flex items-center justify-center glow-cyan transition-transform active:scale-95" title="Play or pause (Spacebar)" aria-label="Play">
+<svg class="w-6 h-6 ml-0.5" fill="currentColor" viewbox="0 0 24 24">
+<path d="M8 5v14l11-7z"></path>
+</svg>
+</button>
+<!-- Dedicated Pause -->
+<button type="button" data-pause-btn class="pause-control h-12 px-3 rounded-lg flex items-center justify-center gap-2 transition-colors" title="Pause playback immediately" aria-label="Pause playback" aria-pressed="false">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24" aria-hidden="true">
+<path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"></path>
+</svg>
+<span class="text-xs font-bold">Pause</span>
+</button>
+<!-- Forward 5s -->
+<button type="button" data-forward-btn class="p-2 rounded-lg text-slate-400 hover:text-slate-100 hover:bg-[#181a29] transition-colors" title="Forward 5 seconds" aria-label="Forward 5 seconds">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<!-- Next Chord -->
+<button type="button" data-next-btn class="p-2 rounded-lg text-slate-400 hover:text-slate-100 hover:bg-[#181a29] transition-colors" title="Next chord (Alt + Right)" aria-label="Next chord">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M13 5l7 7-7 7M5 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<!-- Stop -->
+<button type="button" data-stop-btn class="p-2 rounded-lg text-slate-400 hover:text-red-400 hover:bg-[#181a29] transition-colors" title="Stop" aria-label="Stop">
+<div class="w-3.5 h-3.5 bg-current rounded-sm"></div>
+</button>
+</div>
+<div data-audio-status class="audio-status text-[10px] font-mono" data-state="idle" role="status" aria-live="polite"><i class="audio-status-dot" aria-hidden="true"></i><span>Audio idle · tap Play</span></div>
+</div>
+</section>
+<!-- END: DAWTransportBar -->
+<!-- BEGIN: ScrollingASCIITabReader -->
+<footer class="w-full px-3 py-1 pb-3 select-none flex-1 flex flex-col" data-purpose="tablature-reader" data-panel="tablature">
+<div class="bg-[#0d0e16] border border-[#1c1d2b] rounded-xl p-3 shadow-2xl flex flex-col flex-1 justify-between">
+<!-- Tab Header Bar: Tuning, Transcriptions Notes, Notation Legend -->
+<div class="flex items-center justify-between pb-2 border-b border-[#1a1b28] text-xs">
+<div class="flex items-center space-x-3">
+<div class="flex items-center space-x-2">
+<svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span class="font-bold text-white tracking-wide">Interactive Score Tablature</span>
+</div>
+<span class="text-slate-400 font-mono text-[11px]">
+            <span data-tab-tuning>Standard (E-A-D-G-B-e)</span> • Full transcription
+          </span>
+</div>
+<!-- Uncertainty Transcription Warning Chip -->
+<div class="flex items-center space-x-1.5 px-2.5 py-1 rounded bg-amber-950/40 border border-amber-700/50 text-amber-300 font-mono text-[11px]">
+<span class="font-black text-amber-400">[?]</span>
+<span>Transcription Note: Harmonic vs Hammer-on</span>
+</div>
+<button type="button" data-tab-fullscreen class="view-toggle flex items-center gap-2 rounded px-3 py-1 text-[11px] font-semibold" aria-pressed="false" aria-label="Enter fullscreen tablature">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<span data-fullscreen-label>Fullscreen</span>
+</button>
+<!-- Notation Shorthand Legend -->
+<div class="flex items-center space-x-3 font-mono text-[10px] text-slate-400 bg-[#12131f] px-3 py-1 rounded border border-[#1f2134]">
+<span><strong class="text-slate-200">h:</strong> hammer-on</span>
+<span><strong class="text-slate-200">p:</strong> pull-off</span>
+<span><strong class="text-slate-200">/:</strong> slide</span>
+<span><strong class="text-slate-200">~:</strong> vibrato</span>
+<span><strong class="text-slate-200">&lt;&gt;:</strong> harmonic</span>
+</div>
+</div>
+<div data-tab-content class="tab-content relative my-2 py-2 px-3 bg-[#0a0a10] rounded-lg border border-[#161725] overflow-y-auto overflow-x-hidden select-text"></div>
+<div class="text-[11px] font-mono text-slate-500 pt-1">The current section highlights during playback without moving the page.</div>
+</div>
+</footer>
+<!-- END: ScrollingASCIITabReader -->
+<script>
+// Guitar Tab Player Engine - Built on Stitch UI
+// Real-time fretboard visualization, chord diagrams, tab playback
+
+const SONGS = {"daredevil":{"slug":"daredevil","title":"Daredevil Main Title","tuning":"Standard (E A D G B E)","capo":"None","key":"E minor","notes":[{"t":0.19,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":0.0},{"t":0.571,"string":0,"fret":3,"pitch":67,"chord":"Em","event_time":0.0},{"t":0.952,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":0.0},{"t":1.333,"string":0,"fret":3,"pitch":67,"chord":"Em","event_time":0.0},{"t":1.714,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":0.0},{"t":2.095,"string":0,"fret":0,"pitch":64,"chord":"Em","event_time":0.0},{"t":2.476,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":0.0},{"t":2.857,"string":0,"fret":0,"pitch":64,"chord":"Em","event_time":0.0},{"t":3.238,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":0.0},{"t":3.619,"string":0,"fret":2,"pitch":66,"chord":"Em","event_time":0.0},{"t":4.19,"string":4,"fret":3,"pitch":48,"chord":"C","event_time":4.0},{"t":4.571,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":4.0},{"t":4.952,"string":4,"fret":3,"pitch":48,"chord":"C","event_time":4.0},{"t":5.333,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":4.0},{"t":5.714,"string":4,"fret":3,"pitch":48,"chord":"C","event_time":4.0},{"t":6.095,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":4.0},{"t":6.476,"string":4,"fret":3,"pitch":48,"chord":"C","event_time":4.0},{"t":6.857,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":4.0},{"t":7.238,"string":4,"fret":3,"pitch":48,"chord":"C","event_time":4.0},{"t":7.619,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":4.0},{"t":8.238,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":8.0},{"t":8.238,"string":0,"fret":8,"pitch":72,"chord":"Am","event_time":8.0},{"t":9.19,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":8.0},{"t":9.19,"string":0,"fret":8,"pitch":72,"chord":"Am","event_time":8.0},{"t":10.143,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":8.0},{"t":10.143,"string":0,"fret":8,"pitch":72,"chord":"Am","event_time":8.0},{"t":11.095,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":8.0},{"t":11.095,"string":0,"fret":8,"pitch":72,"chord":"Am","event_time":8.0},{"t":12.048,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":8.0},{"t":12.048,"string":0,"fret":0,"pitch":64,"chord":"Am","event_time":8.0},{"t":13.19,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":13.0},{"t":13.19,"string":0,"fret":0,"pitch":64,"chord":"Em","event_time":13.0},{"t":13.952,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":13.0},{"t":13.952,"string":0,"fret":0,"pitch":64,"chord":"Em","event_time":13.0},{"t":14.714,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":13.0},{"t":14.714,"string":0,"fret":7,"pitch":71,"chord":"Em","event_time":13.0},{"t":15.476,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":13.0},{"t":15.476,"string":0,"fret":7,"pitch":71,"chord":"Em","event_time":13.0},{"t":16.238,"string":5,"fret":0,"pitch":40,"chord":"Em","event_time":13.0},{"t":16.238,"string":0,"fret":7,"pitch":71,"chord":"Em","event_time":13.0},{"t":17.238,"string":1,"fret":0,"pitch":59,"chord":"Em","event_time":17.0},{"t":17.714,"string":2,"fret":0,"pitch":55,"chord":"Em","event_time":17.0},{"t":18.19,"string":1,"fret":0,"pitch":59,"chord":"Em","event_time":17.0},{"t":18.19,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":17.0},{"t":18.667,"string":2,"fret":0,"pitch":55,"chord":"Em","event_time":17.0},{"t":19.143,"string":1,"fret":0,"pitch":59,"chord":"Em","event_time":17.0},{"t":19.143,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":17.0},{"t":19.619,"string":2,"fret":0,"pitch":55,"chord":"Em","event_time":17.0},{"t":20.095,"string":1,"fret":0,"pitch":59,"chord":"Em","event_time":17.0},{"t":20.095,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":17.0},{"t":20.571,"string":2,"fret":0,"pitch":55,"chord":"Em","event_time":17.0},{"t":21.048,"string":1,"fret":0,"pitch":59,"chord":"Em","event_time":17.0},{"t":21.048,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":17.0},{"t":21.524,"string":2,"fret":0,"pitch":55,"chord":"Em","event_time":17.0},{"t":22.529,"string":4,"fret":3,"pitch":48,"chord":"C","event_time":22.0},{"t":23.588,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":22.0},{"t":24.647,"string":4,"fret":3,"pitch":48,"chord":"C","event_time":22.0},{"t":25.706,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":22.0},{"t":26.765,"string":4,"fret":2,"pitch":47,"chord":"C","event_time":22.0},{"t":27.824,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":22.0},{"t":28.882,"string":4,"fret":2,"pitch":47,"chord":"C","event_time":22.0},{"t":29.941,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":22.0},{"t":31.765,"string":1,"fret":0,"pitch":59,"chord":"Em/B","event_time":31.0},{"t":33.294,"string":2,"fret":0,"pitch":55,"chord":"Em/B","event_time":31.0},{"t":34.824,"string":1,"fret":0,"pitch":59,"chord":"Em/B","event_time":31.0},{"t":34.824,"string":3,"fret":2,"pitch":52,"chord":"Em/B","event_time":31.0},{"t":36.353,"string":2,"fret":0,"pitch":55,"chord":"Em/B","event_time":31.0},{"t":37.882,"string":4,"fret":2,"pitch":47,"chord":"Em/B","event_time":31.0},{"t":37.882,"string":3,"fret":4,"pitch":54,"chord":"Em/B","event_time":31.0},{"t":44.235,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":44.0},{"t":44.235,"string":0,"fret":12,"pitch":76,"chord":"Am","event_time":44.0},{"t":45.176,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":44.0},{"t":45.176,"string":3,"fret":2,"pitch":52,"chord":"Am","event_time":44.0},{"t":45.176,"string":0,"fret":0,"pitch":64,"chord":"Am","event_time":44.0},{"t":46.118,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":44.0},{"t":46.118,"string":3,"fret":2,"pitch":52,"chord":"Am","event_time":44.0},{"t":46.118,"string":0,"fret":0,"pitch":64,"chord":"Am","event_time":44.0},{"t":47.059,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":44.0},{"t":47.059,"string":3,"fret":2,"pitch":52,"chord":"Am","event_time":44.0},{"t":47.059,"string":0,"fret":0,"pitch":64,"chord":"Am","event_time":44.0},{"t":48.381,"string":1,"fret":0,"pitch":59,"chord":"Em","event_time":48.0},{"t":49.143,"string":2,"fret":0,"pitch":55,"chord":"Em","event_time":48.0},{"t":49.905,"string":1,"fret":0,"pitch":59,"chord":"Em","event_time":48.0},{"t":49.905,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":48.0},{"t":50.667,"string":2,"fret":0,"pitch":55,"chord":"Em","event_time":48.0},{"t":51.429,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":48.0},{"t":52.19,"string":2,"fret":0,"pitch":55,"chord":"Em","event_time":48.0},{"t":52.952,"string":3,"fret":0,"pitch":50,"chord":"Em","event_time":48.0},{"t":54.476,"string":1,"fret":3,"pitch":62,"chord":"Em","event_time":48.0},{"t":54.476,"string":3,"fret":0,"pitch":50,"chord":"Em","event_time":48.0},{"t":56.294,"string":1,"fret":1,"pitch":60,"chord":"C","event_time":56.0},{"t":56.294,"string":2,"fret":0,"pitch":55,"chord":"C","event_time":56.0},{"t":56.882,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":56.0},{"t":57.471,"string":1,"fret":1,"pitch":60,"chord":"C","event_time":56.0},{"t":57.471,"string":2,"fret":0,"pitch":55,"chord":"C","event_time":56.0},{"t":58.059,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":56.0},{"t":58.647,"string":1,"fret":1,"pitch":60,"chord":"C","event_time":56.0},{"t":58.647,"string":2,"fret":0,"pitch":55,"chord":"C","event_time":56.0},{"t":59.235,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":56.0},{"t":59.824,"string":1,"fret":1,"pitch":60,"chord":"C","event_time":56.0},{"t":59.824,"string":2,"fret":0,"pitch":55,"chord":"C","event_time":56.0},{"t":60.412,"string":0,"fret":0,"pitch":64,"chord":"C","event_time":56.0},{"t":61.286,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":61.0},{"t":61.857,"string":0,"fret":0,"pitch":64,"chord":"Am","event_time":61.0},{"t":62.429,"string":4,"fret":0,"pitch":45,"chord":"Am","event_time":61.0},{"t":62.429,"string":3,"fret":2,"pitch":52,"chord":"Am","event_time":61.0},{"t":63.0,"string":0,"fret":0,"pitch":64,"chord":"Am","event_time":61.0},{"t":63.571,"string":4,"fret":2,"pitch":47,"chord":"Am","event_time":61.0},{"t":63.571,"string":3,"fret":2,"pitch":52,"chord":"Am","event_time":61.0},{"t":64.714,"string":4,"fret":2,"pitch":47,"chord":"Am","event_time":61.0},{"t":65.857,"string":4,"fret":2,"pitch":47,"chord":"Am","event_time":61.0},{"t":67.429,"string":4,"fret":2,"pitch":47,"chord":"Bm/E","event_time":67.0},{"t":68.286,"string":3,"fret":4,"pitch":54,"chord":"Bm/E","event_time":67.0},{"t":69.143,"string":4,"fret":2,"pitch":47,"chord":"Bm/E","event_time":67.0},{"t":70.0,"string":3,"fret":4,"pitch":54,"chord":"Bm/E","event_time":67.0},{"t":70.857,"string":4,"fret":2,"pitch":47,"chord":"Bm/E","event_time":67.0},{"t":70.857,"string":0,"fret":10,"pitch":74,"chord":"Bm/E","event_time":67.0},{"t":72.571,"string":4,"fret":2,"pitch":47,"chord":"Bm/E","event_time":67.0},{"t":72.571,"string":0,"fret":10,"pitch":74,"chord":"Bm/E","event_time":67.0},{"t":74.286,"string":4,"fret":2,"pitch":47,"chord":"Bm/E","event_time":67.0},{"t":74.286,"string":0,"fret":2,"pitch":66,"chord":"Bm/E","event_time":67.0},{"t":76.286,"string":0,"fret":0,"pitch":64,"chord":"Em","event_time":76.0},{"t":77.429,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":76.0},{"t":77.429,"string":0,"fret":12,"pitch":76,"chord":"Em","event_time":76.0},{"t":78.571,"string":4,"fret":0,"pitch":45,"chord":"Em","event_time":76.0},{"t":78.571,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":76.0},{"t":78.571,"string":0,"fret":0,"pitch":64,"chord":"Em","event_time":76.0},{"t":79.714,"string":4,"fret":0,"pitch":45,"chord":"Em","event_time":76.0},{"t":79.714,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":76.0},{"t":79.714,"string":0,"fret":0,"pitch":64,"chord":"Em","event_time":76.0},{"t":80.857,"string":4,"fret":0,"pitch":45,"chord":"Em","event_time":76.0},{"t":80.857,"string":3,"fret":2,"pitch":52,"chord":"Em","event_time":76.0},{"t":80.857,"string":0,"fret":0,"pitch":64,"chord":"Em","event_time":76.0},{"t":82.238,"string":4,"fret":2,"pitch":47,"chord":"B","event_time":82.0},{"t":82.714,"string":1,"fret":4,"pitch":63,"chord":"B","event_time":82.0},{"t":83.19,"string":4,"fret":2,"pitch":47,"chord":"B","event_time":82.0},{"t":83.19,"string":3,"fret":4,"pitch":54,"chord":"B","event_time":82.0},{"t":83.667,"string":1,"fret":4,"pitch":63,"chord":"B","event_time":82.0},{"t":84.143,"string":4,"fret":2,"pitch":47,"chord":"B","event_time":82.0},{"t":84.143,"string":3,"fret":4,"pitch":54,"chord":"B","event_time":82.0},{"t":84.619,"string":1,"fret":4,"pitch":63,"chord":"B","event_time":82.0},{"t":85.095,"string":4,"fret":2,"pitch":47,"chord":"B","event_time":82.0},{"t":85.095,"string":3,"fret":4,"pitch":54,"chord":"B","event_time":82.0},{"t":85.571,"string":1,"fret":4,"pitch":63,"chord":"B","event_time":82.0},{"t":86.048,"string":4,"fret":2,"pitch":47,"chord":"B","event_time":82.0},{"t":86.048,"string":3,"fret":4,"pitch":54,"chord":"B","event_time":82.0},{"t":87.238,"string":1,"fret":0,"pitch":59,"chord":null,"event_time":87.0},{"t":87.714,"string":2,"fret":0,"pitch":55,"chord":null,"event_time":87.0},{"t":88.19,"string":1,"fret":0,"pitch":59,"chord":null,"event_time":87.0},{"t":88.19,"string":3,"fret":2,"pitch":52,"chord":null,"event_time":87.0},{"t":88.667,"string":2,"fret":0,"pitch":55,"chord":null,"event_time":87.0},{"t":89.143,"string":1,"fret":0,"pitch":59,"chord":null,"event_time":87.0},{"t":89.143,"string":3,"fret":2,"pitch":52,"chord":null,"event_time":87.0},{"t":89.619,"string":2,"fret":0,"pitch":55,"chord":null,"event_time":87.0},{"t":90.095,"string":1,"fret":0,"pitch":59,"chord":null,"event_time":87.0},{"t":90.095,"string":3,"fret":2,"pitch":52,"chord":null,"event_time":87.0},{"t":90.571,"string":2,"fret":0,"pitch":55,"chord":null,"event_time":87.0},{"t":91.048,"string":1,"fret":0,"pitch":59,"chord":null,"event_time":87.0},{"t":91.048,"string":3,"fret":2,"pitch":52,"chord":null,"event_time":87.0},{"t":91.524,"string":2,"fret":0,"pitch":55,"chord":null,"event_time":87.0},{"t":92.19,"string":5,"fret":0,"pitch":40,"chord":"F","event_time":92.0},{"t":92.571,"string":3,"fret":2,"pitch":52,"chord":"F","event_time":92.0},{"t":92.952,"string":5,"fret":0,"pitch":40,"chord":"F","event_time":92.0},{"t":93.333,"string":3,"fret":2,"pitch":52,"chord":"F","event_time":92.0},{"t":93.714,"string":5,"fret":0,"pitch":40,"chord":"F","event_time":92.0},{"t":94.095,"string":3,"fret":2,"pitch":52,"chord":"F","event_time":92.0},{"t":94.476,"string":5,"fret":0,"pitch":40,"chord":"F","event_time":92.0},{"t":94.857,"string":3,"fret":2,"pitch":52,"chord":"F","event_time":92.0},{"t":95.238,"string":5,"fret":0,"pitch":40,"chord":"F","event_time":92.0}],"chords":[{"time":0.0,"chord":"Em","shape":["0","2","2","0","0","0"],"desc":"[Intro 0:00] Em - low pulsing E, melody rises G -> E -> F#","tab":["  e |------3-------3-------0-------0-------2---|","  B |------------------------------------------|","  G |------------------------------------------|","  D |------------------------------------------|","  A |------------------------------------------|","  E |--0-------0-------0-------0-------0-------|"]},{"time":4.0,"chord":"C","shape":["x","3","2","0","1","0"],"desc":"[0:04] C - bass drops to C, open high E rings","tab":["  e |------0-------0-------0-------0-------0---|","  B |------------------------------------------|","  G |------------------------------------------|","  D |------------------------------------------|","  A |--3-------3-------3-------3-------3-------|","  E |------------------------------------------|"]},{"time":8.0,"chord":"Am","shape":["x","0","2","2","1","0"],"desc":"[0:08] Am - high C5 melody over A bass [? inner voice G-F#]","tab":["  e |--8-------8-------8-------8-------0-------|","  B |------------------------------------------|","  G |------------------------------------------|","  D |------------------------------------------|","  A |--0-------0-------0-------0-------0-------|","  E |------------------------------------------|"]},{"time":13.0,"chord":"Em","shape":["0","2","2","0","0","0"],"desc":"[0:13] Em - back to E, B4 melody","tab":["  e |--0-------0-------7-------7-------7-------|","  B |------------------------------------------|","  G |------------------------------------------|","  D |------------------------------------------|","  A |------------------------------------------|","  E |--0-------0-------0-------0-------0-------|"]},{"time":17.0,"chord":"Em","shape":["0","2","2","0","0","0"],"desc":"[0:17] Em arpeggios - rolling B-E-G pattern","tab":["  e |------------------------------------------|","  B |--0-------0-------0-------0-------0-------|","  G |------0-------0-------0-------0-------0---|","  D |----------2-------2-------2-------2-------|","  A |------------------------------------------|","  E |------------------------------------------|"]},{"time":22.0,"chord":"C","shape":["x","3","2","0","1","0"],"desc":"[0:22] C -> Am","tab":["  e |------0-------0-------0-------0---|","  B |----------------------------------|","  G |----------------------------------|","  D |----------------------------------|","  A |--3-------3-------2-------2-------|","  E |----------------------------------|"]},{"time":31.0,"chord":"Em/B","shape":["x","2","2","0","0","0"],"desc":"Em/B (0:31)","tab":["  e |----------------------------------|","  B |--0-------0-----------------------|","  G |------0-------0-------------------|","  D |----------2-------4---------------|","  A |------------------2---------------|","  E |----------------------------------|"]},{"time":44.0,"chord":"Am","shape":["x","0","2","2","1","0"],"desc":"[0:44] Am CLIMAX - full chord, high E","tab":["  e |--12------0-------0-------0-------|","  B |----------------------------------|","  G |----------------------------------|","  D |----------2-------2-------2-------|","  A |--0-------0-------0-------0-------|","  E |----------------------------------|"]},{"time":48.0,"chord":"Em","shape":["0","2","2","0","0","0"],"desc":"Em (0:48)","tab":["  e |------------------------------------------|","  B |--0-------0-----------------------3-------|","  G |------0-------0-------0-------------------|","  D |----------2-------2-------0-------0-------|","  A |------------------------------------------|","  E |------------------------------------------|"]},{"time":56.0,"chord":"C","shape":["x","3","2","0","1","0"],"desc":"[0:56] C","tab":["  e |------0-------0-------0-------0---|","  B |--1-------1-------1-------1-------|","  G |--0-------0-------0-------0-------|","  D |----------------------------------|","  A |----------------------------------|","  E |----------------------------------|"]},{"time":61.0,"chord":"Am","shape":["x","0","2","2","1","0"],"desc":"Am (1:01)","tab":["  e |------0-------0---------------------------|","  B |------------------------------------------|","  G |------------------------------------------|","  D |----------2-------2-----------------------|","  A |--0-------0-------2-------2-------2-------|","  E |------------------------------------------|"]},{"time":67.0,"chord":"Bm/E","shape":["10","x","x","4","2","x"],"desc":"[1:07] Bm/Em - driving B pedal, D5 + F#4 melody","tab":["  e |------------------10------10------2-------|","  B |------------------------------------------|","  G |------------------------------------------|","  D |------4-------4---------------------------|","  A |--2-------2-------2-------2-------2-------|","  E |------------------------------------------|"]},{"time":76.0,"chord":"Em","shape":["0","2","2","0","0","0"],"desc":"Em (1:16)","tab":["  e |--0-------12------0-------0-------0-------|","  B |------------------------------------------|","  G |------------------------------------------|","  D |----------2-------2-------2-------2-------|","  A |------------------0-------0-------0-------|","  E |------------------------------------------|"]},{"time":82.0,"chord":"B","shape":["x","2","4","4","4","2"],"desc":"[1:22] B MAJOR bridge - D# (major 3rd), the dramatic turn","tab":["  e |------------------------------------------|","  B |------4-------4-------4-------4-----------|","  G |------------------------------------------|","  D |----------4-------4-------4-------4-------|","  A |--2-------2-------2-------2-------2-------|","  E |------------------------------------------|"]},{"time":87.0,"chord":"Em","shape":["0","2","2","0","0","0"],"desc":"[1:27] Outro - Em, winding down","tab":["  e |------------------------------------------|","  B |--0-------0-------0-------0-------0-------|","  G |------0-------0-------0-------0-------0---|","  D |----------2-------2-------2-------2-------|","  A |------------------------------------------|","  E |------------------------------------------|"]},{"time":92.0,"chord":"Em","shape":["0","2","2","0","0","0"],"desc":"Em (1:32)","tab":["  e |------------------------------------------|","  B |------------------------------------------|","  G |------------------------------------------|","  D |------2-------2-------2-------2-----------|","  A |------------------------------------------|","  E |--0-------0-------0-------0-------0-------|"]}],"duration":95.238},"odyssey":{"slug":"odyssey","title":"The Odyssey Main Theme","tuning":"Standard (E A D G B E)","capo":"None","key":"C minor","notes":[{"t":0.0,"string":4,"fret":3,"pitch":48,"chord":"Ab/C","event_time":0.0},{"t":0.188,"string":3,"fret":1,"pitch":51,"chord":"Ab/C","event_time":0.0},{"t":0.375,"string":2,"fret":1,"pitch":56,"chord":"Ab/C","event_time":0.0},{"t":0.562,"string":1,"fret":1,"pitch":60,"chord":"Ab/C","event_time":0.0},{"t":0.75,"string":0,"fret":4,"pitch":68,"chord":"Ab/C","event_time":0.0},{"t":3.625,"string":1,"fret":3,"pitch":62,"chord":"Dm","event_time":3.0},{"t":5.0,"string":4,"fret":3,"pitch":48,"chord":"Cm","event_time":5.0},{"t":5.121,"string":3,"fret":5,"pitch":55,"chord":"Cm","event_time":5.0},{"t":5.242,"string":2,"fret":5,"pitch":60,"chord":"Cm","event_time":5.0},{"t":5.364,"string":1,"fret":5,"pitch":64,"chord":"Cm","event_time":5.0},{"t":5.485,"string":0,"fret":3,"pitch":67,"chord":"Cm","event_time":5.0},{"t":7.0,"string":3,"fret":3,"pitch":53,"chord":"F","event_time":7.0},{"t":7.375,"string":2,"fret":2,"pitch":57,"chord":"F","event_time":7.0},{"t":7.562,"string":1,"fret":1,"pitch":60,"chord":"F","event_time":7.0},{"t":7.75,"string":0,"fret":1,"pitch":65,"chord":"F","event_time":7.0},{"t":10.0,"string":4,"fret":3,"pitch":48,"chord":"Ab/C","event_time":10.0},{"t":10.188,"string":3,"fret":1,"pitch":51,"chord":"Ab/C","event_time":10.0},{"t":10.375,"string":2,"fret":1,"pitch":56,"chord":"Ab/C","event_time":10.0},{"t":10.562,"string":1,"fret":1,"pitch":60,"chord":"Ab/C","event_time":10.0},{"t":10.75,"string":0,"fret":4,"pitch":68,"chord":"Ab/C","event_time":10.0},{"t":13.625,"string":1,"fret":3,"pitch":62,"chord":"Dm","event_time":13.0},{"t":14.0,"string":1,"fret":3,"pitch":62,"chord":"Dm","event_time":13.0},{"t":14.375,"string":1,"fret":3,"pitch":62,"chord":"Dm","event_time":13.0},{"t":15.0,"string":4,"fret":3,"pitch":48,"chord":"Cm","event_time":15.0},{"t":15.182,"string":3,"fret":5,"pitch":55,"chord":"Cm","event_time":15.0},{"t":15.364,"string":2,"fret":5,"pitch":60,"chord":"Cm","event_time":15.0},{"t":15.545,"string":1,"fret":5,"pitch":64,"chord":"Cm","event_time":15.0},{"t":15.727,"string":0,"fret":3,"pitch":67,"chord":"Cm","event_time":15.0},{"t":18.312,"string":4,"fret":3,"pitch":48,"chord":"Cm*","event_time":18.0},{"t":18.938,"string":1,"fret":1,"pitch":60,"chord":"Cm*","event_time":18.0},{"t":19.25,"string":0,"fret":3,"pitch":67,"chord":"Cm*","event_time":18.0},{"t":23.215,"string":4,"fret":3,"pitch":48,"chord":"Cm","event_time":23.0},{"t":23.215,"string":0,"fret":3,"pitch":67,"chord":"Cm","event_time":23.0},{"t":23.646,"string":0,"fret":1,"pitch":65,"chord":"Cm","event_time":23.0},{"t":24.077,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":23.0},{"t":24.508,"string":1,"fret":1,"pitch":60,"chord":"Cm","event_time":23.0},{"t":24.938,"string":1,"fret":1,"pitch":60,"chord":"Cm","event_time":23.0},{"t":30.125,"string":4,"fret":3,"pitch":48,"chord":"Ab/C","event_time":30.0},{"t":30.125,"string":1,"fret":1,"pitch":60,"chord":"Ab/C","event_time":30.0},{"t":30.375,"string":0,"fret":4,"pitch":68,"chord":"Ab/C","event_time":30.0},{"t":32.188,"string":4,"fret":3,"pitch":48,"chord":"Cm","event_time":32.0},{"t":32.562,"string":0,"fret":3,"pitch":67,"chord":"Cm","event_time":32.0},{"t":33.125,"string":0,"fret":3,"pitch":67,"chord":"Cm","event_time":32.0},{"t":33.688,"string":0,"fret":3,"pitch":67,"chord":"Cm","event_time":32.0},{"t":35.062,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":35.0},{"t":35.062,"string":5,"fret":3,"pitch":43,"chord":"Cm","event_time":35.0},{"t":35.185,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":35.0},{"t":35.185,"string":2,"fret":3,"pitch":58,"chord":"Cm","event_time":35.0},{"t":35.308,"string":2,"fret":3,"pitch":58,"chord":"Cm","event_time":35.0},{"t":37.188,"string":1,"fret":1,"pitch":60,"chord":"Cm","event_time":37.0},{"t":37.562,"string":1,"fret":1,"pitch":60,"chord":"Cm","event_time":37.0},{"t":37.938,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":37.0},{"t":38.312,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":37.0},{"t":38.688,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":37.0},{"t":40.312,"string":4,"fret":3,"pitch":48,"chord":"Ab","event_time":40.0},{"t":40.312,"string":1,"fret":1,"pitch":60,"chord":"Ab","event_time":40.0},{"t":40.938,"string":0,"fret":4,"pitch":68,"chord":"Ab","event_time":40.0},{"t":45.123,"string":1,"fret":4,"pitch":63,"chord":"Bb","event_time":45.0},{"t":45.123,"string":3,"fret":5,"pitch":55,"chord":"Bb","event_time":45.0},{"t":45.369,"string":1,"fret":4,"pitch":63,"chord":"Bb","event_time":45.0},{"t":45.369,"string":3,"fret":5,"pitch":55,"chord":"Bb","event_time":45.0},{"t":45.862,"string":1,"fret":4,"pitch":63,"chord":"Bb","event_time":45.0},{"t":47.154,"string":1,"fret":3,"pitch":62,"chord":"Bb","event_time":45.0},{"t":47.4,"string":1,"fret":3,"pitch":62,"chord":"Bb","event_time":45.0},{"t":49.125,"string":0,"fret":1,"pitch":65,"chord":"F","event_time":49.0},{"t":49.375,"string":0,"fret":1,"pitch":65,"chord":"F","event_time":49.0},{"t":49.625,"string":1,"fret":1,"pitch":60,"chord":"F","event_time":49.0},{"t":51.188,"string":4,"fret":3,"pitch":48,"chord":"Cm","event_time":51.0},{"t":51.562,"string":1,"fret":3,"pitch":62,"chord":"Cm","event_time":51.0},{"t":55.908,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":54.0},{"t":59.723,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":54.0},{"t":63.538,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":54.0},{"t":87.385,"string":0,"fret":1,"pitch":65,"chord":"Cm","event_time":54.0},{"t":91.2,"string":1,"fret":4,"pitch":63,"chord":"Cm","event_time":54.0},{"t":116.0,"string":4,"fret":3,"pitch":48,"chord":null,"event_time":116.0},{"t":116.431,"string":3,"fret":1,"pitch":51,"chord":null,"event_time":116.0},{"t":116.862,"string":2,"fret":1,"pitch":56,"chord":null,"event_time":116.0},{"t":117.292,"string":1,"fret":1,"pitch":60,"chord":null,"event_time":116.0},{"t":117.723,"string":0,"fret":4,"pitch":68,"chord":null,"event_time":116.0},{"t":125.262,"string":1,"fret":3,"pitch":62,"chord":null,"event_time":116.0},{"t":130.0,"string":4,"fret":3,"pitch":48,"chord":"Cm","event_time":130.0},{"t":130.152,"string":3,"fret":5,"pitch":55,"chord":"Cm","event_time":130.0},{"t":130.303,"string":2,"fret":5,"pitch":60,"chord":"Cm","event_time":130.0},{"t":130.455,"string":1,"fret":5,"pitch":64,"chord":"Cm","event_time":130.0},{"t":130.606,"string":0,"fret":3,"pitch":67,"chord":"Cm","event_time":130.0},{"t":132.727,"string":4,"fret":3,"pitch":48,"chord":"Cm","event_time":130.0},{"t":133.258,"string":1,"fret":1,"pitch":60,"chord":"Cm","event_time":130.0},{"t":135.0,"string":4,"fret":3,"pitch":48,"chord":"Ab/C","event_time":135.0},{"t":135.188,"string":3,"fret":1,"pitch":51,"chord":"Ab/C","event_time":135.0},{"t":135.375,"string":2,"fret":1,"pitch":56,"chord":"Ab/C","event_time":135.0},{"t":135.562,"string":1,"fret":1,"pitch":60,"chord":"Ab/C","event_time":135.0},{"t":135.75,"string":0,"fret":4,"pitch":68,"chord":"Ab/C","event_time":135.0},{"t":138.938,"string":1,"fret":3,"pitch":62,"chord":"Dm","event_time":138.0},{"t":141.0,"string":4,"fret":3,"pitch":48,"chord":"Cm","event_time":141.0},{"t":141.061,"string":3,"fret":5,"pitch":55,"chord":"Cm","event_time":141.0},{"t":141.121,"string":2,"fret":5,"pitch":60,"chord":"Cm","event_time":141.0},{"t":141.182,"string":1,"fret":5,"pitch":64,"chord":"Cm","event_time":141.0},{"t":141.242,"string":0,"fret":3,"pitch":67,"chord":"Cm","event_time":141.0},{"t":147.0,"string":1,"fret":1,"pitch":60,"chord":"Cm","event_time":142.0},{"t":158.123,"string":2,"fret":5,"pitch":60,"chord":"G3","event_time":158.0},{"t":158.369,"string":2,"fret":5,"pitch":60,"chord":"G3","event_time":158.0},{"t":158.615,"string":2,"fret":5,"pitch":60,"chord":"G3","event_time":158.0}],"chords":[{"time":0.0,"chord":"Ab/C","shape":["4","1","1","1","3","x"],"desc":"Ab/C (0:00)","tab":["e |--------4-----------------------|","B |------1-------------------------|","G |----1---------------------------|","D |--1-----------------------------|","A |3-------------------------------|","E |--------------------------------|"]},{"time":3.0,"chord":"Dm","shape":["x","3","x","x","x","x"],"desc":"Dm (0:03)","tab":["e |--------------------------------|","B |----------3---------------------|","G |--------------------------------|","D |--------------------------------|","A |--------------------------------|","E |--------------------------------|"]},{"time":5.0,"chord":"Cm","shape":["3","5","5","5","3","x"],"desc":"Cm (0:05)","tab":["e |--------3-----------------------|","B |------5-------------------------|","G |----5---------------------------|","D |--5-----------------------------|","A |3--------------------------------|","E |--------------------------------|"]},{"time":7.0,"chord":"F","shape":["1","1","2","3","x","x"],"desc":"F (0:07)","tab":["e |--------1-----------------------|","B |------1-------------------------|","G |----2---------------------------|","D |3-------------------------------|","A |--------------------------------|","E |--------------------------------|"]},{"time":10.0,"chord":"Ab/C","shape":["4","1","1","1","3","x"],"desc":"Ab/C (0:10)","tab":["e |--------4-----------------------|","B |------1-------------------------|","G |----1---------------------------|","D |--1-----------------------------|","A |3-------------------------------|","E |--------------------------------|"]},{"time":13.0,"chord":"Dm","shape":["x","3","x","x","x","x"],"desc":"Dm (0:13)","tab":["e |--------------------------------|","B |----------3-----3-----3---------|","G |--------------------------------|","D |--------------------------------|","A |--------------------------------|","E |--------------------------------|"]},{"time":15.0,"chord":"Cm","shape":["3","5","5","5","3","x"],"desc":"Cm (0:15)","tab":["e |--------3-----------------------|","B |------5-------------------------|","G |----5---------------------------|","D |--5-----------------------------|","A |3--------------------------------|","E |--------------------------------|"]},{"time":18.0,"chord":"Cm*","shape":["3","1","x","x","3","x"],"desc":"Cm* (0:18)","tab":["e |--------3-----------------------|","B |------1-------------------------|","G |--------------------------------|","D |--------------------------------|","A |--3-----------------------------|","E |--------------------------------|"]},{"time":23.0,"chord":"Cm","shape":["3","4","x","x","3","x"],"desc":"Cm (0:23) [M]","tab":["e |--3---1-------------------------|--------------------------------|","B |----------4---1---1-------------|--------------------------------|","G |--------------------------------|--------------------------------|","D |--------------------------------|--------------------------------|","A |--3-----------------------------|--------------------------------|","E |--------------------------------|--------------------------------|"]},{"time":30.0,"chord":"Ab/C","shape":["4","1","x","x","3","x"],"desc":"Ab/C (0:30)","tab":["e |------4-------------------------|","B |--1-----------------------------|","G |--------------------------------|","D |--------------------------------|","A |--3-----------------------------|","E |--------------------------------|"]},{"time":32.0,"chord":"Cm","shape":["3","x","x","x","3","x"],"desc":"Cm (0:32)","tab":["e |------3-----3-----3-------------|","B |--------------------------------|","G |--------------------------------|","D |--------------------------------|","A |--3-----------------------------|","E |--------------------------------|"]},{"time":35.0,"chord":"Cm","shape":["x","4","3","x","x","3"],"desc":"Cm (0:35) [M]","tab":["e |--------------------------------|--------------------------------|","B |--4---4-------------------------|--------------------------------|","G |------3---3---------------------|--------------------------------|","D |--------------------------------|--------------------------------|","A |--------------------------------|--------------------------------|","E |--3-----------------------------|--------------------------------|"]},{"time":37.0,"chord":"Cm","shape":["x","1","x","x","x","x"],"desc":"Cm (0:37)","tab":["e |--------------------------------|","B |--1---1---4---4---4-------------|","G |--------------------------------|","D |--------------------------------|","A |--------------------------------|","E |--------------------------------|"]},{"time":40.0,"chord":"Ab","shape":["4","1","x","x","3","x"],"desc":"Ab (0:40)","tab":["e |------4-------------------------|","B |--1-----------------------------|","G |--------------------------------|","D |--------------------------------|","A |--3-----------------------------|","E |--------------------------------|"]},{"time":45.0,"chord":"Bb","shape":["x","4","x","5","x","x"],"desc":"Bb (0:45) [M]","tab":["e |--------------------------------|--------------------------------|","B |--4---4-------4-----------------|--3---3-------------------------|","G |--------------------------------|--------------------------------|","D |--5---5-------------------------|--------------------------------|","A |--------------------------------|--------------------------------|","E |--------------------------------|--------------------------------|"]},{"time":49.0,"chord":"F","shape":["1","1","x","x","x","x"],"desc":"F (0:49)","tab":["e |--1---1-------------------------|","B |----------1---------------------|","G |--------------------------------|","D |--------------------------------|","A |--------------------------------|","E |--------------------------------|"]},{"time":51.0,"chord":"Cm","shape":["x","3","x","x","3","x"],"desc":"Cm (0:51)","tab":["e |--------------------------------|","B |------3-------------------------|","G |--------------------------------|","D |--------------------------------|","A |--3-----------------------------|","E |--------------------------------|"]},{"time":54.0,"chord":"Cm","shape":["1","4","x","x","x","x"],"desc":"Cm (0:54) [M]","tab":["e |--------------------------------|--1-----------------------------|","B |--4---4---4---------------------|------4-------------------------|","G |--------------------------------|--------------------------------|","D |--------------------------------|--------------------------------|","A |--------------------------------|--------------------------------|","E |--------------------------------|--------------------------------|"]},{"time":116.0,"chord":"Passage","shape":["4","1","1","1","3","x"],"desc":"[1:56-2:05]","tab":["e |--------4-----------------------|--------------------------------|","B |------1-------------------------|----------3---------------------|","G |----1---------------------------|--------------------------------|","D |--1-----------------------------|--------------------------------|","A |3-------------------------------|--------------------------------|","E |--------------------------------|--------------------------------|"]},{"time":130.0,"chord":"Cm","shape":["3","5","5","5","3","x"],"desc":"Cm, barre (2:10)                   F/C (?) (2:12) [M]","tab":["e |--------3-----------------------|--------------------------------|","B |------5-------------------------|----------1---------------------|","G |----5---------------------------|--------------------------------|","D |--5-----------------------------|--------------------------------|","A |3--------------------------------|--3-----------------------------|","E |--------------------------------|--------------------------------|"]},{"time":135.0,"chord":"Ab/C","shape":["4","1","1","1","3","x"],"desc":"Ab/C (2:15)","tab":["e |--------4-----------------------|","B |------1-------------------------|","G |----1---------------------------|","D |--1-----------------------------|","A |3-------------------------------|","E |--------------------------------|"]},{"time":138.0,"chord":"Dm","shape":["x","3","x","x","x","x"],"desc":"Dm (2:18)","tab":["e |--------------------------------|","B |----------3---------------------|","G |--------------------------------|","D |--------------------------------|","A |--------------------------------|","E |--------------------------------|"]},{"time":141.0,"chord":"Cm","shape":["3","5","5","5","3","x"],"desc":"Cm (2:21)","tab":["e |--------3-----------------------|","B |------5-------------------------|","G |----5---------------------------|","D |--5-----------------------------|","A |3--------------------------------|","E |--------------------------------|"]},{"time":142.0,"chord":"Cm","shape":["x","1","x","x","x","x"],"desc":"Cm (2:22)","tab":["e |--------------------------------|","B |----------1---------------------|","G |--------------------------------|","D |--------------------------------|","A |--------------------------------|","E |--------------------------------|"]},{"time":158.0,"chord":"G3","shape":["x","x","5","x","x","x"],"desc":"G3 (2:38.0)","tab":["e |--------------------------------|--------------------------------|","B |--------------------------------|--------------------------------|","G |--5---5---5---------------------|--------------------------------|","D |--------------------------------|--------------------------------|","A |--------------------------------|--------------------------------|","E |--------------------------------|--------------------------------|"]}],"duration":158.615},"doctorstrange":{"slug":"doctorstrange","title":"Doctor Strange Main Theme","tuning":"Standard (E A D G B E)","capo":"None","key":"Bb major / G minor","notes":[{"t":0.325,"string":"e","fret":10,"pitch":74,"chord":"Bar 1","event_time":0.325,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":0.325,"string":"B","fret":10,"pitch":69,"chord":"Bar 1","event_time":0.325,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":0.84,"string":"G","fret":10,"pitch":65,"chord":"Bar 1","event_time":0.84,"timing_source":"audio_117bpm"},{"t":0.84,"string":"E","fret":0,"pitch":40,"chord":"Bar 1","event_time":0.84,"timing_source":"audio_117bpm"},{"t":1.01,"string":"e","fret":12,"pitch":76,"chord":"Bar 1","event_time":1.01,"timing_source":"audio_117bpm"},{"t":1.01,"string":"e","fret":13,"pitch":77,"chord":"Bar 1","event_time":1.01,"timing_source":"audio_117bpm"},{"t":1.18,"string":"e","fret":10,"pitch":74,"chord":"Bar 1","event_time":1.18,"timing_source":"audio_117bpm"},{"t":1.18,"string":"e","fret":13,"pitch":77,"chord":"Bar 1","event_time":1.18,"timing_source":"audio_117bpm"},{"t":1.35,"string":"e","fret":12,"pitch":76,"chord":"Bar 2","event_time":1.35,"timing_source":"audio_117bpm"},{"t":1.35,"string":"B","fret":13,"pitch":72,"chord":"Bar 2","event_time":1.35,"timing_source":"audio_117bpm"},{"t":1.765,"string":"G","fret":14,"pitch":69,"chord":"Bar 2","event_time":1.765,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":1.765,"string":"E","fret":0,"pitch":40,"chord":"Bar 2","event_time":1.765,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":3.413,"string":"e","fret":13,"pitch":77,"chord":"Bar 2","event_time":3.413,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":4.412,"string":"e","fret":11,"pitch":75,"chord":"Bar 3","event_time":4.412,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":4.412,"string":"B","fret":11,"pitch":70,"chord":"Bar 3","event_time":4.412,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":4.92,"string":"G","fret":12,"pitch":67,"chord":"Bar 3","event_time":4.92,"timing_source":"audio_117bpm"},{"t":4.92,"string":"E","fret":11,"pitch":51,"chord":"Bar 3","event_time":4.92,"timing_source":"audio_117bpm"},{"t":5.43,"string":"B","fret":11,"pitch":70,"chord":"Bar 3","event_time":5.43,"timing_source":"audio_117bpm"},{"t":5.43,"string":"B","fret":11,"pitch":70,"chord":"Bar 3","event_time":5.43,"timing_source":"audio_117bpm"},{"t":5.6,"string":"e","fret":11,"pitch":75,"chord":"Bar 3","event_time":5.6,"timing_source":"audio_117bpm"},{"t":5.77,"string":"B","fret":13,"pitch":72,"chord":"Bar 3","event_time":5.77,"timing_source":"audio_117bpm"},{"t":5.94,"string":"B","fret":15,"pitch":74,"chord":"Bar 3","event_time":5.94,"timing_source":"audio_117bpm"},{"t":6.45,"string":"e","fret":10,"pitch":74,"chord":"Bar 4","event_time":6.45,"timing_source":"audio_117bpm"},{"t":6.45,"string":"B","fret":10,"pitch":69,"chord":"Bar 4","event_time":6.45,"timing_source":"audio_117bpm"},{"t":6.45,"string":"G","fret":12,"pitch":67,"chord":"Bar 4","event_time":6.45,"timing_source":"audio_117bpm"},{"t":6.45,"string":"E","fret":0,"pitch":40,"chord":"Bar 4","event_time":6.45,"timing_source":"audio_117bpm"},{"t":6.45,"string":"e","fret":6,"pitch":70,"chord":"Bar 5","event_time":6.45,"timing_source":"audio_117bpm"},{"t":6.45,"string":"B","fret":7,"pitch":66,"chord":"Bar 5","event_time":6.45,"timing_source":"audio_117bpm"},{"t":6.45,"string":"G","fret":7,"pitch":62,"chord":"Bar 5","event_time":6.45,"timing_source":"audio_117bpm"},{"t":6.45,"string":"A","fret":8,"pitch":53,"chord":"Bar 5","event_time":6.45,"timing_source":"audio_117bpm"},{"t":10.53,"string":"G","fret":7,"pitch":62,"chord":"Bar 6","event_time":10.53,"timing_source":"audio_117bpm"},{"t":10.774,"string":"A","fret":5,"pitch":50,"chord":"Bar 6","event_time":10.774,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":10.774,"string":"G","fret":7,"pitch":62,"chord":"Bar 6","event_time":10.774,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":11.04,"string":"G","fret":7,"pitch":62,"chord":"Bar 6","event_time":11.04,"timing_source":"audio_117bpm"},{"t":11.21,"string":"A","fret":5,"pitch":50,"chord":"Bar 6","event_time":11.21,"timing_source":"audio_117bpm"},{"t":11.38,"string":"G","fret":7,"pitch":62,"chord":"Bar 6","event_time":11.38,"timing_source":"audio_117bpm"},{"t":11.54,"string":"G","fret":7,"pitch":62,"chord":"Bar 6","event_time":11.54,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":12.57,"string":"B","fret":6,"pitch":65,"chord":"Bar 7","event_time":12.57,"timing_source":"audio_117bpm"},{"t":12.74,"string":"A","fret":5,"pitch":50,"chord":"Bar 7","event_time":12.74,"timing_source":"audio_117bpm"},{"t":12.91,"string":"B","fret":6,"pitch":65,"chord":"Bar 7","event_time":12.91,"timing_source":"audio_117bpm"},{"t":13.08,"string":"B","fret":6,"pitch":65,"chord":"Bar 7","event_time":13.08,"timing_source":"audio_117bpm"},{"t":13.25,"string":"B","fret":6,"pitch":65,"chord":"Bar 7","event_time":13.25,"timing_source":"audio_117bpm"},{"t":13.42,"string":"B","fret":6,"pitch":65,"chord":"Bar 7","event_time":13.42,"timing_source":"audio_117bpm"},{"t":13.59,"string":"e","fret":5,"pitch":69,"chord":"Bar 8","event_time":13.59,"timing_source":"audio_117bpm"},{"t":14.61,"string":"e","fret":5,"pitch":69,"chord":"Bar 8","event_time":14.61,"timing_source":"audio_117bpm"},{"t":14.779,"string":"e","fret":5,"pitch":69,"chord":"Bar 8","event_time":14.779,"timing_source":"audio_117bpm"},{"t":15.047,"string":"e","fret":5,"pitch":69,"chord":"Bar 8","event_time":15.047,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":15.163,"string":"e","fret":5,"pitch":69,"chord":"Bar 8","event_time":15.163,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":15.279,"string":"e","fret":5,"pitch":69,"chord":"Bar 8","event_time":15.279,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":15.46,"string":"e","fret":5,"pitch":69,"chord":"Bar 8","event_time":15.46,"timing_source":"audio_117bpm"},{"t":15.63,"string":"e","fret":5,"pitch":69,"chord":"Bar 8","event_time":15.63,"timing_source":"audio_117bpm"},{"t":16.65,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":16.65,"timing_source":"audio_117bpm"},{"t":16.65,"string":"A","fret":4,"pitch":49,"chord":"Bar 9","event_time":16.65,"timing_source":"audio_117bpm"},{"t":16.82,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":16.82,"timing_source":"audio_117bpm"},{"t":16.99,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":16.99,"timing_source":"audio_117bpm"},{"t":17.16,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":17.16,"timing_source":"audio_117bpm"},{"t":17.33,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":17.33,"timing_source":"audio_117bpm"},{"t":17.5,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":17.5,"timing_source":"audio_117bpm"},{"t":17.67,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":17.67,"timing_source":"audio_117bpm"},{"t":17.84,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":17.84,"timing_source":"audio_117bpm"},{"t":18.01,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":18.01,"timing_source":"audio_117bpm"},{"t":18.18,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":18.18,"timing_source":"audio_117bpm"},{"t":18.35,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":18.35,"timing_source":"audio_117bpm"},{"t":18.52,"string":"e","fret":5,"pitch":69,"chord":"Bar 9","event_time":18.52,"timing_source":"audio_117bpm"},{"t":18.808,"string":"e","fret":0,"pitch":64,"chord":"Bar 10","event_time":18.808,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":18.808,"string":"B","fret":3,"pitch":62,"chord":"Bar 10","event_time":18.808,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":19.03,"string":"A","fret":0,"pitch":45,"chord":"Bar 10","event_time":19.03,"timing_source":"audio_117bpm"},{"t":19.156,"string":"e","fret":1,"pitch":65,"chord":"Bar 10","event_time":19.156,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":19.482,"string":"B","fret":3,"pitch":62,"chord":"Bar 10","event_time":19.482,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":19.482,"string":"e","fret":1,"pitch":65,"chord":"Bar 10","event_time":19.482,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":19.667,"string":"e","fret":0,"pitch":64,"chord":"Bar 11","event_time":19.667,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":20.22,"string":"A","fret":2,"pitch":47,"chord":"Bar 11","event_time":20.22,"timing_source":"audio_117bpm"},{"t":21.827,"string":"e","fret":1,"pitch":65,"chord":"Bar 11","event_time":21.827,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":22.825,"string":"e","fret":1,"pitch":65,"chord":"Bar 12","event_time":22.825,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":23.279,"string":"B","fret":4,"pitch":63,"chord":"Bar 12","event_time":23.279,"timing_source":"audio_117bpm"},{"t":23.449,"string":"G","fret":3,"pitch":58,"chord":"Bar 12","event_time":23.449,"timing_source":"audio_117bpm"},{"t":23.62,"string":"D","fret":1,"pitch":51,"chord":"Bar 12","event_time":23.62,"timing_source":"audio_117bpm"},{"t":23.754,"string":"e","fret":3,"pitch":67,"chord":"Bar 12","event_time":23.754,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":24.265,"string":"B","fret":4,"pitch":63,"chord":"Bar 12","event_time":24.265,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":24.776,"string":"B","fret":3,"pitch":62,"chord":"Bar 13","event_time":24.776,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":24.776,"string":"A","fret":0,"pitch":45,"chord":"Bar 13","event_time":24.776,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":24.776,"string":"e","fret":1,"pitch":65,"chord":"Bar 14","event_time":24.776,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":24.776,"string":"B","fret":4,"pitch":63,"chord":"Bar 14","event_time":24.776,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":24.776,"string":"G","fret":3,"pitch":58,"chord":"Bar 14","event_time":24.776,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":24.776,"string":"D","fret":1,"pitch":51,"chord":"Bar 14","event_time":24.776,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":26.819,"string":"B","fret":4,"pitch":63,"chord":"Bar 14","event_time":26.819,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":27.359,"string":"e","fret":3,"pitch":67,"chord":"Bar 14","event_time":27.359,"timing_source":"audio_117bpm"},{"t":27.562,"string":"B","fret":4,"pitch":63,"chord":"Bar 14","event_time":27.562,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":28.955,"string":"e","fret":6,"pitch":70,"chord":"Bar 15","event_time":28.955,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":29.909,"string":"B","fret":8,"pitch":67,"chord":"Bar 15","event_time":29.909,"timing_source":"audio_117bpm"},{"t":29.909,"string":"E","fret":6,"pitch":46,"chord":"Bar 15","event_time":29.909,"timing_source":"audio_117bpm"},{"t":31.022,"string":"B","fret":4,"pitch":63,"chord":"Bar 16","event_time":31.022,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.022,"string":"G","fret":5,"pitch":60,"chord":"Bar 16","event_time":31.022,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.556,"string":"D","fret":6,"pitch":56,"chord":"Bar 16","event_time":31.556,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.556,"string":"A","fret":4,"pitch":49,"chord":"Bar 16","event_time":31.556,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.556,"string":"G","fret":5,"pitch":60,"chord":"Bar 16","event_time":31.556,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.556,"string":"G","fret":7,"pitch":62,"chord":"Bar 16","event_time":31.556,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.858,"string":"G","fret":5,"pitch":60,"chord":"Bar 16","event_time":31.858,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.858,"string":"B","fret":2,"pitch":61,"chord":"Bar 17","event_time":31.858,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.858,"string":"D","fret":2,"pitch":52,"chord":"Bar 17","event_time":31.858,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":31.858,"string":"A","fret":2,"pitch":47,"chord":"Bar 17","event_time":31.858,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":32.508,"string":"E","fret":0,"pitch":40,"chord":"Bar 17","event_time":32.508,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":35.009,"string":"e","fret":1,"pitch":65,"chord":"Bar 18","event_time":35.009,"timing_source":"audio_117bpm"},{"t":35.009,"string":"B","fret":3,"pitch":62,"chord":"Bar 18","event_time":35.009,"timing_source":"audio_117bpm"},{"t":35.349,"string":"A","fret":0,"pitch":45,"chord":"Bar 18","event_time":35.349,"timing_source":"audio_117bpm"},{"t":35.349,"string":"B","fret":3,"pitch":62,"chord":"Bar 18","event_time":35.349,"timing_source":"audio_117bpm"},{"t":35.519,"string":"e","fret":1,"pitch":65,"chord":"Bar 18","event_time":35.519,"timing_source":"audio_117bpm"},{"t":35.852,"string":"B","fret":3,"pitch":62,"chord":"Bar 18","event_time":35.852,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":35.991,"string":"B","fret":3,"pitch":62,"chord":"Bar 18","event_time":35.991,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":36.369,"string":"e","fret":1,"pitch":65,"chord":"Bar 18","event_time":36.369,"timing_source":"audio_117bpm"},{"t":36.641,"string":"B","fret":3,"pitch":62,"chord":"Bar 18","event_time":36.641,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":36.879,"string":"B","fret":3,"pitch":62,"chord":"Bar 18","event_time":36.879,"timing_source":"audio_117bpm"},{"t":37.049,"string":"B","fret":3,"pitch":62,"chord":"Bar 19","event_time":37.049,"timing_source":"audio_117bpm"},{"t":37.049,"string":"G","fret":3,"pitch":58,"chord":"Bar 19","event_time":37.049,"timing_source":"audio_117bpm"},{"t":37.389,"string":"A","fret":0,"pitch":45,"chord":"Bar 19","event_time":37.389,"timing_source":"audio_117bpm"},{"t":37.389,"string":"B","fret":3,"pitch":62,"chord":"Bar 19","event_time":37.389,"timing_source":"audio_117bpm"},{"t":37.559,"string":"B","fret":3,"pitch":62,"chord":"Bar 19","event_time":37.559,"timing_source":"audio_117bpm"},{"t":37.559,"string":"G","fret":3,"pitch":58,"chord":"Bar 19","event_time":37.559,"timing_source":"audio_117bpm"},{"t":37.899,"string":"B","fret":3,"pitch":62,"chord":"Bar 19","event_time":37.899,"timing_source":"audio_117bpm"},{"t":37.899,"string":"B","fret":3,"pitch":62,"chord":"Bar 19","event_time":37.899,"timing_source":"audio_117bpm"},{"t":38.174,"string":"G","fret":3,"pitch":58,"chord":"Bar 19","event_time":38.174,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":38.409,"string":"B","fret":3,"pitch":62,"chord":"Bar 19","event_time":38.409,"timing_source":"audio_117bpm"},{"t":38.579,"string":"G","fret":2,"pitch":57,"chord":"Bar 20","event_time":38.579,"timing_source":"audio_117bpm"},{"t":38.919,"string":"D","fret":0,"pitch":50,"chord":"Bar 20","event_time":38.919,"timing_source":"audio_117bpm"},{"t":39.126,"string":"G","fret":2,"pitch":57,"chord":"Bar 20","event_time":39.126,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":39.429,"string":"G","fret":2,"pitch":57,"chord":"Bar 20","event_time":39.429,"timing_source":"audio_117bpm"},{"t":39.636,"string":"G","fret":2,"pitch":57,"chord":"Bar 20","event_time":39.636,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":39.938,"string":"G","fret":2,"pitch":57,"chord":"Bar 20","event_time":39.938,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":40.147,"string":"G","fret":2,"pitch":57,"chord":"Bar 20","event_time":40.147,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":40.449,"string":"G","fret":3,"pitch":58,"chord":"Bar 20","event_time":40.449,"timing_source":"audio_117bpm"},{"t":40.612,"string":"G","fret":3,"pitch":58,"chord":"Bar 20","event_time":40.612,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":41.053,"string":"G","fret":3,"pitch":58,"chord":"Bar 20","event_time":41.053,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":41.146,"string":"e","fret":0,"pitch":64,"chord":"Bar 21","event_time":41.146,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":41.146,"string":"G","fret":0,"pitch":55,"chord":"Bar 21","event_time":41.146,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":41.469,"string":"D","fret":0,"pitch":50,"chord":"Bar 21","event_time":41.469,"timing_source":"audio_117bpm"},{"t":41.469,"string":"G","fret":0,"pitch":55,"chord":"Bar 21","event_time":41.469,"timing_source":"audio_117bpm"},{"t":41.639,"string":"e","fret":0,"pitch":64,"chord":"Bar 21","event_time":41.639,"timing_source":"audio_117bpm"},{"t":41.639,"string":"G","fret":0,"pitch":55,"chord":"Bar 21","event_time":41.639,"timing_source":"audio_117bpm"},{"t":41.979,"string":"G","fret":0,"pitch":55,"chord":"Bar 21","event_time":41.979,"timing_source":"audio_117bpm"},{"t":42.144,"string":"D","fret":4,"pitch":54,"chord":"Bar 21","event_time":42.144,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":42.489,"string":"e","fret":0,"pitch":64,"chord":"Bar 21","event_time":42.489,"timing_source":"audio_117bpm"},{"t":42.659,"string":"G","fret":2,"pitch":57,"chord":"Bar 21","event_time":42.659,"timing_source":"audio_117bpm"},{"t":42.999,"string":"G","fret":2,"pitch":57,"chord":"Bar 21","event_time":42.999,"timing_source":"audio_117bpm"},{"t":43.143,"string":"e","fret":5,"pitch":69,"chord":"Bar 22","event_time":43.143,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":43.143,"string":"B","fret":3,"pitch":62,"chord":"Bar 22","event_time":43.143,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":43.143,"string":"A","fret":0,"pitch":45,"chord":"Bar 22","event_time":43.143,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":43.143,"string":"A","fret":0,"pitch":45,"chord":"Bar 22","event_time":43.143,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":44.095,"string":"e","fret":8,"pitch":72,"chord":"Bar 23","event_time":44.095,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":44.095,"string":"B","fret":10,"pitch":69,"chord":"Bar 23","event_time":44.095,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":44.095,"string":"A","fret":7,"pitch":52,"chord":"Bar 23","event_time":44.095,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":44.095,"string":"E","fret":8,"pitch":48,"chord":"Bar 23","event_time":44.095,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":47.299,"string":"e","fret":6,"pitch":70,"chord":"Bar 24","event_time":47.299,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":47.759,"string":"B","fret":8,"pitch":67,"chord":"Bar 24","event_time":47.759,"timing_source":"audio_117bpm"},{"t":48.205,"string":"A","fret":6,"pitch":51,"chord":"Bar 24","event_time":48.205,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":49.034,"string":"e","fret":8,"pitch":72,"chord":"Bar 24","event_time":49.034,"timing_source":"audio_117bpm"},{"t":49.18,"string":"e","fret":6,"pitch":70,"chord":"Bar 25","event_time":49.18,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":49.18,"string":"B","fret":8,"pitch":67,"chord":"Bar 25","event_time":49.18,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":49.18,"string":"A","fret":0,"pitch":45,"chord":"Bar 25","event_time":49.18,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":50.294,"string":"e","fret":5,"pitch":69,"chord":"Bar 25","event_time":50.294,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":50.294,"string":"e","fret":6,"pitch":70,"chord":"Bar 26","event_time":50.294,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":50.828,"string":"B","fret":10,"pitch":69,"chord":"Bar 26","event_time":50.828,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":50.828,"string":"A","fret":6,"pitch":51,"chord":"Bar 26","event_time":50.828,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":51.329,"string":"B","fret":8,"pitch":67,"chord":"Bar 26","event_time":51.329,"timing_source":"audio_117bpm"},{"t":53.369,"string":"e","fret":6,"pitch":70,"chord":"Bar 27","event_time":53.369,"timing_source":"audio_117bpm"},{"t":53.369,"string":"G","fret":0,"pitch":55,"chord":"Bar 27","event_time":53.369,"timing_source":"audio_117bpm"},{"t":54.389,"string":"A","fret":6,"pitch":51,"chord":"Bar 27","event_time":54.389,"timing_source":"audio_117bpm"},{"t":54.389,"string":"E","fret":6,"pitch":46,"chord":"Bar 27","event_time":54.389,"timing_source":"audio_117bpm"},{"t":54.962,"string":"e","fret":8,"pitch":72,"chord":"Bar 27","event_time":54.962,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":54.962,"string":"e","fret":6,"pitch":70,"chord":"Bar 27","event_time":54.962,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":55.472,"string":"e","fret":6,"pitch":70,"chord":"Bar 28","event_time":55.472,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":55.472,"string":"B","fret":4,"pitch":63,"chord":"Bar 28","event_time":55.472,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":55.472,"string":"A","fret":3,"pitch":48,"chord":"Bar 28","event_time":55.472,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":56.429,"string":"G","fret":5,"pitch":60,"chord":"Bar 29","event_time":56.429,"timing_source":"audio_117bpm"},{"t":56.429,"string":"D","fret":4,"pitch":54,"chord":"Bar 29","event_time":56.429,"timing_source":"audio_117bpm"},{"t":56.429,"string":"A","fret":3,"pitch":48,"chord":"Bar 29","event_time":56.429,"timing_source":"audio_117bpm"},{"t":57.449,"string":"G","fret":8,"pitch":63,"chord":"Bar 29","event_time":57.449,"timing_source":"audio_117bpm"},{"t":57.618,"string":"D","fret":7,"pitch":57,"chord":"Bar 29","event_time":57.618,"timing_source":"audio_117bpm"},{"t":57.789,"string":"A","fret":6,"pitch":51,"chord":"Bar 29","event_time":57.789,"timing_source":"audio_117bpm"},{"t":59.489,"string":"e","fret":1,"pitch":65,"chord":"Bar 30","event_time":59.489,"timing_source":"audio_117bpm"},{"t":59.489,"string":"B","fret":2,"pitch":61,"chord":"Bar 30","event_time":59.489,"timing_source":"audio_117bpm"},{"t":59.489,"string":"G","fret":3,"pitch":58,"chord":"Bar 30","event_time":59.489,"timing_source":"audio_117bpm"},{"t":59.489,"string":"E","fret":1,"pitch":41,"chord":"Bar 30","event_time":59.489,"timing_source":"audio_117bpm"},{"t":60.465,"string":"e","fret":1,"pitch":65,"chord":"Bar 30","event_time":60.465,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":60.952,"string":"e","fret":2,"pitch":66,"chord":"Bar 30","event_time":60.952,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":61.528,"string":"e","fret":1,"pitch":65,"chord":"Bar 31","event_time":61.528,"timing_source":"audio_117bpm"},{"t":61.528,"string":"B","fret":1,"pitch":60,"chord":"Bar 31","event_time":61.528,"timing_source":"audio_117bpm"},{"t":61.528,"string":"G","fret":2,"pitch":57,"chord":"Bar 31","event_time":61.528,"timing_source":"audio_117bpm"},{"t":61.528,"string":"E","fret":0,"pitch":40,"chord":"Bar 31","event_time":61.528,"timing_source":"audio_117bpm"},{"t":61.528,"string":"e","fret":1,"pitch":65,"chord":"Bar 31","event_time":61.528,"timing_source":"audio_117bpm"},{"t":61.528,"string":"e","fret":2,"pitch":66,"chord":"Bar 31","event_time":61.528,"timing_source":"audio_117bpm"},{"t":61.528,"string":"B","fret":4,"pitch":63,"chord":"Bar 32","event_time":61.528,"timing_source":"audio_117bpm"},{"t":61.528,"string":"G","fret":4,"pitch":59,"chord":"Bar 32","event_time":61.528,"timing_source":"audio_117bpm"},{"t":62.485,"string":"D","fret":6,"pitch":56,"chord":"Bar 32","event_time":62.485,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":62.996,"string":"E","fret":4,"pitch":44,"chord":"Bar 32","event_time":62.996,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":63.568,"string":"B","fret":4,"pitch":63,"chord":"Bar 32","event_time":63.568,"timing_source":"audio_117bpm"},{"t":64.588,"string":"B","fret":6,"pitch":65,"chord":"Bar 32","event_time":64.588,"timing_source":"audio_117bpm"},{"t":65.608,"string":"B","fret":6,"pitch":65,"chord":"Bar 33","event_time":65.608,"timing_source":"audio_117bpm"},{"t":65.608,"string":"G","fret":7,"pitch":62,"chord":"Bar 33","event_time":65.608,"timing_source":"audio_117bpm"},{"t":66.618,"string":"D","fret":8,"pitch":58,"chord":"Bar 33","event_time":66.618,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":66.618,"string":"A","fret":8,"pitch":53,"chord":"Bar 33","event_time":66.618,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":66.618,"string":"E","fret":6,"pitch":46,"chord":"Bar 33","event_time":66.618,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"B","fret":4,"pitch":63,"chord":"Bar 34","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"G","fret":4,"pitch":59,"chord":"Bar 34","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"D","fret":6,"pitch":56,"chord":"Bar 34","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"E","fret":4,"pitch":44,"chord":"Bar 34","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"B","fret":4,"pitch":63,"chord":"Bar 34","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"B","fret":6,"pitch":65,"chord":"Bar 34","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"B","fret":6,"pitch":65,"chord":"Bar 35","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"G","fret":7,"pitch":62,"chord":"Bar 35","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":67.733,"string":"D","fret":8,"pitch":58,"chord":"Bar 35","event_time":67.733,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":68.638,"string":"A","fret":8,"pitch":53,"chord":"Bar 35","event_time":68.638,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":69.178,"string":"E","fret":6,"pitch":46,"chord":"Bar 35","event_time":69.178,"timing_source":"audio_117bpm"},{"t":71.728,"string":"B","fret":4,"pitch":63,"chord":"Bar 36","event_time":71.728,"timing_source":"audio_117bpm"},{"t":71.728,"string":"G","fret":4,"pitch":59,"chord":"Bar 36","event_time":71.728,"timing_source":"audio_117bpm"},{"t":71.728,"string":"D","fret":6,"pitch":56,"chord":"Bar 36","event_time":71.728,"timing_source":"audio_117bpm"},{"t":71.728,"string":"E","fret":4,"pitch":44,"chord":"Bar 36","event_time":71.728,"timing_source":"audio_117bpm"},{"t":72.748,"string":"B","fret":4,"pitch":63,"chord":"Bar 36","event_time":72.748,"timing_source":"audio_117bpm"},{"t":73.258,"string":"B","fret":6,"pitch":65,"chord":"Bar 36","event_time":73.258,"timing_source":"audio_117bpm"},{"t":73.768,"string":"e","fret":0,"pitch":64,"chord":"Bar 37","event_time":73.768,"timing_source":"audio_117bpm"},{"t":73.768,"string":"B","fret":2,"pitch":61,"chord":"Bar 37","event_time":73.768,"timing_source":"audio_117bpm"},{"t":73.768,"string":"G","fret":2,"pitch":57,"chord":"Bar 37","event_time":73.768,"timing_source":"audio_117bpm"},{"t":73.768,"string":"D","fret":2,"pitch":52,"chord":"Bar 37","event_time":73.768,"timing_source":"audio_117bpm"},{"t":73.768,"string":"A","fret":0,"pitch":45,"chord":"Bar 37","event_time":73.768,"timing_source":"audio_117bpm"},{"t":74.788,"string":"B","fret":2,"pitch":61,"chord":"Bar 37","event_time":74.788,"timing_source":"audio_117bpm"},{"t":74.788,"string":"G","fret":2,"pitch":57,"chord":"Bar 37","event_time":74.788,"timing_source":"audio_117bpm"},{"t":74.788,"string":"D","fret":2,"pitch":52,"chord":"Bar 37","event_time":74.788,"timing_source":"audio_117bpm"},{"t":74.788,"string":"A","fret":4,"pitch":49,"chord":"Bar 37","event_time":74.788,"timing_source":"audio_117bpm"},{"t":74.788,"string":"B","fret":2,"pitch":61,"chord":"Bar 37","event_time":74.788,"timing_source":"audio_117bpm"},{"t":75.298,"string":"G","fret":2,"pitch":57,"chord":"Bar 37","event_time":75.298,"timing_source":"audio_117bpm"},{"t":75.298,"string":"D","fret":2,"pitch":52,"chord":"Bar 37","event_time":75.298,"timing_source":"audio_117bpm"},{"t":75.298,"string":"e","fret":5,"pitch":69,"chord":"Bar 38","event_time":75.298,"timing_source":"audio_117bpm"},{"t":75.298,"string":"A","fret":5,"pitch":50,"chord":"Bar 38","event_time":75.298,"timing_source":"audio_117bpm"},{"t":77.848,"string":"e","fret":6,"pitch":70,"chord":"Bar 39","event_time":77.848,"timing_source":"audio_117bpm"},{"t":78.925,"string":"B","fret":5,"pitch":64,"chord":"Bar 39","event_time":78.925,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":78.925,"string":"A","fret":4,"pitch":49,"chord":"Bar 39","event_time":78.925,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":79.946,"string":"B","fret":5,"pitch":64,"chord":"Bar 40","event_time":79.946,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":79.946,"string":"G","fret":6,"pitch":61,"chord":"Bar 40","event_time":79.946,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":79.946,"string":"A","fret":4,"pitch":49,"chord":"Bar 40","event_time":79.946,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":80.898,"string":"B","fret":6,"pitch":65,"chord":"Bar 41","event_time":80.898,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":80.898,"string":"G","fret":7,"pitch":62,"chord":"Bar 41","event_time":80.898,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":80.898,"string":"A","fret":5,"pitch":50,"chord":"Bar 41","event_time":80.898,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":84.056,"string":"e","fret":5,"pitch":69,"chord":"Bar 42","event_time":84.056,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":85.031,"string":"A","fret":5,"pitch":50,"chord":"Bar 42","event_time":85.031,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":85.031,"string":"e","fret":5,"pitch":69,"chord":"Bar 42","event_time":85.031,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":86.053,"string":"e","fret":8,"pitch":72,"chord":"Bar 43","event_time":86.053,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":86.053,"string":"A","fret":7,"pitch":52,"chord":"Bar 43","event_time":86.053,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":86.053,"string":"e","fret":6,"pitch":70,"chord":"Bar 43","event_time":86.053,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":87.098,"string":"B","fret":5,"pitch":64,"chord":"Bar 44","event_time":87.098,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":87.098,"string":"G","fret":6,"pitch":61,"chord":"Bar 44","event_time":87.098,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":87.098,"string":"A","fret":7,"pitch":52,"chord":"Bar 44","event_time":87.098,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":90.024,"string":"e","fret":0,"pitch":64,"chord":"Bar 45","event_time":90.024,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":90.024,"string":"B","fret":3,"pitch":62,"chord":"Bar 45","event_time":90.024,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":90.258,"string":"A","fret":0,"pitch":45,"chord":"Bar 45","event_time":90.258,"timing_source":"audio_117bpm"},{"t":90.258,"string":"e","fret":1,"pitch":65,"chord":"Bar 45","event_time":90.258,"timing_source":"audio_117bpm"},{"t":90.428,"string":"B","fret":3,"pitch":62,"chord":"Bar 45","event_time":90.428,"timing_source":"audio_117bpm"},{"t":90.428,"string":"e","fret":1,"pitch":65,"chord":"Bar 45","event_time":90.428,"timing_source":"audio_117bpm"},{"t":92.128,"string":"e","fret":0,"pitch":64,"chord":"Bar 46","event_time":92.128,"timing_source":"audio_117bpm"},{"t":92.128,"string":"A","fret":2,"pitch":47,"chord":"Bar 46","event_time":92.128,"timing_source":"audio_117bpm"},{"t":92.128,"string":"e","fret":1,"pitch":65,"chord":"Bar 46","event_time":92.128,"timing_source":"audio_117bpm"},{"t":93.148,"string":"e","fret":1,"pitch":65,"chord":"Bar 47","event_time":93.148,"timing_source":"audio_117bpm"},{"t":93.148,"string":"B","fret":4,"pitch":63,"chord":"Bar 47","event_time":93.148,"timing_source":"audio_117bpm"},{"t":93.148,"string":"G","fret":3,"pitch":58,"chord":"Bar 47","event_time":93.148,"timing_source":"audio_117bpm"},{"t":93.148,"string":"D","fret":1,"pitch":51,"chord":"Bar 47","event_time":93.148,"timing_source":"audio_117bpm"},{"t":94.168,"string":"e","fret":3,"pitch":67,"chord":"Bar 47","event_time":94.168,"timing_source":"audio_117bpm"},{"t":94.337,"string":"B","fret":4,"pitch":63,"chord":"Bar 47","event_time":94.337,"timing_source":"audio_117bpm"},{"t":94.508,"string":"e","fret":4,"pitch":68,"chord":"Bar 47","event_time":94.508,"timing_source":"audio_117bpm"},{"t":96.208,"string":"B","fret":3,"pitch":62,"chord":"Bar 48","event_time":96.208,"timing_source":"audio_117bpm"},{"t":96.827,"string":"G","fret":2,"pitch":57,"chord":"Bar 48","event_time":96.827,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":96.973,"string":"A","fret":0,"pitch":45,"chord":"Bar 48","event_time":96.973,"timing_source":"audio_117bpm"},{"t":97.228,"string":"B","fret":3,"pitch":62,"chord":"Bar 48","event_time":97.228,"timing_source":"audio_117bpm"},{"t":98.248,"string":"e","fret":1,"pitch":65,"chord":"Bar 49","event_time":98.248,"timing_source":"audio_117bpm"},{"t":98.248,"string":"B","fret":4,"pitch":63,"chord":"Bar 49","event_time":98.248,"timing_source":"audio_117bpm"},{"t":98.248,"string":"G","fret":3,"pitch":58,"chord":"Bar 49","event_time":98.248,"timing_source":"audio_117bpm"},{"t":98.429,"string":"D","fret":1,"pitch":51,"chord":"Bar 49","event_time":98.429,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":98.429,"string":"e","fret":3,"pitch":67,"chord":"Bar 49","event_time":98.429,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":98.429,"string":"B","fret":4,"pitch":63,"chord":"Bar 49","event_time":98.429,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":98.588,"string":"e","fret":4,"pitch":68,"chord":"Bar 49","event_time":98.588,"timing_source":"audio_117bpm"},{"t":98.588,"string":"e","fret":6,"pitch":70,"chord":"Bar 50","event_time":98.588,"timing_source":"audio_117bpm"},{"t":98.588,"string":"E","fret":6,"pitch":46,"chord":"Bar 50","event_time":98.588,"timing_source":"audio_117bpm"},{"t":101.307,"string":"e","fret":8,"pitch":72,"chord":"Bar 50","event_time":101.307,"timing_source":"audio_117bpm"},{"t":102.446,"string":"e","fret":4,"pitch":68,"chord":"Bar 51","event_time":102.446,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":102.446,"string":"B","fret":5,"pitch":64,"chord":"Bar 51","event_time":102.446,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":102.446,"string":"D","fret":5,"pitch":55,"chord":"Bar 51","event_time":102.446,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":102.446,"string":"A","fret":6,"pitch":51,"chord":"Bar 51","event_time":102.446,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":102.446,"string":"E","fret":4,"pitch":44,"chord":"Bar 51","event_time":102.446,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":102.446,"string":"B","fret":5,"pitch":64,"chord":"Bar 51","event_time":102.446,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":102.668,"string":"D","fret":7,"pitch":57,"chord":"Bar 51","event_time":102.668,"timing_source":"audio_117bpm"},{"t":102.668,"string":"B","fret":5,"pitch":64,"chord":"Bar 51","event_time":102.668,"timing_source":"audio_117bpm"},{"t":102.668,"string":"D","fret":5,"pitch":55,"chord":"Bar 51","event_time":102.668,"timing_source":"audio_117bpm"},{"t":104.367,"string":"B","fret":2,"pitch":61,"chord":"Bar 52","event_time":104.367,"timing_source":"audio_117bpm"},{"t":104.367,"string":"G","fret":2,"pitch":57,"chord":"Bar 52","event_time":104.367,"timing_source":"audio_117bpm"},{"t":104.367,"string":"D","fret":2,"pitch":52,"chord":"Bar 52","event_time":104.367,"timing_source":"audio_117bpm"},{"t":104.367,"string":"A","fret":0,"pitch":45,"chord":"Bar 52","event_time":104.367,"timing_source":"audio_117bpm"},{"t":104.877,"string":"E","fret":0,"pitch":40,"chord":"Bar 52","event_time":104.877,"timing_source":"audio_117bpm"},{"t":104.877,"string":"A","fret":0,"pitch":45,"chord":"Bar 52","event_time":104.877,"timing_source":"audio_117bpm"},{"t":104.877,"string":"E","fret":0,"pitch":40,"chord":"Bar 52","event_time":104.877,"timing_source":"audio_117bpm"},{"t":104.877,"string":"D","fret":2,"pitch":52,"chord":"Bar 52","event_time":104.877,"timing_source":"audio_117bpm"},{"t":105.488,"string":"A","fret":0,"pitch":45,"chord":"Bar 52","event_time":105.488,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":105.488,"string":"E","fret":0,"pitch":40,"chord":"Bar 52","event_time":105.488,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":105.488,"string":"A","fret":0,"pitch":45,"chord":"Bar 52","event_time":105.488,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":105.488,"string":"E","fret":0,"pitch":40,"chord":"Bar 52","event_time":105.488,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":105.813,"string":"e","fret":1,"pitch":65,"chord":"Bar 53","event_time":105.813,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":105.813,"string":"D","fret":3,"pitch":53,"chord":"Bar 53","event_time":105.813,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":105.813,"string":"A","fret":0,"pitch":45,"chord":"Bar 53","event_time":105.813,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":106.44,"string":"A","fret":0,"pitch":45,"chord":"Bar 53","event_time":106.44,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":106.44,"string":"e","fret":0,"pitch":64,"chord":"Bar 53","event_time":106.44,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":106.974,"string":"D","fret":2,"pitch":52,"chord":"Bar 53","event_time":106.974,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":107.427,"string":"A","fret":0,"pitch":45,"chord":"Bar 53","event_time":107.427,"timing_source":"audio_117bpm"},{"t":108.447,"string":"A","fret":0,"pitch":45,"chord":"Bar 53","event_time":108.447,"timing_source":"audio_117bpm"},{"t":108.447,"string":"e","fret":1,"pitch":65,"chord":"Bar 54","event_time":108.447,"timing_source":"audio_117bpm"},{"t":108.447,"string":"B","fret":3,"pitch":62,"chord":"Bar 54","event_time":108.447,"timing_source":"audio_117bpm"},{"t":109.389,"string":"G","fret":2,"pitch":57,"chord":"Bar 54","event_time":109.389,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":109.877,"string":"D","fret":0,"pitch":50,"chord":"Bar 54","event_time":109.877,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":110.388,"string":"B","fret":3,"pitch":62,"chord":"Bar 54","event_time":110.388,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":110.388,"string":"D","fret":0,"pitch":50,"chord":"Bar 54","event_time":110.388,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":110.388,"string":"B","fret":3,"pitch":62,"chord":"Bar 55","event_time":110.388,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":110.388,"string":"G","fret":3,"pitch":58,"chord":"Bar 55","event_time":110.388,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":111.433,"string":"D","fret":0,"pitch":50,"chord":"Bar 55","event_time":111.433,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":112.017,"string":"B","fret":3,"pitch":62,"chord":"Bar 55","event_time":112.017,"timing_source":"audio_117bpm"},{"t":112.527,"string":"D","fret":0,"pitch":50,"chord":"Bar 55","event_time":112.527,"timing_source":"audio_117bpm"},{"t":112.527,"string":"B","fret":2,"pitch":61,"chord":"Bar 56","event_time":112.527,"timing_source":"audio_117bpm"},{"t":112.527,"string":"G","fret":0,"pitch":55,"chord":"Bar 56","event_time":112.527,"timing_source":"audio_117bpm"},{"t":113.547,"string":"B","fret":2,"pitch":61,"chord":"Bar 56","event_time":113.547,"timing_source":"audio_117bpm"},{"t":114.057,"string":"G","fret":0,"pitch":55,"chord":"Bar 56","event_time":114.057,"timing_source":"audio_117bpm"},{"t":113.801,"string":"B","fret":3,"pitch":62,"chord":"Bar 56","event_time":113.801,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":114.567,"string":"B","fret":2,"pitch":61,"chord":"Bar 57","event_time":114.567,"timing_source":"audio_117bpm"},{"t":114.73,"string":"G","fret":0,"pitch":55,"chord":"Bar 57","event_time":114.73,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":114.907,"string":"E","fret":3,"pitch":43,"chord":"Bar 57","event_time":114.907,"timing_source":"audio_117bpm"},{"t":115.077,"string":"B","fret":2,"pitch":61,"chord":"Bar 57","event_time":115.077,"timing_source":"audio_117bpm"},{"t":115.247,"string":"G","fret":0,"pitch":55,"chord":"Bar 57","event_time":115.247,"timing_source":"audio_117bpm"},{"t":115.417,"string":"B","fret":2,"pitch":61,"chord":"Bar 57","event_time":115.417,"timing_source":"audio_117bpm"},{"t":115.587,"string":"G","fret":0,"pitch":55,"chord":"Bar 57","event_time":115.587,"timing_source":"audio_117bpm"},{"t":115.728,"string":"B","fret":2,"pitch":61,"chord":"Bar 57","event_time":115.728,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":116.193,"string":"G","fret":0,"pitch":55,"chord":"Bar 57","event_time":116.193,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":116.68,"string":"e","fret":0,"pitch":64,"chord":"Bar 58","event_time":116.68,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":116.862,"string":"A","fret":4,"pitch":49,"chord":"Bar 58","event_time":116.862,"timing_source":"audio_117bpm"},{"t":117.117,"string":"e","fret":0,"pitch":64,"chord":"Bar 58","event_time":117.117,"timing_source":"audio_117bpm"},{"t":117.287,"string":"e","fret":0,"pitch":64,"chord":"Bar 58","event_time":117.287,"timing_source":"audio_117bpm"},{"t":117.457,"string":"e","fret":0,"pitch":64,"chord":"Bar 58","event_time":117.457,"timing_source":"audio_117bpm"},{"t":117.632,"string":"e","fret":6,"pitch":70,"chord":"Bar 58","event_time":117.632,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":117.882,"string":"A","fret":7,"pitch":52,"chord":"Bar 58","event_time":117.882,"timing_source":"audio_117bpm"},{"t":118.097,"string":"e","fret":6,"pitch":70,"chord":"Bar 58","event_time":118.097,"timing_source":"audio_117bpm","snapped_to_onset":true},{"t":118.307,"string":"e","fret":6,"pitch":70,"chord":"Bar 58","event_time":118.307,"timing_source":"audio_117bpm"},{"t":118.477,"string":"e","fret":6,"pitch":70,"chord":"Bar 58","event_time":118.477,"timing_source":"audio_117bpm"}],"chords":[{"time":0.33,"chord":"Bar 1","shape":["10","10","10","x","x","0"],"desc":"Main Theme - 4/4 quarter chord, triplet 8ths, quarter, quarter","tab":["  e | 10 12 13 10 13","  B | 10","  G | 10","  D |","  A |","  E | 0"],"orig_time":0.0},{"time":2.37,"chord":"Bar 2","shape":["12","13","14","x","x","0"],"desc":"Main Theme - half chord, half note","tab":["  e | 12 13","  B | 13","  G | 14","  D |","  A |","  E | 0"],"orig_time":3.3333333333333335},{"time":4.41,"chord":"Bar 3","shape":["11","11","12","x","x","11"],"desc":"Main Theme - chord, quarter, triplet 8ths, quarter","tab":["  e | 11 11","  B | 11 11 11 13 15","  G | 12","  D |","  A |","  E | 11"],"orig_time":6.666666666666667},{"time":6.45,"chord":"Bar 4","shape":["10","10","12","x","x","0"],"desc":"Main Theme - whole chord","tab":["  e | 10","  B | 10","  G | 12","  D |","  A |","  E | 0"],"orig_time":10.0},{"time":8.49,"chord":"Bar 5","shape":["6","7","7","x","8","x"],"desc":"Main Theme - whole chord","tab":["  e | 6","  B | 7","  G | 7","  D |","  A | 8","  E |"],"orig_time":13.333333333333334},{"time":10.53,"chord":"Bar 6","shape":["x","x","7","x","5","x"],"desc":"Main Theme - triplet rhythms","tab":["  e |","  B |","  G | 7 7 7 7 7","  D |","  A | 5 5","  E |"],"orig_time":16.666666666666668},{"time":12.57,"chord":"Bar 7","shape":["x","6","x","x","5","x"],"desc":"Main Theme - triplet rhythms","tab":["  e |","  B | 6 6 6 6 6","  G |","  D |","  A | 5","  E |"],"orig_time":20.0},{"time":14.61,"chord":"Bar 8","shape":["5","x","x","x","x","x"],"desc":"Main Theme - triplet rhythms","tab":["  e | 5 5 5 5 5 5 5 5","  B |","  G |","  D |","  A |","  E |"],"orig_time":23.333333333333336},{"time":16.65,"chord":"Bar 9","shape":["5","x","x","x","4","x"],"desc":"Main Theme - four triplets","tab":["  e | 5 5 5 5 5 5 5 5 5 5 5 5","  B |","  G |","  D |","  A | 4","  E |"],"orig_time":26.666666666666668},{"time":18.69,"chord":"Bar 10","shape":["0","3","x","x","0","x"],"desc":"Verse - quarter dyad slurred to triplet, triplet 8ths, quarter, quarter","tab":["  e | 0 1 1","  B | 3 3","  G |","  D |","  A | 0","  E |"],"orig_time":30.0},{"time":20.729,"chord":"Bar 11","shape":["0","x","x","x","2","x"],"desc":"Verse - half dyad, half note","tab":["  e | 0 1","  B |","  G |","  D |","  A | 2","  E |"],"orig_time":33.333333333333336},{"time":22.769,"chord":"Bar 12","shape":["1","4","3","1","x","x"],"desc":"Verse - quarter dyad, triplet 8ths, quarter, quarter","tab":["  e | 1 3","  B | 4 4","  G | 3","  D | 1","  A |","  E |"],"orig_time":36.66666666666667},{"time":24.809,"chord":"Bar 13","shape":["x","3","x","x","0","x"],"desc":"Verse - whole dyad","tab":["  e |","  B | 3","  G |","  D |","  A | 0","  E |"],"orig_time":40.0},{"time":26.849,"chord":"Bar 14","shape":["1","4","3","1","x","x"],"desc":"Verse - quarter dyad + triplet + 2 quarters","tab":["  e | 1 3","  B | 4 4 4","  G | 3","  D | 1","  A |","  E |"],"orig_time":43.333333333333336},{"time":28.889,"chord":"Bar 15","shape":["6","8","x","x","x","6"],"desc":"Verse - two half dyads","tab":["  e | 6","  B | 8","  G |","  D |","  A |","  E | 6"],"orig_time":46.66666666666667},{"time":30.929,"chord":"Bar 16","shape":["x","4","5","6","4","x"],"desc":"Verse - quarter dyad + triplet w/ hammer-on + 2 quarters","tab":["  e |","  B | 4","  G | 5 5 7 5","  D | 6","  A | 4","  E |"],"orig_time":50.0},{"time":32.969,"chord":"Bar 17","shape":["x","2","x","2","2","0"],"desc":"Verse - half chord + half note","tab":["  e |","  B | 2","  G |","  D | 2","  A | 2","  E | 0"],"orig_time":53.333333333333336},{"time":35.009,"chord":"Bar 18","shape":["1","3","x","x","0","x"],"desc":"Strummed Triplet Shuffle - triplet shuffle","tab":["  e | 1 1 1","  B | 3 3 3 3 3 3","  G |","  D |","  A | 0","  E |"],"orig_time":56.66666666666667},{"time":37.049,"chord":"Bar 19","shape":["x","3","3","x","0","x"],"desc":"Strummed Triplet Shuffle - triplet shuffle","tab":["  e |","  B | 3 3 3 3 3 3","  G | 3 3 3","  D |","  A | 0","  E |"],"orig_time":60.0},{"time":39.089,"chord":"Bar 20","shape":["x","x","2","0","x","x"],"desc":"Strummed Triplet Shuffle - triplet shuffle","tab":["  e |","  B |","  G | 2 2 2 2 2 2 3 3 3","  D | 0","  A |","  E |"],"orig_time":63.333333333333336},{"time":41.129,"chord":"Bar 21","shape":["0","x","0","0","x","x"],"desc":"Strummed Triplet Shuffle - triplet shuffle","tab":["  e | 0 0 0","  B |","  G | 0 0 0 0 2 2","  D | 0 4","  A |","  E |"],"orig_time":66.66666666666667},{"time":43.169,"chord":"Bar 22","shape":["5","3","x","x","0","x"],"desc":"Bridge - two half dyads","tab":["  e | 5","  B | 3","  G |","  D |","  A | 0 0","  E |"],"orig_time":70.0},{"time":45.209,"chord":"Bar 23","shape":["8","10","x","x","7","8"],"desc":"Bridge - two half dyads","tab":["  e | 8","  B | 10","  G |","  D |","  A | 7","  E | 8"],"orig_time":73.33333333333334},{"time":47.249,"chord":"Bar 24","shape":["6","8","x","x","6","x"],"desc":"Bridge - quarter, quarter, dotted quarter, eighth","tab":["  e | 6 8","  B | 8","  G |","  D |","  A | 6","  E |"],"orig_time":76.66666666666667},{"time":49.289,"chord":"Bar 25","shape":["6","8","x","x","0","x"],"desc":"Bridge - half dyad + quarter + quarter","tab":["  e | 6 5","  B | 8","  G |","  D |","  A | 0","  E |"],"orig_time":80.0},{"time":51.329,"chord":"Bar 26","shape":["6","10","x","x","6","x"],"desc":"Bridge - half dyad + 2 quarters","tab":["  e | 6","  B | 10 8","  G |","  D |","  A | 6","  E |"],"orig_time":83.33333333333334},{"time":53.369,"chord":"Bar 27","shape":["6","x","0","x","6","6"],"desc":"Bridge - half dyad + quarter dyad + quarter","tab":["  e | 6 8 6","  B |","  G | 0","  D |","  A | 6","  E | 6"],"orig_time":86.66666666666667},{"time":55.409,"chord":"Bar 28","shape":["6","4","x","x","3","x"],"desc":"Bridge - half dyad + half note","tab":["  e | 6","  B | 4","  G |","  D |","  A | 3","  E |"],"orig_time":90.0},{"time":57.449,"chord":"Bar 29","shape":["x","x","5","4","3","x"],"desc":"Bridge - two quarter triplets","tab":["  e |","  B |","  G | 5 8","  D | 4 7","  A | 3 6","  E |"],"orig_time":93.33333333333334},{"time":59.489,"chord":"Bar 30","shape":["1","2","3","x","x","1"],"desc":"Chorus - Two Flats - half chord; quarter; quarter","tab":["  e | 1 1 2","  B | 2","  G | 3","  D |","  A |","  E | 1"],"orig_time":96.66666666666667},{"time":61.528,"chord":"Bar 31","shape":["1","1","2","x","x","0"],"desc":"Chorus - Two Flats - half chord; quarter; quarter","tab":["  e | 1 1 2","  B | 1","  G | 2","  D |","  A |","  E | 0"],"orig_time":100.0},{"time":63.568,"chord":"Bar 32","shape":["x","4","4","6","x","4"],"desc":"Chorus - Two Flats - half chord; quarter; quarter","tab":["  e |","  B | 4 4 6","  G | 4","  D | 6","  A |","  E | 4"],"orig_time":103.33333333333334},{"time":65.608,"chord":"Bar 33","shape":["x","6","7","8","8","6"],"desc":"Chorus - Two Flats - half chord; half note","tab":["  e |","  B | 6","  G | 7","  D | 8","  A | 8","  E | 6"],"orig_time":106.66666666666667},{"time":67.648,"chord":"Bar 34","shape":["x","4","4","6","x","4"],"desc":"Chorus - Two Flats - half chord; quarter; quarter","tab":["  e |","  B | 4 4 6","  G | 4","  D | 6","  A |","  E | 4"],"orig_time":110.0},{"time":69.688,"chord":"Bar 35","shape":["x","6","7","8","8","6"],"desc":"Chorus - Two Flats - half chord; half note","tab":["  e |","  B | 6","  G | 7","  D | 8","  A | 8","  E | 6"],"orig_time":113.33333333333334},{"time":71.728,"chord":"Bar 36","shape":["x","4","4","6","x","4"],"desc":"Chorus - Two Flats - half chord; quarter; quarter","tab":["  e |","  B | 4 4 6","  G | 4","  D | 6","  A |","  E | 4"],"orig_time":116.66666666666667},{"time":73.768,"chord":"Bar 37","shape":["0","2","2","2","0","x"],"desc":"Chorus - Two Flats - half chord; quarter chord; quarter chord","tab":["  e | 0","  B | 2 2 2","  G | 2 2 2","  D | 2 2 2","  A | 0 4","  E |"],"orig_time":120.0},{"time":75.808,"chord":"Bar 38","shape":["5","x","x","x","5","x"],"desc":"Interlude - two half notes","tab":["  e | 5","  B |","  G |","  D |","  A | 5","  E |"],"orig_time":123.33333333333334},{"time":77.848,"chord":"Bar 39","shape":["6","5","x","x","4","x"],"desc":"Interlude - half dyad; half note","tab":["  e | 6","  B | 5","  G |","  D |","  A | 4","  E |"],"orig_time":126.66666666666667},{"time":79.888,"chord":"Bar 40","shape":["x","5","6","x","4","x"],"desc":"Interlude - half dyad; half note","tab":["  e |","  B | 5","  G | 6","  D |","  A | 4","  E |"],"orig_time":130.0},{"time":81.928,"chord":"Bar 41","shape":["x","6","7","x","5","x"],"desc":"Interlude - half dyad; half note","tab":["  e |","  B | 6","  G | 7","  D |","  A | 5","  E |"],"orig_time":133.33333333333334},{"time":83.968,"chord":"Bar 42","shape":["5","x","x","x","5","x"],"desc":"Interlude - half dyad; half note","tab":["  e | 5 5","  B |","  G |","  D |","  A | 5","  E |"],"orig_time":136.66666666666669},{"time":86.008,"chord":"Bar 43","shape":["8","x","x","x","7","x"],"desc":"Interlude - half dyad; half note","tab":["  e | 8 6","  B |","  G |","  D |","  A | 7","  E |"],"orig_time":140.0},{"time":88.048,"chord":"Bar 44","shape":["x","5","6","x","7","x"],"desc":"Interlude - half dyad; half note","tab":["  e |","  B | 5","  G | 6","  D |","  A | 7","  E |"],"orig_time":143.33333333333334},{"time":90.088,"chord":"Bar 45","shape":["0","3","x","x","0","x"],"desc":"Verse Reprise - triplet; slur 0-1","tab":["  e | 0 1 1","  B | 3 3","  G |","  D |","  A | 0","  E |"],"orig_time":146.66666666666669},{"time":92.128,"chord":"Bar 46","shape":["0","x","x","x","2","x"],"desc":"Verse Reprise - two half notes","tab":["  e | 0 1","  B |","  G |","  D |","  A | 2","  E |"],"orig_time":150.0},{"time":94.168,"chord":"Bar 47","shape":["1","4","3","1","x","x"],"desc":"Verse Reprise - triplet; slur 1-3","tab":["  e | 1 3 4","  B | 4 4","  G | 3","  D | 1","  A |","  E |"],"orig_time":153.33333333333334},{"time":96.208,"chord":"Bar 48","shape":["x","3","2","x","0","x"],"desc":"Verse Reprise - quarter; 8ths; half","tab":["  e |","  B | 3 3","  G | 2","  D |","  A | 0","  E |"],"orig_time":156.66666666666669},{"time":98.248,"chord":"Bar 49","shape":["1","4","3","1","x","x"],"desc":"Verse Reprise - triplet; slur 1-3","tab":["  e | 1 3 4","  B | 4 4","  G | 3","  D | 1","  A |","  E |"],"orig_time":160.0},{"time":100.288,"chord":"Bar 50","shape":["6","x","x","x","x","6"],"desc":"Verse Reprise - half dyad; half note","tab":["  e | 6 8","  B |","  G |","  D |","  A |","  E | 6"],"orig_time":163.33333333333334},{"time":102.327,"chord":"Bar 51","shape":["4","5","x","5","6","4"],"desc":"Verse Reprise - triplet; H marked","tab":["  e | 4","  B | 5 5 5","  G |","  D | 5 7 5","  A | 6","  E | 4"],"orig_time":166.66666666666669},{"time":104.367,"chord":"Bar 52","shape":["x","2","2","2","0","0"],"desc":"Verse Reprise - four quarters","tab":["  e |","  B | 2","  G | 2","  D | 2 2","  A | 0 0 0 0","  E | 0 0 0 0"],"orig_time":170.0},{"time":106.407,"chord":"Bar 53","shape":["1","x","x","3","0","x"],"desc":"Outro - quarter-chord, quarter, quarter-chord, quarter","tab":["  e | 1 0","  B |","  G |","  D | 3 2","  A | 0 0 0 0","  E |"],"orig_time":173.33333333333334},{"time":108.447,"chord":"Bar 54","shape":["1","3","2","0","x","x"],"desc":"Outro - half chord, quarter, quarter","tab":["  e | 1","  B | 3 3","  G | 2","  D | 0 0","  A |","  E |"],"orig_time":176.66666666666669},{"time":110.487,"chord":"Bar 55","shape":["x","3","3","0","x","x"],"desc":"Outro - half chord, quarter, quarter","tab":["  e |","  B | 3 3","  G | 3","  D | 0 0","  A |","  E |"],"orig_time":180.0},{"time":112.527,"chord":"Bar 56","shape":["x","2","0","x","x","x"],"desc":"Outro - half chord, quarter, quarter","tab":["  e |","  B | 2 2 3","  G | 0 0","  D |","  A |","  E |"],"orig_time":183.33333333333334},{"time":114.567,"chord":"Bar 57","shape":["x","2","0","x","x","3"],"desc":"Outro - two triplets, 8th figures, bass","tab":["  e |","  B | 2 2 2 2","  G | 0 0 0 0","  D |","  A |","  E | 3"],"orig_time":186.66666666666669},{"time":116.607,"chord":"Bar 58","shape":["0","x","x","x","4","x"],"desc":"Outro - 8ths with triplets","tab":["  e | 0 0 0 0 6 6 6 6","  B |","  G |","  D |","  A | 4 7","  E |"],"orig_time":190.0}],"duration":118.65,"timing_info":{"bpm":117.65,"beat_sec":0.51,"bar_sec":2.0399,"bar_start":0.33,"source":"Andy Hillier cover audio (user-provided)","source_file":"Doctor_Strange_Main_Theme_Guitar_Cover_by_Andy_Hillier__nBTm8xYnPnQ.mp3","note":"Tempo and bar positions from audio onset analysis. Within-bar rhythms from tab desc patterns."},"bpm":117.65}};
+
+// Standard tuning MIDI notes for open strings (low to high: E2 A2 D3 G3 B3 E4)
+// String indices: 0=low E, 1=A, 2=D, 3=G, 4=B, 5=high e
+// Note: data uses string 1-6 where 1=high e, 6=low E. Convert: dataString 1->index 5, 6->index 0
+const OPEN_MIDI = [40, 45, 50, 55, 59, 64]; // E2, A2, D3, G3, B3, E4
+const STRING_NAMES = ['E', 'A', 'D', 'G', 'B', 'e'];
+
+let audioCtx = null;
+let masterGain = null;
+let dynamicsCompressor = null;
+let currentSong = 'daredevil';
+let isPlaying = false;
+let currentTime = 0;
+let playbackSpeed = 1.0;
+let startTimestamp = 0;
+let startOffset = 0;
+let animationFrame = null;
+let schedulerTimer = null;
+let nextNoteIndex = 0;
+let playbackNotes = [];
+let activeOscillators = [];
+let isStartingAudio = false;
+let playRequestId = 0;
+const SCHEDULE_AHEAD_SECONDS = 1.25;
+const SCHEDULER_INTERVAL_MS = 50;
+
+// Convert data string number (1=high e, 6=low E) to index (0=low E, 5=high e)
+function stringToIndex(s) { return 6 - s; }
+
+function midiToFreq(midi) {
+  return 440 * Math.pow(2, (midi - 69) / 12);
+}
+
+function updateAudioStatus(state, message) {
+  const status = document.querySelector('[data-audio-status]');
+  if (!status) return;
+  status.dataset.state = state;
+  const text = status.querySelector('span');
+  if (text) text.textContent = message;
+}
+
+async function initAudio() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass) {
+    updateAudioStatus('blocked', 'Audio unavailable');
+    throw new Error('Web Audio is not supported in this browser.');
+  }
+  if (!audioCtx || audioCtx.state === 'closed') {
+    audioCtx = new AudioContextClass({ latencyHint: 'interactive' });
+    masterGain = audioCtx.createGain();
+    dynamicsCompressor = audioCtx.createDynamicsCompressor();
+    masterGain.gain.value = 0.82;
+    dynamicsCompressor.threshold.value = -18;
+    dynamicsCompressor.knee.value = 18;
+    dynamicsCompressor.ratio.value = 4;
+    dynamicsCompressor.attack.value = 0.003;
+    dynamicsCompressor.release.value = 0.18;
+    masterGain.connect(dynamicsCompressor);
+    dynamicsCompressor.connect(audioCtx.destination);
+    audioCtx.addEventListener('statechange', () => {
+      if (audioCtx.state !== 'running') updateAudioStatus('blocked', `Audio ${audioCtx.state} · tap Play`);
+      else if (!isPlaying) updateAudioStatus('ready', 'Audio ready');
+    });
+  }
+  if (audioCtx.state !== 'running') await audioCtx.resume();
+  if (audioCtx.state !== 'running') {
+    updateAudioStatus('blocked', `Audio ${audioCtx.state} · tap Play`);
+    throw new Error('Audio playback is still blocked. Tap Play again to allow sound.');
+  }
+
+  // A tiny priming pulse keeps WebKit audio output attached to the initiating tap.
+  const unlockOsc = audioCtx.createOscillator();
+  const unlockGain = audioCtx.createGain();
+  unlockGain.gain.setValueAtTime(0.0001, audioCtx.currentTime);
+  unlockOsc.connect(unlockGain);
+  unlockGain.connect(masterGain);
+  unlockOsc.start(audioCtx.currentTime);
+  unlockOsc.stop(audioCtx.currentTime + 0.01);
+  updateAudioStatus('ready', 'Audio ready');
+}
+
+// Guitar-like pluck synthesis. Every voice reaches the shared master bus and destination.
+function playNote(midi, time, duration = 1.5, velocity = 0.5) {
+  const pitch = Number(midi);
+  if (!Number.isFinite(pitch) || pitch < 0 || pitch > 127) {
+    console.warn('Skipping invalid MIDI pitch:', midi);
+    return false;
+  }
+  if (!audioCtx || audioCtx.state !== 'running' || !masterGain) {
+    console.warn('Skipping note because the audio context is not running.');
+    updateAudioStatus('blocked', `Audio ${audioCtx ? audioCtx.state : 'unavailable'} · tap Play`);
+    return false;
+  }
+  const startAt = Math.max(audioCtx.currentTime + 0.002, Number(time));
+  const voiceDuration = Math.max(0.08, Number(duration) || 1.5);
+  const peak = Math.max(0.015, Math.min(0.22, Number(velocity) * 0.36));
+  const freq = midiToFreq(pitch);
+  const osc = audioCtx.createOscillator();
+  const osc2 = audioCtx.createOscillator();
+  const filter = audioCtx.createBiquadFilter();
+  const gain = audioCtx.createGain();
+
+  osc.type = 'sawtooth';
+  osc.frequency.setValueAtTime(freq, startAt);
+  osc2.type = 'triangle';
+  osc2.frequency.setValueAtTime(freq, startAt);
+  osc2.detune.setValueAtTime(3, startAt);
+
+  filter.type = 'lowpass';
+  filter.frequency.setValueAtTime(Math.min(audioCtx.sampleRate * 0.45, freq * 8), startAt);
+  filter.frequency.exponentialRampToValueAtTime(Math.max(40, freq * 2), startAt + 0.1);
+  filter.frequency.exponentialRampToValueAtTime(Math.max(40, freq * 1.2), startAt + voiceDuration);
+  filter.Q.value = 0.8;
+
+  gain.gain.setValueAtTime(0.0001, startAt);
+  gain.gain.linearRampToValueAtTime(peak, startAt + 0.008);
+  gain.gain.exponentialRampToValueAtTime(0.0001, startAt + voiceDuration);
+
+  osc.connect(filter);
+  osc2.connect(filter);
+  filter.connect(gain);
+  gain.connect(masterGain);
+  osc.start(startAt);
+  osc2.start(startAt);
+  osc.stop(startAt + voiceDuration + 0.02);
+  osc2.stop(startAt + voiceDuration + 0.02);
+
+  const voice = { osc, osc2, stopTime: startAt + voiceDuration + 0.02 };
+  activeOscillators.push(voice);
+  osc.addEventListener('ended', () => {
+    activeOscillators = activeOscillators.filter(item => item !== voice);
+  }, { once: true });
+  return true;
+}
+
+function stopScheduler() {
+  if (schedulerTimer !== null) clearInterval(schedulerTimer);
+  schedulerTimer = null;
+}
+
+function stopAllNotes() {
+  stopScheduler();
+  const now = audioCtx ? audioCtx.currentTime : 0;
+  activeOscillators.forEach(({osc, osc2}) => {
+    try { osc.stop(now); } catch(e) {}
+    try { osc2.stop(now); } catch(e) {}
+  });
+  activeOscillators = [];
+  nextNoteIndex = 0;
+}
+
+function getSong() {
+  return SONGS[currentSong];
+}
+
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return `${String(m).padStart(2, '0')}:${s.toFixed(2).padStart(5, '0')}`;
+}
+
+function getCurrentChord(time) {
+  const song = getSong();
+  let current = song.chords[0];
+  for (const chord of song.chords) {
+    if (chord.time <= time) current = chord;
+    else break;
+  }
+  return current;
+}
+
+function getNextChord(time) {
+  const song = getSong();
+  for (const chord of song.chords) {
+    if (chord.time > time) return chord;
+  }
+  return null;
+}
+
+function getActiveNotes(time, windowMs = 100) {
+  const song = getSong();
+  const windowSec = windowMs / 1000;
+  return song.notes.filter(n => 
+    n.t >= time - windowSec && n.t <= time + 0.05
+  );
+}
+
+// Schedule against one immutable audio-clock origin. This prevents per-frame drift and keeps long songs sounding.
+function findNextNoteIndex(songTime) {
+  let low = 0, high = playbackNotes.length;
+  while (low < high) {
+    const mid = (low + high) >> 1;
+    if (Number(playbackNotes[mid].t) < songTime - 0.001) low = mid + 1;
+    else high = mid;
+  }
+  return low;
+}
+
+function scheduleNotesFrom(songTime) {
+  stopScheduler();
+  playbackNotes = getSong().notes.slice().sort((a, b) => Number(a.t) - Number(b.t));
+  nextNoteIndex = findNextNoteIndex(songTime);
+  scheduleNotesAhead();
+  schedulerTimer = window.setInterval(scheduleNotesAhead, SCHEDULER_INTERVAL_MS);
+}
+
+function scheduleNotesAhead() {
+  if (!isPlaying || !audioCtx || audioCtx.state !== 'running') return;
+  const audioNow = audioCtx.currentTime;
+  const audioHorizon = audioNow + SCHEDULE_AHEAD_SECONDS;
+  while (nextNoteIndex < playbackNotes.length) {
+    const note = playbackNotes[nextNoteIndex];
+    const noteSongTime = Number(note.t);
+    if (!Number.isFinite(noteSongTime)) {
+      console.warn('Skipping note with invalid time:', note);
+      nextNoteIndex += 1;
+      continue;
+    }
+    const exactAudioTime = startTimestamp + (noteSongTime - startOffset) / playbackSpeed;
+    if (exactAudioTime > audioHorizon) break;
+    nextNoteIndex += 1;
+    if (exactAudioTime < audioNow - 0.03) continue;
+    playNote(note.pitch, exactAudioTime, 1.6 / playbackSpeed, 0.58);
+  }
+}
+
+async function play() {
+  if (isPlaying || isStartingAudio) return;
+  const requestId = ++playRequestId;
+  isStartingAudio = true;
+  try {
+    await initAudio();
+    if (requestId !== playRequestId) return;
+    const song = getSong();
+    if (currentTime >= song.duration) currentTime = 0;
+    isPlaying = true;
+    startTimestamp = audioCtx.currentTime + 0.035;
+    startOffset = currentTime;
+    scheduleNotesFrom(currentTime);
+    updateAudioStatus('playing', 'Audio playing');
+    updatePlayButton();
+    tick();
+  } catch (error) {
+    console.error('Audio playback could not start:', error);
+    isPlaying = false;
+    stopAllNotes();
+    updateAudioStatus('blocked', error && error.message ? error.message : 'Audio could not start');
+    updatePlayButton();
+  } finally {
+    if (requestId === playRequestId) isStartingAudio = false;
+  }
+}
+
+function pause() {
+  playRequestId += 1;
+  isStartingAudio = false;
+  const pausedAt = isPlaying ? getPlaybackTime() : currentTime;
+  isPlaying = false;
+  currentTime = pausedAt;
+  stopAllNotes();
+  if (animationFrame) cancelAnimationFrame(animationFrame);
+  animationFrame = null;
+  updatePlayButton();
+  updateAudioStatus(audioCtx && audioCtx.state === 'running' ? 'ready' : 'idle', audioCtx && audioCtx.state === 'running' ? 'Audio paused' : 'Audio idle · tap Play');
+  updateDisplay();
+}
+
+function stop() {
+  pause();
+  currentTime = 0;
+  updateDisplay();
+}
+
+function getPlaybackTime() {
+  if (!isPlaying || !audioCtx) return currentTime;
+  const elapsed = Math.max(0, audioCtx.currentTime - startTimestamp) * playbackSpeed;
+  return Math.min(startOffset + elapsed, getSong().duration);
+}
+
+function seekTo(time) {
+  const wasPlaying = isPlaying;
+  if (wasPlaying) pause();
+  currentTime = Math.max(0, Math.min(time, getSong().duration));
+  if (wasPlaying) play();
+  else updateDisplay();
+}
+
+function setSpeed(speed) {
+  const wasPlaying = isPlaying;
+  const pos = wasPlaying ? getPlaybackTime() : currentTime;
+  if (wasPlaying) pause();
+  playbackSpeed = speed;
+  currentTime = pos;
+  if (wasPlaying) play();
+  updateSpeedButtons();
+}
+
+function switchSong(slug) {
+  if (isPlaying) pause();
+  stopAllNotes();
+  currentSong = slug;
+  currentTime = 0;
+  updateSongTabs();
+  buildChordMarkers();
+  buildTabDisplay();
+  buildChordLibrary();
+  updateSongInfo();
+  updateDisplay();
+}
+
+// Main animation loop
+function tick() {
+  if (!isPlaying) return;
+  
+  currentTime = getPlaybackTime();
+  scheduleNotesAhead();
+  const song = getSong();
+  
+  if (currentTime >= song.duration) {
+    stop();
+    return;
+  }
+  
+  updateDisplay();
+  animationFrame = requestAnimationFrame(tick);
+}
+
+// Update all visual elements
+function updateDisplay() {
+  const song = getSong();
+  const time = currentTime;
+  
+  // Time display
+  updateTimeDisplay(time, song.duration);
+  
+  // Playhead position
+  updatePlayhead(time / song.duration);
+  
+  // Current chord
+  const chord = getCurrentChord(time);
+  updateChordDisplay(chord, time);
+  
+  // Next chord
+  const next = getNextChord(time);
+  updateNextChordDisplay(next, time);
+  
+  // Fretboard
+  const activeNotes = getActiveNotes(time);
+  updateFretboard(activeNotes);
+  
+  // Tab highlighting
+  updateTabHighlight(time);
+}
+
+function updateTimeDisplay(time, duration) {
+  // Find time display elements and update
+  const timeEls = document.querySelectorAll('[data-time-current]');
+  timeEls.forEach(el => el.textContent = formatTime(time));
+  const durEls = document.querySelectorAll('[data-time-total]');
+  durEls.forEach(el => el.textContent = formatTime(duration));
+}
+
+function updatePlayhead(progress) {
+  const playhead = document.querySelector('[data-playhead]');
+  if (playhead) {
+    playhead.style.left = `${progress * 100}%`;
+  }
+}
+
+function updateChordDisplay(chord, time) {
+  if (!chord) return;
+  const nameEls = document.querySelectorAll('[data-chord-name]');
+  nameEls.forEach(el => el.textContent = chord.chord);
+  const timeEls = document.querySelectorAll('[data-chord-time]');
+  timeEls.forEach(el => el.textContent = formatTime(chord.time));
+  
+  // Update chord diagram if shape exists
+  if (chord.shape) renderChordDiagram(chord.shape, chord.chord);
+  const descEl = document.querySelector('[data-chord-desc]');
+  if (descEl) descEl.textContent = chord.desc || 'Chord at the current playback position';
+}
+
+function updateNextChordDisplay(next, time) {
+  const container = document.querySelector('[data-next-chord]');
+  if (!container || !next) {
+    if (container) container.style.opacity = '0.3';
+    return;
+  }
+  container.style.opacity = '1';
+  const nameEl = container.querySelector('[data-next-name]');
+  if (nameEl) nameEl.textContent = next.chord;
+  const inEl = container.querySelector('[data-next-in]');
+  if (inEl) inEl.textContent = `IN ${(next.time - time).toFixed(1)}s`;
+  const whenEl = container.querySelector('[data-next-when]');
+  if (whenEl) whenEl.textContent = `Time: ${formatTime(next.time)}`;
+  const svg = container.querySelector('[data-next-chord-svg]');
+  if (svg && next.shape) {
+    svg.innerHTML = chordDiagramMarkup(next.shape);
+    svg.setAttribute('aria-label', `${next.chord} next chord diagram`);
+  }
+}
+
+function updateFretboard(activeNotes) {
+  const svg = document.querySelector('[data-fretboard]');
+  if (!svg) return;
+  const left = 54, right = 1038, top = 30, bottom = 204;
+  const fretW = (right - left) / 16;
+  const stringGap = (bottom - top) / 5;
+  const labels = ['e', 'B', 'G', 'D', 'A', 'E'];
+  let out = `<rect x="${left}" y="${top}" width="${right-left}" height="${bottom-top}" rx="7" fill="#422b1c" stroke="#705039"/>`;
+  for (let fret = 0; fret <= 16; fret++) {
+    const x = left + fret * fretW;
+    out += `<line x1="${x}" y1="${top}" x2="${x}" y2="${bottom}" stroke="${fret === 0 ? '#d8c4a2' : '#83684f'}" stroke-width="${fret === 0 ? 4 : 1.25}"/>`;
+    if (fret < 16) out += `<text x="${x + fretW/2}" y="18" text-anchor="middle" fill="${[3,5,7,9,12,15].includes(fret+1) ? '#ead7b6' : '#8d765e'}" font-size="10">${fret+1}</text>`;
+  }
+  for (let row = 0; row < 6; row++) {
+    const y = top + row * stringGap;
+    out += `<text x="28" y="${y+4}" text-anchor="middle" fill="#d8c4a2" font-size="12" font-weight="700">${labels[row]}</text>`;
+    out += `<line x1="${left}" y1="${y}" x2="${right}" y2="${y}" stroke="#ead7b6" stroke-opacity="${0.72 + row*0.045}" stroke-width="${1 + row*0.35}"/>`;
+  }
+  [3,5,7,9,15].forEach(f => { const x=left+(f-.5)*fretW; out += `<circle cx="${x}" cy="${(top+bottom)/2}" r="4" fill="#83684f"/>`; });
+  const x12=left+(12-.5)*fretW; out += `<circle cx="${x12}" cy="${top+stringGap*1.7}" r="4" fill="#b86b3f"/><circle cx="${x12}" cy="${top+stringGap*3.3}" r="4" fill="#b86b3f"/>`;
+  activeNotes.forEach(note => {
+    const fret = Number(note.fret);
+    const row = Math.max(0, Math.min(5, Number(note.string) - 1));
+    const x = fret === 0 ? left : left + (Math.min(fret,16) - .5) * fretW;
+    const y = top + row * stringGap;
+    const open = fret === 0;
+    out += `<circle cx="${x}" cy="${y}" r="13" fill="${open ? '#2a1b13' : '#d49a4a'}" stroke="#f0dfbd" stroke-width="2" style="filter:drop-shadow(0 0 7px rgba(212,154,74,.72))"/>`;
+    out += `<text x="${x}" y="${y+4}" text-anchor="middle" fill="${open ? '#f0dfbd' : '#2b190e'}" font-size="10" font-weight="800">${open ? 'O' : fret}</text>`;
+  });
+  svg.innerHTML = out;
+  updateSoundingPitches(activeNotes);
+}
+
+function updateSoundingPitches(notes) {
+  const container = document.querySelector('[data-sounding-pitches]');
+  if (!container) return;
+  
+  const pitchNames = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+  const pitches = [...new Set(notes.map(n => {
+    const name = pitchNames[n.pitch % 12];
+    const octave = Math.floor(n.pitch / 12) - 1;
+    return `${name}${octave}`;
+  }))].slice(0, 8);
+  
+  container.innerHTML = '<span class="text-slate-500 mr-1 text-[10px]">SOUNDING PITCHES:</span>' +
+    pitches.map(p => `<span class="px-1.5 py-0.5 rounded bg-[#181926] border border-cyan-500/30 text-cyan-300 font-bold">${p}</span>`).join('');
+}
+
+function chordDiagramMarkup(shape) {
+  const nums = shape.map(v => Number.parseInt(v, 10)).filter(Number.isFinite);
+  const fretted = nums.filter(v => v > 0);
+  const base = fretted.length && Math.max(...fretted) > 5 ? Math.min(...fretted) : 1;
+  const xs = [20,36,52,68,84,100];
+  let out = `<text x="60" y="10" text-anchor="middle" fill="#715a43" font-size="8">${base > 1 ? 'fret '+base : 'open position'}</text>`;
+  for (let i=0;i<6;i++) out += `<line x1="${xs[i]}" y1="28" x2="${xs[i]}" y2="138" stroke="#8d765e" stroke-width="1.4"/>`;
+  for (let i=0;i<=5;i++) out += `<line x1="20" y1="${28+i*22}" x2="100" y2="${28+i*22}" stroke="${i===0 && base===1 ? '#6d4328' : '#927657'}" stroke-width="${i===0 && base===1 ? 4 : 1}"/>`;
+  shape.forEach((value, i) => {
+    const raw = String(value).toLowerCase();
+    const fret = Number.parseInt(raw,10);
+    if (raw === 'x') out += `<text x="${xs[i]}" y="22" text-anchor="middle" fill="#74573e" font-size="10">×</text>`;
+    else if (!Number.isFinite(fret) || fret === 0) out += `<circle cx="${xs[i]}" cy="18" r="4" fill="none" stroke="#b86b3f" stroke-width="1.5"/>`;
+    else {
+      const displayFret = Math.max(1, Math.min(5, fret - base + 1));
+      out += `<circle cx="${xs[i]}" cy="${28+(displayFret-.5)*22}" r="6" fill="#d49a4a"/>`;
+    }
+  });
+  return out;
+}
+
+function renderChordDiagram(shape, chordName) {
+  const svg = document.querySelector('[data-chord-svg]');
+  if (!svg) return;
+  svg.innerHTML = chordDiagramMarkup(shape);
+  svg.setAttribute('aria-label', `${chordName} chord diagram`);
+  const shapeEl = document.querySelector('[data-chord-shape]');
+  if (shapeEl) shapeEl.textContent = shape.join(' · ');
+}
+
+function buildChordLibrary() {
+  const song = getSong();
+  const container = document.querySelector('[data-chord-library]');
+  if (!container) return;
+  const distinct = [];
+  const seen = new Set();
+  song.chords.forEach(chord => {
+    if (!seen.has(chord.chord)) { seen.add(chord.chord); distinct.push(chord); }
+  });
+  container.innerHTML = distinct.map(chord => `
+    <article class="library-chord rounded-lg p-3 text-center">
+      <h3 class="font-bold text-lg">${escapeHtml(chord.chord)}</h3>
+      <svg viewBox="0 0 120 150" role="img" aria-label="${escapeHtml(chord.chord)} chord diagram">${chordDiagramMarkup(chord.shape || ['x','x','x','x','x','x'])}</svg>
+      <div class="text-[10px] font-mono">${(chord.shape || []).join(' · ')}</div>
+    </article>`).join('');
+  const count = document.querySelector('[data-library-count]');
+  if (count) count.textContent = `${distinct.length} DISTINCT CHORD${distinct.length === 1 ? '' : 'S'}`;
+}
+
+function buildChordMarkers() {
+  const song = getSong();
+  const container = document.querySelector('[data-chord-markers]');
+  if (!container) return;
+  const barGrid = document.querySelector('[data-bar-grid]');
+  if (barGrid) {
+    barGrid.innerHTML = song.chords.map(chord => {
+      const pct = Math.max(0, Math.min(100, (Number(chord.time) / song.duration) * 100));
+      return `<i style="position:absolute;left:${pct}%;top:0;bottom:0;width:1px;background:#d49a4a"></i>`;
+    }).join('');
+  }
+  container.innerHTML = '';
+  song.chords.forEach((chord, i) => {
+    const pct = (chord.time / song.duration) * 100;
+    const marker = document.createElement('button');
+    marker.type = 'button';
+    marker.className = 'absolute z-20 cursor-pointer hover:-translate-y-0.5 transition-transform';
+    marker.style.left = `${Math.max(1.2, Math.min(98.8, pct))}%`;
+    marker.style.top = `${4 + (i % 3) * 19}px`;
+    marker.innerHTML = `<span class="px-1.5 py-0.5 rounded bg-[#1b1d2c] border border-slate-700 text-[9px] font-mono text-slate-300 whitespace-nowrap">${chord.chord}</span>`;
+    marker.title = `${chord.chord} at ${formatTime(chord.time)}`;
+    marker.onclick = (event) => { event.stopPropagation(); seekTo(chord.time); };
+    container.appendChild(marker);
+  });
+}
+
+function buildTabDisplay() {
+  const song = getSong();
+  const container = document.querySelector('[data-tab-content]');
+  if (!container) return;
+  
+  // Group notes by chord sections
+  let html = '';
+  song.chords.forEach((chord, ci) => {
+    const nextTime = ci + 1 < song.chords.length ? song.chords[ci + 1].time : song.duration;
+    const sectionNotes = song.notes.filter(n => n.t >= chord.time && n.t < nextTime);
+    
+    html += `<div class="tab-section" data-section-time="${chord.time}" data-section-end="${nextTime}">`;
+    html += `<div class="tab-section-header">`;
+    html += `<span class="tab-chord-box font-bold">${escapeHtml(chord.chord)}</span>`;
+    html += `<span class="tab-section-time font-mono text-xs">${formatTime(chord.time)}</span>`;
+    html += `</div>`;
+    html += `<div class="tab-section-desc text-xs" title="${escapeHtml(chord.desc || '')}">${escapeHtml(chord.desc || '')}</div>`;
+    
+    // Render each measure from the same absolute event times used by the audio scheduler.
+    // The section edges are the exact bar/chord times, so notes, bar lines and playhead share one grid.
+    const rowLabels = ['e','B','G','D','A','E'];
+    const notesByRow = rowLabels.map(() => []);
+    sectionNotes.forEach(note => {
+      let rowIndex;
+      if (typeof note.string === 'string') rowIndex = ({e:0, B:1, G:2, D:3, A:4, E:5})[note.string];
+      else rowIndex = Math.max(0, Math.min(5, Number(note.string)));
+      if (!Number.isFinite(rowIndex)) return;
+      notesByRow[rowIndex].push({
+        value: escapeHtml(note.fret),
+        position: Math.max(0.012, Math.min(0.988, (Number(note.t) - chord.time) / Math.max(0.001, nextTime - chord.time)))
+      });
+    });
+    // If a legacy section has no timed events, retain its transcription rather than showing an empty staff.
+    if (!sectionNotes.length && chord.tab && chord.tab.length >= 6) {
+      chord.tab.slice(0, 6).forEach((raw, rowIndex) => { notesByRow[rowIndex] = parseTabLine(raw, rowIndex).notes; });
+    }
+    html += `<div class="tab-staff" aria-label="Six-line guitar tablature for ${escapeHtml(chord.chord)}">`;
+    html += `<i class="tab-section-playhead" aria-hidden="true"></i>`;
+    rowLabels.forEach((label, rowIndex) => {
+      html += `<div class="tab-string"><span class="tab-string-label">${label}</span><span class="tab-string-track" aria-hidden="true"></span>`;
+      notesByRow[rowIndex].forEach(note => {
+        html += `<span class="tab-fret" style="left:calc(23px + (100% - 28px) * ${note.position})">${note.value}</span>`;
+      });
+      html += `</div>`;
+    });
+    html += `</div></div>`;
+  });
+  
+  container.innerHTML = html;
+}
+
+function escapeHtml(value) {
+  return String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function parseTabLine(raw, rowIndex) {
+  const fallbackLabels = ['e','B','G','D','A','E'];
+  const text = String(raw || '');
+  const pipe = text.indexOf('|');
+  const labelMatch = text.slice(0, pipe >= 0 ? pipe : 2).match(/[eEBGDA]/);
+  const label = labelMatch ? labelMatch[0] : fallbackLabels[rowIndex];
+  const body = pipe >= 0 ? text.slice(pipe + 1).replace(/\|.*$/, '') : text;
+  const notes = [];
+  const matcher = /(?:<)?\d+(?:>)?/g;
+  let match;
+  while ((match = matcher.exec(body))) {
+    const value = match[0].replace(/[<>]/g, '');
+    notes.push({ value, position: Math.max(0.015, Math.min(0.985, (match.index + match[0].length / 2) / Math.max(1, body.length))) });
+  }
+  return { label, notes };
+}
+
+function generateSimpleTab(notes) {
+  // Simple 6-line tab showing fret numbers at approximate positions
+  const lines = ['e |', 'B |', 'G |', 'D |', 'A |', 'E |'];
+  const sorted = [...notes].sort((a, b) => a.t - b.t);
+  
+  sorted.slice(0, 20).forEach(note => {
+    const stringIdx = stringToIndex(note.string);
+    // stringIdx 0=low E (line 5), 5=high e (line 0)
+    const lineIdx = 5 - stringIdx;
+    const fret = note.fret === 'x' ? 'x' : String(note.fret).padStart(2, '-');
+    lines[lineIdx] += `-${fret}-`;
+  });
+  
+  return lines.map(l => l + '|').join('\n');
+}
+
+function updateTabHighlight(time) {
+  document.querySelectorAll('.tab-section').forEach(section => {
+    const start = parseFloat(section.dataset.sectionTime);
+    const end = parseFloat(section.dataset.sectionEnd);
+    if (time >= start && time < end) {
+      section.dataset.active = 'true';
+      const staffPlayhead = section.querySelector('.tab-section-playhead');
+      if (staffPlayhead) {
+        const sectionProgress = Math.max(0, Math.min(1, (time - start) / Math.max(.001, end - start)));
+        staffPlayhead.style.left = `calc(23px + (100% - 28px) * ${sectionProgress})`;
+      }
+    } else {
+      section.dataset.active = 'false';
+    }
+  });
+}
+
+function updatePlayButton() {
+  const btn = document.querySelector('[data-play-btn]');
+  if (btn) {
+    btn.setAttribute('aria-label', isPlaying ? 'Pause' : 'Play');
+    btn.title = isPlaying ? 'Pause (Spacebar)' : 'Play (Spacebar)';
+    btn.innerHTML = isPlaying 
+      ? '<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/></svg>'
+      : '<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+  }
+  const pauseBtn = document.querySelector('[data-pause-btn]');
+  if (pauseBtn) pauseBtn.setAttribute('aria-pressed', String(isPlaying));
+}
+
+function updateSpeedButtons() {
+  document.querySelectorAll('[data-speed]').forEach(btn => {
+    const speed = parseFloat(btn.dataset.speed);
+    if (speed === playbackSpeed) {
+      btn.className = btn.className.replace(/bg-cyan-500|text-slate-950|font-bold/g, '').trim();
+      btn.classList.add('bg-cyan-500', 'text-slate-950', 'font-bold');
+      btn.textContent = `${speed}x Active`;
+      btn.setAttribute('aria-pressed', 'true');
+    } else {
+      btn.classList.remove('bg-cyan-500', 'text-slate-950', 'font-bold');
+      btn.textContent = `${speed}x`;
+      btn.setAttribute('aria-pressed', 'false');
+    }
+  });
+}
+
+const APPROX_BPM = { daredevil: 112, odyssey: 84, doctorstrange: 136 };
+const panelVisibility = { fretboard: true, current: true, upnext: true, timeline: true, library: true, tablature: true };
+
+function updateSongTabs() {
+  const song = getSong();
+  const picker = document.querySelector('[data-song-library]');
+  if (picker) picker.value = currentSong;
+  const headerTitle = document.querySelector('[data-header-song-title]');
+  if (headerTitle) headerTitle.textContent = song.title;
+  const titleEl = document.querySelector('[data-song-title]');
+  if (titleEl) titleEl.textContent = song.title;
+  const tuningEl = document.querySelector('[data-tuning]');
+  if (tuningEl) tuningEl.textContent = song.tuning;
+  const tabTuningEl = document.querySelector('[data-tab-tuning]');
+  if (tabTuningEl) tabTuningEl.textContent = song.tuning;
+}
+
+function updateSongInfo() {
+  const song = getSong();
+  const values = {
+    '[data-info-title]': song.title,
+    '[data-info-key]': song.key || 'Not specified',
+    '[data-info-bpm]': song.bpm ? `${song.bpm.toFixed(2)} BPM` : `approx. ${APPROX_BPM[currentSong]} BPM`,
+    '[data-info-tuning]': song.tuning || 'Not specified',
+    '[data-info-capo]': song.capo || 'None',
+    '[data-info-meter]': song.timeSignature || '4/4',
+    '[data-info-duration]': formatTime(song.duration).slice(0, 5)
+  };
+  Object.entries(values).forEach(([selector, value]) => {
+    const el = document.querySelector(selector);
+    if (el) el.textContent = value;
+  });
+}
+
+function applyPanelVisibility() {
+  Object.entries(panelVisibility).forEach(([name, visible]) => {
+    const panel = document.querySelector(`[data-panel="${name}"]`);
+    const button = document.querySelector(`[data-panel-toggle="${name}"]`);
+    if (panel) panel.hidden = !visible;
+    if (button) button.setAttribute('aria-pressed', String(visible));
+  });
+  const chordColumn = document.querySelector('[data-purpose="chord-diagram-column"]');
+  const anyChord = panelVisibility.current || panelVisibility.upnext;
+  if (chordColumn) {
+    chordColumn.hidden = !anyChord;
+    chordColumn.style.gridColumn = panelVisibility.fretboard && anyChord ? '' : 'span 12 / span 12';
+  }
+  const fretboard = document.querySelector('[data-panel="fretboard"]');
+  if (fretboard) fretboard.style.gridColumn = anyChord && panelVisibility.fretboard ? '' : 'span 12 / span 12';
+}
+
+function initViewControls() {
+  document.querySelectorAll('[data-panel-toggle]').forEach(button => {
+    button.onclick = () => {
+      const name = button.dataset.panelToggle;
+      panelVisibility[name] = !panelVisibility[name];
+      applyPanelVisibility();
+    };
+  });
+  applyPanelVisibility();
+  const picker = document.querySelector('[data-song-library]');
+  if (picker) picker.onchange = () => switchSong(picker.value);
+}
+
+function initFullscreenControl() {
+  const reader = document.querySelector('[data-purpose="tablature-reader"]');
+  const button = document.querySelector('[data-tab-fullscreen]');
+  const label = document.querySelector('[data-fullscreen-label]');
+  if (!reader || !button) return;
+  const update = () => {
+    const active = document.fullscreenElement === reader || reader.classList.contains('is-fullscreen-fallback');
+    button.setAttribute('aria-pressed', String(active));
+    button.setAttribute('aria-label', active ? 'Exit fullscreen tablature' : 'Enter fullscreen tablature');
+    if (label) label.textContent = active ? 'Exit fullscreen' : 'Fullscreen';
+  };
+  button.onclick = async () => {
+    try {
+      if (document.fullscreenElement) await document.exitFullscreen();
+      else if (reader.requestFullscreen) await reader.requestFullscreen();
+      else throw new Error('Fullscreen API unavailable');
+    } catch (_) {
+      reader.classList.toggle('is-fullscreen-fallback');
+      document.body.classList.toggle('tab-fullscreen-fallback', reader.classList.contains('is-fullscreen-fallback'));
+      update();
+    }
+  };
+  document.addEventListener('fullscreenchange', update);
+}
+
+// Initialize on load
+document.addEventListener('DOMContentLoaded', () => {
+  buildChordMarkers();
+  buildTabDisplay();
+  buildChordLibrary();
+  updateSongInfo();
+  updateDisplay();
+  updateSongTabs();
+  initViewControls();
+  initFullscreenControl();
+  
+  // Wire up transport controls
+  const playBtn = document.querySelector('[data-play-btn]');
+  if (playBtn) playBtn.onclick = () => isPlaying ? pause() : play();
+  const pauseBtn = document.querySelector('[data-pause-btn]');
+  if (pauseBtn) pauseBtn.onclick = pause;
+  
+  const stopBtn = document.querySelector('[data-stop-btn]');
+  if (stopBtn) stopBtn.onclick = stop;
+  const prevChord = () => { const prev = [...getSong().chords].reverse().find(c => c.time < currentTime - 0.5); if (prev) seekTo(prev.time); else seekTo(0); };
+  const nextChord = () => { const next = getNextChord(currentTime + 0.02); if (next) seekTo(next.time); };
+  const prevBtn = document.querySelector('[data-prev-btn]');
+  if (prevBtn) prevBtn.onclick = prevChord;
+  const nextBtn = document.querySelector('[data-next-btn]');
+  if (nextBtn) nextBtn.onclick = nextChord;
+  const rewindBtn = document.querySelector('[data-rewind-btn]');
+  if (rewindBtn) rewindBtn.onclick = () => seekTo(currentTime - 5);
+  const forwardBtn = document.querySelector('[data-forward-btn]');
+  if (forwardBtn) forwardBtn.onclick = () => seekTo(currentTime + 5);
+  
+  document.querySelectorAll('[data-speed]').forEach(btn => {
+    btn.onclick = () => setSpeed(parseFloat(btn.dataset.speed));
+  });
+  
+  document.querySelectorAll('[data-song-tab]').forEach(tab => {
+    tab.onclick = () => switchSong(tab.dataset.songTab);
+  });
+  
+  // Scrubber click to seek
+  const scrubber = document.querySelector('[data-scrubber]');
+  if (scrubber) {
+    scrubber.onclick = (e) => {
+      const rect = scrubber.getBoundingClientRect();
+      const pct = (e.clientX - rect.left) / rect.width;
+      seekTo(pct * getSong().duration);
+    };
+  }
+  
+  // Keyboard shortcuts
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'Space' && e.target === document.body) {
+      e.preventDefault();
+      isPlaying ? pause() : play();
+    }
+    if (e.code === 'ArrowLeft' && e.altKey) {
+      prevChord();
+    }
+    if (e.code === 'ArrowRight' && e.altKey) {
+      nextChord();
+    }
+  });
+});
+
+</script>
+</body></html>
