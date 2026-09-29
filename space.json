@@ -1,8 +1,0 @@
-{
-  "runtime": "static",
-  "platformVersion": 15,
-  "entry": "index.html",
-  "name": "Guitar Tab Player",
-  "slug": "guitar-tab-player",
-  "managedCronJobs": []
-}
